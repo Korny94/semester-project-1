@@ -1,13 +1,6 @@
         /* --- GLOBAL --- */
 
-html {
-    background-color: rgb(219, 230, 243);
-    margin: 1rem;
-}
-body {
-    margin: auto;
-    padding: 1rem;
-}
+    /* -- HEADER -- */
 
 header {
     display: flex;
@@ -22,7 +15,7 @@ header {
 }
 
 .logo {
-    width: 5rem;
+    width: 4rem;
     margin-right: 1rem;
 }
 
@@ -35,19 +28,39 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-size: 1.3rem;
 }
 
 .menu-icon {
     filter: invert(100%);
     position: fixed;
-    top: 4.5rem;
+    top: 2.8rem;
     right: 4rem;
-    width: 6rem;
+    width: 4.5rem;
 }
 
 .menu {
     background-color: rgb(219, 230, 243);
-    width: 100px;
-    height: 100px;
+    position: fixed;
+    top: 8rem;
+    right: 4.3rem;
+    display: none;
+    border-radius: .5rem;
+}
+
+#hamburger-menu {
     display: none;
 }
+
+#hamburger-menu:checked ~ .menu {
+    display: block;
+}
+
+html {
+    background-color: rgb(219, 230, 243);
+}
+body {
+    margin: auto;
+    padding: 1rem;
+}
+

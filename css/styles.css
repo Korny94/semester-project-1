@@ -1,0 +1,53 @@
+        /* --- GLOBAL --- */
+
+html {
+    background-color: rgb(219, 230, 243);
+    margin: 1rem;
+}
+body {
+    margin: auto;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    padding: 1rem 2rem;
+    background-color: rgb(38, 106, 166);
+    border-radius: 1.5rem;
+}
+
+.link-logo {
+    display: flex;
+    align-self: center;
+}
+
+.logo {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+.link-name {
+    text-decoration: none;
+}
+
+.name {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu-icon {
+    filter: invert(100%);
+    position: fixed;
+    top: 4.5rem;
+    right: 4rem;
+    width: 6rem;
+}
+
+.menu {
+    background-color: rgb(219, 230, 243);
+    width: 100px;
+    height: 100px;
+    display: none;
+}

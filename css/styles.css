@@ -1,3 +1,10 @@
+        /* --- FONTS --- */
+
+@font-face {
+    font-family: "lato";
+    src: url(/fonts/Lato/Lato-Regular.ttf);
+}
+
         /* --- GLOBAL --- */
 
     /* -- HEADER -- */
@@ -7,6 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    height: 100px;
     border-radius: 1.5rem;
     z-index: 1;
     width: 800px;
@@ -43,6 +51,7 @@ header {
     text-align: center;
     font-size: 1.3rem;
     transition-duration: 200ms;
+    letter-spacing: .15rem;
 }
 
 .name:hover {
@@ -63,7 +72,7 @@ header {
     background-color: rgb(219, 230, 243);
     display: none;
     top: 7.5rem;
-    margin-left: 37rem;
+    margin-left: 36rem;
     border-radius: 1rem;
     position: absolute;
 }
@@ -77,10 +86,11 @@ header {
     color: white;
     text-decoration: none;
     font-size: 2rem;
+    letter-spacing: .05rem;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 4px 1px rgb(0, 0, 0, 25%);
-    border: 1px solid rgb(15, 45, 72, 50%);
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+    border: 1.3px solid rgba(0, 0, 0, 0.5);
     transition-duration: 400ms;
 }
 
@@ -101,12 +111,12 @@ header {
 
 footer {
     text-align: center;
-    margin-top: 1rem;
     margin-top: auto;
 }
 
 html {
     background-color: rgb(219, 230, 243);
+    font-family: "lato";
 }
 body {
     display: flex;
@@ -115,12 +125,11 @@ body {
     margin: auto;
     padding: 1rem;
 }
-
 main {
     margin: auto;
-    width: 900.5px;
+    width: 910px;
     height: 6934px;
-    background-image: url(/images/frame.png);
+    background-image: url(/images/main-bg.png);
     background-size: cover;
     top: -8.3rem;
     position: relative;
@@ -135,5 +144,186 @@ main {
     position: relative;
     top: -9rem;
     display: none;
+}
+
+.explore-together {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 800px;
+    margin-top: 3.6rem;
+}
+
+.h1-et {
+    text-decoration: underline;
+    color: white;
+    font-size: 2.6rem;
+    letter-spacing: .2rem;
+    padding-left: 3rem;
+    margin-top: 26rem;
+}
+
+.yellow-bg-et {
+    background-color: rgb(255, 202, 106);
+    width: 800px;
+    height: 350px;
+    border-radius: 1rem;
+    display: flex;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
+}
+
+.p-et {
+    width: 340px;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin: 0;
+}
+
+.h1-ybg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 370px;
+    height: 300px;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0, .5);
+    margin: 0;
+}
+
+.about-img {
+    background-image: url(/images/about-us.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 300px;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin: auto;
+    text-decoration: none;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+    transition-duration: 200ms;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.about-img:hover {
+    scale: 102%;
+}
+
+.para-button {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+#h1-ex {
+    margin-top: 12rem;
+    margin-left: 40.3rem;
+}
+
+.section-explore {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    overflow-x: scroll;
+    align-items: center;
+    display: flex;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+    border-right: 1px solid black;
+}
+
+.section-explore::-webkit-scrollbar { 
+    display: none;
+}
+
+.yellow-bg-ex {
+    background-color: rgb(255, 202, 106);
+    border-radius: 1rem;
+    width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 2rem;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
+}
+
+.for-teachers {
+    background-image: url(/images/for-teachers.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.for-kids {
+    background-image: url(/images/for-kids.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.for-researchers {
+    background-image: url(/images/for-researchers.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.for-kids:hover,
+.for-teachers:hover,
+.for-researchers:hover {
+    scale: 102%;
+}
+
+.h1-ybg-ex {
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 250px;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+.p-ex {
+    width: 250px;
+    font-size: 1.5rem;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+#read-more {
+    width: 13rem;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
 }
 

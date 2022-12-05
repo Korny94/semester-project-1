@@ -129,7 +129,7 @@ main {
     margin: auto;
     width: 910px;
     height: 6934px;
-    background-image: url(/images/main-bg-1.png);
+    background-image: url(/images/main-bg-2.png);
     background-size: cover;
     top: -8.3rem;
     position: relative;
@@ -298,7 +298,14 @@ main {
 
 .for-kids:hover,
 .for-teachers:hover,
-.for-researchers:hover {
+.for-researchers:hover,
+.cosmology:hover,
+.evolution:hover,
+.biology:hover,
+.robotics:hover,
+.aeronautics:hover,
+.sleepover:hover,
+.energetica:hover {
     scale: 102%;
 }
 
@@ -327,3 +334,124 @@ main {
     line-height: 2.3rem;
 }
 
+#h1-ex-sp {
+    margin-top: 13.5rem;
+}
+
+.cosmology {
+    background-image: url(/images/cosmology.jpg);
+    background-size: cover;
+    background-position: -3rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.evolution {
+    background-image: url(/images/evolution.jpg);
+    background-size: cover;
+    background-position: -1rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.biology {
+    background-image: url(/images/biology.jpg);
+    background-size: 180%;
+    background-position: -6rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.robotics {
+    background-image: url(/images/robotics.jpg);
+    background-size: cover;
+    background-position: -3rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.aeronautics {
+    background-image: url(/images/aeronautics.jpg);
+    background-size: cover;
+    background-position: -1.5rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.sleepover {
+    background-image: url(/images/sleepover.jpg);
+    background-size: cover;
+    background-position: -1rem;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.energetica {
+    background-image: url(/images/about-us.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 200px;
+    border-radius: 1rem;
+    margin: 0;
+    margin-top: .7rem;
+    transition-duration: 200ms;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+#h1-sp-ev {
+    margin-top: 13.2rem;
+    margin-left: 31.8rem;
+}
+
+#section-sp-ev {
+    margin-top: 5rem;
+}
+
+#h1-vi-us {
+    margin-top: 14.3rem;
+    margin-left: 1.3rem;
+}

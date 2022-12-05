@@ -16,9 +16,9 @@ header {
     padding: 1rem 2rem;
     height: 100px;
     border-radius: 1.5rem;
-    z-index: 1;
+    z-index: 3;
     width: 800px;
-    margin: auto;
+    position: absolute;
 }
 
 .logo-name {
@@ -110,34 +110,102 @@ header {
 
     /* -- FOOTER -- */
 
-footer {
+.footer-index {
     text-align: center;
-    margin-top: auto;
+    top: 437rem;
+    position: absolute;
 }
 
 html {
     background-color: rgb(219, 230, 243);
-    font-family: "lato";
+    font-family: "lato";    
 }
-body {
+.body-index {
     display: flex;
     flex-direction: column;
     min-height: 94vh;
     margin: auto;
     padding: 1rem;
+    align-items: center;
+    height: 7000px;
 }
 main {
-    margin: auto;
     width: 910px;
     height: 6934px;
-    background-image: url(/images/main-bg-2.png);
+    background-image: url(/images/frame.png);
     background-size: cover;
-    top: -8.3rem;
-    position: relative;
+    position: absolute;
+    z-index: 2;
 }
 
 
         /* --- INDEX.html --- */
+
+.first-bg-pic {
+    background-image: url(/images/cosmology.jpg);
+    background-repeat: no-repeat;
+    width: 898px;
+    height: 800px;
+    margin-top: .4rem;
+    margin-left: .4rem;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.second-bg-pic {
+    background-image: url(/images/aeronautics.jpg);
+    background-repeat: no-repeat;
+    width: 898px;
+    height: 800px;
+    margin-top: -8rem;
+    margin-left: .4rem;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.third-bg-pic {
+    background-image: url(/images/aero-exhi.jpg);
+    background-repeat: no-repeat;
+    width: 898px;
+    height: 800px;
+    margin-top: 17rem;
+    margin-left: .4rem;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.fourth-bg-pic {
+    background-image: url(/images/cosmology.jpg);
+    background-repeat: no-repeat;
+    width: 898px;
+    height: 800px;
+    margin-top: 1rem;
+    margin-left: .4rem;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.fifth-bg-pic {
+    background-image: url(/images/head.jpg);
+    background-repeat: no-repeat;
+    width: 898px;
+    height: 800px;
+    margin-top: 11rem;
+    margin-left: .4rem;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.sixth-bg-pic {
+    background-image: url(/images/ant.jpg);
+    background-repeat: no-repeat;
+    width: 898px;
+    height: 800px;
+    margin-top: 63rem;
+    margin-left: .4rem;
+    z-index: 1;
+    border-radius: 50px;
+}
 
 .frame {
     width: 800px;
@@ -152,7 +220,9 @@ main {
     flex-direction: column;
     margin: auto;
     width: 800px;
-    margin-top: 3.6rem;
+    top: 32.8rem;
+    left: 4rem;
+    position: absolute;
 }
 
 .h1-et {
@@ -161,7 +231,8 @@ main {
     font-size: 2.6rem;
     letter-spacing: .2rem;
     padding-left: 3rem;
-    margin-top: 26rem;
+    top: 24rem;
+    position: absolute;
 }
 
 .yellow-bg-et {
@@ -174,10 +245,15 @@ main {
 }
 
 .p-et {
-    width: 340px;
-    font-size: 2rem;
-    line-height: 2.6rem;
+    width: 350px;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
     margin: 0;
+}
+
+#button-ex-to {
+    margin-left: -.1rem;
+    font-size: 1.5rem;
 }
 
 .h1-ybg {
@@ -220,15 +296,16 @@ main {
 }
 
 #h1-ex {
-    margin-top: 12rem;
-    margin-left: 40.3rem;
+    top: 65rem;
+    left: 40.6rem;
 }
 
 .section-explore {
     width: 800px;
     height: 600px;
-    margin: auto;
-    margin-top: 4rem;
+    left: 2rem;
+    top: 74rem;
+    position: absolute;
     padding-left: 2rem;
     overflow-x: scroll;
     align-items: center;
@@ -336,7 +413,12 @@ main {
 }
 
 #h1-ex-sp {
-    margin-top: 13.5rem;
+    top: 123rem;
+    margin-left: .8rem;
+}
+
+#section-exh-spa {
+    top: 131.4rem;
 }
 
 .cosmology {
@@ -444,51 +526,46 @@ main {
 }
 
 #h1-sp-ev {
-    margin-top: 12.8rem;
+    top: 180.2rem;
     margin-left: 31.8rem;
 }
 
 #section-sp-ev {
-    margin-top: 5rem;
+    top: 190.5rem;
+    position: absolute;
 }
 
 #h1-vi-us {
-    margin-top: 14.3rem;
+    top: 241rem;
     margin-left: 1.3rem;
 }
 
 .visit-us {
-    display: grid;
-    grid-template-areas: 
-    "location hours"
-    "admission hours"
-    "accessibility hours"
-    "cafe gift"
-    ;
-}
-
-.location {
-    grid-area: location;
+    top: 246.5rem;
+    position: absolute;
 }
 
 .h1-vi-us {
-    font-size: 2.9rem;
+    font-size: 2.7rem;
     color: rgb(255, 202, 106);
 }
 
 #location {
-    margin-top: 3.5rem;
-    margin-left: 5.5rem;
+    top: 1.5rem;
+    left: 6rem;
+    position: absolute;
 }
 
 .p-vi-us {
     color: white;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
 }
 
 #p-location {
-    margin-top: 3rem;
-    margin-left: 5.5rem;
+    position: absolute;
+    top: 9rem;
+    left: 6.5rem;
+    width: 300px;
 }
 
 span {
@@ -496,51 +573,73 @@ span {
 }
 
 .hours {
-    grid-area: hours;
-    margin-top: 1.5rem;
-    margin-left: .3rem;
+    position: absolute;
+    top: 2rem;
+    left: 35.6rem;
+    width: 200px;
+}
+
+#p-hours {
+    margin-top: 3.7rem;
+    margin-left: 1rem;
 }
 
 .admission {
-    grid-area: admission;
-    margin-top: .5rem;
-    margin-left: .5rem;
-}
-
-#admission {
-    margin-left: 5rem;
-    margin-top: 3rem;
+    position: absolute;
+    top: 17.5rem;
+    left: 6rem;
+    width: 350px;
 }
 
 #p-admission {
-    width: 350px;
-    margin-left: 5rem;
+    margin-top: 4rem;
 }
 
 .accessibility {
+    position: absolute;
     width: 350px;
-    margin-left: 5.5rem;
-    margin-top: .5rem;
+    left: 6rem;
+    top: 45rem;
+}
+
+#p-accessibility {
+    margin-top: 3.6rem;
+    margin-left: .3rem;
 }
 
 .cafe {
-    margin-left: 6.2rem;
-    margin-top: 1.6rem;
+    position: absolute;
+    left: 6.2rem;
+    top: 74rem;
+}
+
+#p-cafe {
+    margin-top: 3rem;
+    margin-left: .5rem;
 }
 
 .gift {
-    margin-left: -.1rem;
-    margin-top: -3rem;
+    position: absolute;
+    left: 35rem;
+    top: 69.5rem;
+    width: 200px;
+}
+
+#p-gift {
+    margin-top: 2.7rem;
+    margin-left: .5rem;
 }
 
 #h1-get-inv {
-    margin-top: 12.6rem;
-    margin-left: 34.3rem;
+    position: absolute;
+    top: 360.8rem;
+    left: 34.3rem;
 }
 
 .get-inv {
-    margin-left: 5rem;
-    margin-top: 3.9rem;
+    position: absolute;
+    left: 5rem;
+    top: 367.7rem;
     width: 750px;
 }
 
@@ -551,11 +650,20 @@ span {
 }
 
 #h1-support {
+    position: absolute;
+    margin-left: .5rem;
+}
+
+#p-support {
+    position: absolute;
+    top: 8rem;
     margin-left: .5rem;
 }
 
 .volunteer {
-    margin-top: 5.4rem;
+    position: absolute;
+    top: 20.3rem;
+    left: .6rem;
 }
 
 #h1-volunteer {
@@ -563,18 +671,15 @@ span {
 }
 
 #p-volunteer {
-    margin-top: -.9rem;
+    margin-top: -.8rem;
 }
 
 .internships {
-    margin-top: 5.5rem;
-}
-
-#h1-internships {
+    position: absolute;
+    top: 44rem;
     margin-left: .5rem;
-    margin-top: .4rem;
 }
 
 #p-internships {
-    margin-top: -1rem;
+    margin-top: -.8rem;
 }

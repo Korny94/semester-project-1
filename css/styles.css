@@ -77,8 +77,8 @@ header {
 .menu {
     background-color: rgb(219, 230, 243);
     display: none;
-    top: 8.5rem;
-    margin-left: 39rem;
+    top: 4rem;
+    margin-left: 31rem;
     border-radius: 1rem;
     position: fixed;
 }

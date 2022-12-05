@@ -61,6 +61,7 @@ header {
 .menu-icon {
     filter: invert(100%);
     width: 3.5rem;
+    margin-top: .2rem;
     transition-duration: 200ms;
 }
 
@@ -443,7 +444,7 @@ main {
 }
 
 #h1-sp-ev {
-    margin-top: 13.2rem;
+    margin-top: 12.8rem;
     margin-left: 31.8rem;
 }
 
@@ -454,4 +455,126 @@ main {
 #h1-vi-us {
     margin-top: 14.3rem;
     margin-left: 1.3rem;
+}
+
+.visit-us {
+    display: grid;
+    grid-template-areas: 
+    "location hours"
+    "admission hours"
+    "accessibility hours"
+    "cafe gift"
+    ;
+}
+
+.location {
+    grid-area: location;
+}
+
+.h1-vi-us {
+    font-size: 2.9rem;
+    color: rgb(255, 202, 106);
+}
+
+#location {
+    margin-top: 3.5rem;
+    margin-left: 5.5rem;
+}
+
+.p-vi-us {
+    color: white;
+    font-size: 2.4rem;
+}
+
+#p-location {
+    margin-top: 3rem;
+    margin-left: 5.5rem;
+}
+
+span {
+    display: block;
+}
+
+.hours {
+    grid-area: hours;
+    margin-top: 1.5rem;
+    margin-left: .3rem;
+}
+
+.admission {
+    grid-area: admission;
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+
+#admission {
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+#p-admission {
+    width: 350px;
+    margin-left: 5rem;
+}
+
+.accessibility {
+    width: 350px;
+    margin-left: 5.5rem;
+    margin-top: .5rem;
+}
+
+.cafe {
+    margin-left: 6.2rem;
+    margin-top: 1.6rem;
+}
+
+.gift {
+    margin-left: -.1rem;
+    margin-top: -3rem;
+}
+
+#h1-get-inv {
+    margin-top: 12.6rem;
+    margin-left: 34.3rem;
+}
+
+.get-inv {
+    margin-left: 5rem;
+    margin-top: 3.9rem;
+    width: 750px;
+}
+
+.p-get-inv {
+    color: white;
+    margin-top: -1rem;
+    font-size: 1.4rem;
+}
+
+#h1-support {
+    margin-left: .5rem;
+}
+
+.volunteer {
+    margin-top: 5.4rem;
+}
+
+#h1-volunteer {
+    margin-left: 34rem;
+}
+
+#p-volunteer {
+    margin-top: -.9rem;
+}
+
+.internships {
+    margin-top: 5.5rem;
+}
+
+#h1-internships {
+    margin-left: .5rem;
+    margin-top: .4rem;
+}
+
+#p-internships {
+    margin-top: -1rem;
 }

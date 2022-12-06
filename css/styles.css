@@ -66,7 +66,7 @@ header {
     padding: .9rem 1rem;
     border-radius: 50%;
     top: 2.7rem;
-    left: 60rem;
+    margin-left: -5rem;
     background-color: rgb(217, 149, 89, 1)
 }
 
@@ -115,16 +115,14 @@ header {
 
     /* -- FOOTER -- */
 
-.footer-index {
-    text-align: center;
-    top: 437rem;
-    position: absolute;
-}
-
 html {
     background-color: rgb(219, 230, 243);
     font-family: "lato";    
 }
+
+
+        /* --- INDEX.html --- */
+
 .body-index {
     display: flex;
     flex-direction: column;
@@ -134,7 +132,8 @@ html {
     align-items: center;
     height: 7000px;
 }
-main {
+
+.main-index {
     width: 910px;
     height: 6934px;
     background-image: url(/images/frame.png);
@@ -143,8 +142,11 @@ main {
     z-index: 2;
 }
 
-
-        /* --- INDEX.html --- */
+.footer-index {
+    text-align: center;
+    top: 437rem;
+    position: absolute;
+}
 
 .first-bg-pic {
     background-image: url(/images/cosmology.jpg);
@@ -686,4 +688,136 @@ span {
 
 #p-internships {
     margin-top: -.8rem;
+}
+
+
+        /* --- ABOUT.html --- */
+
+.body-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+}
+
+.main-about {
+    background-image: url(/images/bg-about.png);
+    width: 910px;
+    height: 2692px;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+}
+
+.footer-about {
+    position: absolute;
+    top: 173rem;
+    padding-bottom: 1rem;
+}
+
+.about-bg-pic {
+    background-image: url(/images/aero-exhi.jpg);
+    width: 898px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+}
+
+#h1-ab-us {
+    top: 19.4rem;
+    left: -1.3rem;
+}
+
+.section-about {
+    display: block;
+    position: absolute;
+    width: 750px;
+    top: 28rem;
+    font-size: 2rem;
+    left: 6rem;
+}
+
+.section-about * {
+    display: flex;
+}
+
+.p-ab-1 {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+.ab-img-1 {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 50px;
+    width: 60%;
+    height: 60%;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.ab-img-2 {
+    margin-top: 4rem;
+    border-radius: 50px;
+    width: 40%;
+    height: 40%;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-ab-2 {
+    width: 350px;
+    margin-top: 6rem;
+    margin-left: 3rem;
+}
+
+.p-ab-3 {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.p-ab-4 {
+    margin-top: 0;
+    width: 300px;
+}
+
+.ab-img-3 {
+    margin-top: 1.3rem;
+    margin-left: 2.5rem;
+    border-radius: 50px;
+    width: 45%;
+    height: 45%;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.ab-img-4 {
+    margin-top: 1.3rem;
+    border-radius: 50px;
+    width: 45%;
+    height: 45%;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-ab-5 {
+    width: 300px;
+    margin-top: 0;
+    margin-left: 2rem;
+}
+
+.p-ab-6 {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+.p-ab-7 {
+    width: 290px;
+    margin-top: 0;
+}
+
+.ab-img-5 {
+    margin-top: -1rem;
+    border-radius: 50px;
+    width: 60%;
+    height: 60%;
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
 }

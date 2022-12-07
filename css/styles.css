@@ -765,6 +765,7 @@ span {
 }
 
 .ab-img-2 {
+    margin-left: 1rem;
     margin-top: 4rem;
     border-radius: 2rem;
     width: 40%;
@@ -775,57 +776,65 @@ span {
 .p-ab-2 {
     width: 350px;
     margin-top: 6rem;
-    margin-left: 3rem;
+    margin-left: 3.5rem;
 }
 
 .p-ab-3 {
-    margin-top: 5rem;
-    margin-bottom: 0;
+    width: 350px;
+    margin-left: 1rem;
+    margin-top: 4rem;
 }
 
-.p-ab-4 {
-    margin-top: 0;
+.div-ab-img-3 {
+    height: 350px;
     width: 300px;
+    background-size: 200%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    background-image: url(/images/kids.jpg);
+    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -7rem;
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
 }
 
 .ab-img-3 {
-    margin-top: 1.7rem;
-    margin-left: 2.5rem;
-    border-radius: 2rem;
-    width: 45%;
-    height: 45%;
+    display: none;
+}
+
+.div-ab-img-4 {
+    height: 350px;
+    width: 300px;
+    background-size: 160%;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    margin-right: 1rem;
+    background-image: url(/images/ant.jpg);
     box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -5rem;
+    background-repeat: no-repeat;
 }
 
 .ab-img-4 {
-    margin-top: 1.3rem;
-    border-radius: 2rem;
-    width: 45%;
-    height: 45%;
-    box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
-}
-
-.p-ab-5 {
-    width: 300px;
-    margin-top: 0;
-    margin-left: 2rem;
-}
-
-.p-ab-6 {
-    margin-top: 4rem;
-    margin-bottom: 0;
-}
-
-.p-ab-7 {
-    width: 290px;
-    margin-top: 0;
+    display: none;
 }
 
 .ab-img-5 {
-    margin-top: -1rem;
-    margin-left: 1rem;
-    border-radius: 2rem;
-    width: 54%;
-    height: 54%;
+    display: none;
+}
+
+.div-ab-img-5 {
+    height: 350px;
+    width: 300px;
+    background-size: 210%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+    background-image: url(/images/cosmology.jpg);
     box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -10rem;
+    background-repeat: no-repeat;
 }

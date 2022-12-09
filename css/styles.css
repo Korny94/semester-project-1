@@ -1262,7 +1262,7 @@ span {
 }
 
 
-       /* --- ROBOTICS.html --- */
+       /* --- ROBOTICS.html --- */     
 
 .robotics-bg-pic {
     background-image: url(/images/robotics.jpg);
@@ -1328,4 +1328,15 @@ span {
     position: absolute;
     top: 115rem;
     padding-bottom: 1rem;
+}
+
+
+        /* --- MEDIA-QUERIES --- */
+
+@media (max-width: 912px) {
+    
+}
+
+@media (max-width: 499px) {
+    
 }

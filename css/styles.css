@@ -5,6 +5,7 @@
     src: url(/fonts/Lato/Lato-Regular.ttf);
 }
 
+
         /* --- GLOBAL --- */
 
     /* -- HEADER -- */
@@ -112,8 +113,6 @@ header {
 #hamburger-menu:checked ~ .menu {
     display: block;
 }
-
-    /* -- FOOTER -- */
 
 html {
     background-color: rgb(219, 230, 243);
@@ -693,6 +692,15 @@ span {
 
         /* --- FOR-KIDS.html --- */
 
+.kids-bg-pic {
+    background-image: url(/images/for-kids.jpg);
+    width: 898px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 4rem;
+    background-size: 100%;
+}
+
 #h1-for-kids {
     top: 19.4rem;
     left: -.6rem;
@@ -792,6 +800,7 @@ span {
     background-position-x: -10rem;
     background-repeat: no-repeat;
 }
+
 
         /* --- ABOUT.html --- */
 
@@ -940,4 +949,383 @@ span {
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -10rem;
     background-repeat: no-repeat;
+}
+
+
+        /* --- FOR-RESEARCHERS.html --- */
+
+.main-researchers {
+    background-image: url(/images/bg-researchers.png);
+    width: 910px;
+    height: 1746px;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+}
+
+.researchers-bg-pic {
+    background-image: url(/images/for-researchers.jpg);
+    width: 894px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    background-size: 100%;
+    transform: scaleX(-1);
+    border-radius: 1rem;
+}
+
+#h1-for-researchers {
+    margin-top: -3.8rem;
+    margin-left: -1.1rem;
+}
+
+.p-fr-1 {
+    width: 250px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.p-fr-2 {
+    width: 250px;
+    margin-right: 2rem;
+    margin-left: 7rem;
+    margin-top: 10rem;
+}
+
+.fr-img-2 {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    width: 35%;
+    height: 35%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-fr-3 {
+    width: 330px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 9rem;
+    margin-bottom: 5.5rem;
+}
+
+.fr-img-3 {
+    display: none;
+}
+
+
+        /* --- FOR-TEACHERS.html --- */
+
+.teachers-bg-pic {
+    background-image: url(/images/for-teachers.jpg);
+    width: 894px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+#h1-for-teachers {
+    margin-top: -3.5rem;
+    margin-left: .5rem;
+}
+
+.p-ft-1 {
+    width: 270px;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.p-ft-2 {
+    width: 330px;
+    margin-right: 2rem;
+    margin-left: 4rem;
+    margin-top: 7rem;
+}
+
+.ft-img-2 {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    border-radius: 2rem;
+    width: 35%;
+    height: 35%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-ft-3 {
+    display: block;
+    width: 300px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 8rem;
+    margin-bottom: 6.5rem;
+}
+
+.contact-us {
+    display: inline;
+    color: white;
+    font-weight: 900;
+}
+
+.ft-img-3 {
+    display: none;
+}
+
+
+        /* --- COSMOLOGY.html --- */
+
+.main-cosmology {
+    background-image: url(/images/bg-cosmology.png);
+    width: 910px;
+    height: 1746px;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+}
+
+.cosmology-bg-pic {
+    background-image: url(/images/aero-exhi.jpg);
+    width: 894px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+#h1-cos {
+    margin-top: -3.5rem;
+    margin-left: -.5rem;
+}
+
+.p-cos-1 {
+    width: 270px;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.cos-img-1 {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    width: 55%;
+    height: 55%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.cos-img-2 {
+    margin-left: 3rem;
+    margin-top: 3.7rem;
+    border-radius: 2rem;
+    width: 35%;
+    height: 35%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-cos-3 {
+    display: block;
+    width: 300px;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-top: 7.5rem;
+    margin-bottom: 3.4rem;
+}
+
+.cos-img-3 {
+    display: none;
+}
+
+.div-cos-img-3 {
+    height: 350px;
+    width: 300px;
+    background-size: 200%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 6.5rem;
+    background-image: url(/images/kids.jpg);
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -7rem;
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
+}
+
+
+        /* --- EVOLUTION.html --- */
+
+.evolution-bg-pic {
+    background-image: url(/images/evolution1.jpg);
+    width: 894px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 3rem;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+#h1-evo {
+    margin-top: -3.5rem;
+    margin-left: .2rem;
+}
+
+.evo-img-2 {
+    margin-left: 1rem;
+    margin-top: 3.7rem;
+    border-radius: 2rem;
+    width: 38%;
+    height: 38%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-evo-2 {
+    width: 380px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+}
+
+.evo-img-3 {
+    display: none;
+}
+
+.div-evo-img-3 {
+    height: 350px;
+    width: 300px;
+    background-size: 200%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 6.5rem;
+    background-image: url(/images/mammoth.jpg);
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -7rem;
+    background-position-y: -3rem;
+    background-repeat: no-repeat;
+}
+
+
+        /* --- BIOLOGY.html --- */
+
+.biology-bg-pic {
+    background-image: url(/images/biology.jpg);
+    width: 894px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 3.5rem;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+#h1-bio {
+    margin-top: -3.5rem;
+    margin-left: 1rem;
+}
+
+.bio-img-1 {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    width: 55%;
+    height: 55%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.bio-img-2 {
+    margin-left: 1rem;
+    margin-top: 3.7rem;
+    border-radius: 2rem;
+    width: 32%;
+    height: 32%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-bio-2 {
+    width: 340px;
+    margin-top: 5.3rem;
+    margin-left: 4rem;
+}
+
+.div-bio-img-3 {
+    height: 350px;
+    width: 300px;
+    background-size: 210%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-top: 6.5rem;
+    background-image: url(/images/head.jpg);
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -20rem;
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
+}
+
+
+       /* --- ROBOTICS.html --- */
+
+.robotics-bg-pic {
+    background-image: url(/images/robotics.jpg);
+    width: 894px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+#h1-rob {
+    margin-top: -3.5rem;
+    margin-left: .5rem;
+}
+
+.rob-img-1 {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    width: 55%;
+    height: 55%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.rob-img-2 {
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    border-radius: 2rem;
+    width: 32%;
+    height: 32%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-rob-2 {
+    width: 250px;
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+
+.p-rob-3 {
+    width: 260px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.div-rob-img-3 {
+    height: 350px;
+    width: 300px;
+    background-size: 210%;
+    border-radius: 1rem;
+    margin-left: 5rem;
+    margin-top: 6.5rem;
+    margin-bottom: 3rem;
+    background-image: url(/images/robotics.jpg);
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -13rem;
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
+}
+
+.footer-robotics {
+    position: absolute;
+    top: 115rem;
+    padding-bottom: 1rem;
 }

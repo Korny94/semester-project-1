@@ -32,8 +32,9 @@ header {
 }
 
 .logo {
+    margin-top: .3rem;
     width: 4rem;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     transition-duration: 3000ms;
 }
 
@@ -1344,41 +1345,41 @@ span {
 
     /* -- HEADER -- */
 
+header {
+    width: 450px;
+    margin-top: -1.1rem;
+}
 
-    header {
-        width: 450px;
-        margin-top: -1rem;
-    }
+.logo {
+    margin-top: .3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    transition-duration: 3000ms;
+}
 
-    .logo {
-        width: 3.2rem;
-        margin-right: 1rem;
-        transition-duration: 3000ms;
-    }
+.name {
+    font-size: 1rem;
+}
 
-    .name {
-        font-size: 1rem;
-    }
-    
-    .menu-icon {
-        width: 3rem;
-        padding: .6rem .7rem;
-        top: 2rem;
-        margin-left: -4rem;
-    }
-    
-    .menu {
-        top: 4rem;
-        margin-left: 13.5rem;
-        border-radius: 1rem;
-        position: fixed;
-    }
-    
-    .button {
-        border-radius: .4rem;
-        margin: .8rem;
-        font-size: 1rem;
-    }
+.menu-icon {
+    width: 3rem;
+    padding: .6rem .7rem;
+    top: 2rem;
+    margin-left: -4rem;
+}
+
+.menu {
+    top: 4rem;
+    margin-left: 13.5rem;
+    border-radius: 1rem;
+    position: fixed;
+}
+
+.button {
+    border-radius: .4rem;
+    margin: .8rem;
+    font-size: 1rem;
+}
     
 
  
@@ -2143,7 +2144,7 @@ span {
         
 }
 
-@media (max-width: 499px) {
+@media (max-width: 536px) {
     
         /* --- GLOBAL --- */
 
@@ -2152,15 +2153,15 @@ span {
 header {
     height: 100px;
     width: 320px;
-    top: 0.1rem;
+    top: 0.2rem;
 }
 
 .logo {
-    width: 2.5rem;
-    margin-right: .5rem;
-    margin-left: .5rem;
+    margin-top: .2rem;
+    width: 2.3rem;
+    margin-right: .8rem;
+    margin-left: .2rem;
 }
-
 
 .name {
     font-size: .8rem;
@@ -2175,55 +2176,29 @@ header {
 }
 
 .menu {
-    background-color: rgb(219, 230, 243);
-    display: none;
-    top: 4rem;
-    margin-left: 31rem;
-    border-radius: 1rem;
-    position: fixed;
+    top: 2.9rem;
+    margin-left: 8.5rem;
 }
 
 .button {
-    background-color: rgb(44, 121, 189);
-    padding: .3rem 1.3rem;
-    border-radius: .5rem;
-    margin: 1.2rem;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-size: 1.4rem;
-    letter-spacing: .05rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    border: 1.3px solid rgba(0, 0, 0, 0.5);
-    transition-duration: 400ms;
+    padding: .3rem .5rem;
+    margin: .8rem .4rem;
+    font-size: 1rem;
 }
 
         /* --- INDEX.html --- */
 
-.body-index {
-    display: flex;
-    flex-direction: column;
-    min-height: 94vh;
-    margin: auto;
-    padding: 1rem;
-    align-items: center;
-    height: 7000px;
-}
+    /* -- Background -- */
 
 .main-index {
     width: 377px;
     height: 6303px;
     background-image: url(/images/frame2.png);
-    background-size: cover;
-    position: absolute;
-    z-index: 2;
 }
 
 .footer-index {
     text-align: center;
-    top: 437rem;
+    top: 337rem;
     position: absolute;
 }
 
@@ -2238,7 +2213,7 @@ header {
 .second-bg-pic {
     width: 350px;
     height: 800px;
-    margin-top: 8rem;
+    margin-top: 25rem;
     margin-left: .2rem;
     border-radius: 0px;
 }
@@ -2275,41 +2250,26 @@ header {
     border-radius: 0px;
 }
 
+    /* -- Explore Together -- */
+
 .explore-together {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 800px;
-    top: 32.8rem;
-    left: 4rem;
-    position: absolute;
+    display: none;
+}
+
+.explore-together1 {
+    margin-top: 19rem;
+}
+
+.yellow-bg-et1 {
+    width: 310px;
+    height: 470px;
+    margin-left: 2.2rem;
 }
 
 .h1-et {
-    text-decoration: underline;
-    color: white;
-    font-size: 2.3rem;
-    letter-spacing: .2rem;
-    padding-left: 4.5rem;
-    top: 24.5rem;
-    position: absolute;
-    font-weight: 900;
-}
-
-.yellow-bg-et {
-    background-color: rgb(255, 202, 106);
-    width: 800px;
-    height: 350px;
-    border-radius: 1rem;
-    display: flex;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
-}
-
-.p-et {
-    width: 350px;
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    margin: 0;
+    font-size: 1.7rem;
+    padding-left: 2.5rem;
+    top: 16.5rem;
 }
 
 #button-ex-to {
@@ -2318,160 +2278,91 @@ header {
 }
 
 .h1-ybg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 370px;
-    height: 300px;
-    border-radius: 1rem;
-    background-color: rgb(0, 0, 0, .5);
-    margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .about-img {
-    background-image: url(/images/about-us.jpg);
-    background-size: cover;
-    width: 370px;
-    height: 300px;
-    border-radius: 1rem;
+    width: 80%;
+    height: 40%;
     margin-left: 2rem;
-    margin: auto;
-    text-decoration: none;
-    letter-spacing: .2rem;
-    font-size: 1.2rem;
-    transition-duration: 200ms;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
-
-.about-img:hover {
-    scale: 102%;
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
 }
 
 .para-button {
-    padding-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    align-items: center;
     margin-top: 1rem;
 }
 
-#h1-ex {
-    top: 66.8rem;
-    left: 39.4rem;
-}
-
-.section-explore {
-    width: 800px;
-    height: 600px;
-    left: 2rem;
-    top: 74rem;
-    position: absolute;
-    padding-left: 2rem;
-    overflow-x: scroll;
-    align-items: center;
-    display: flex;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
-    border-right: 1px solid black;
-}
-
-.section-explore::-webkit-scrollbar { 
-    display: none;
-}
-
-.yellow-bg-ex {
-    background-color: rgb(255, 202, 106);
-    border-radius: 1rem;
-    width: 500px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 2rem;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
-}
-
-.for-teachers {
-    background-image: url(/images/for-teachers.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
-
-.for-kids {
-    background-image: url(/images/for-kids.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
-
-.for-researchers {
-    background-image: url(/images/for-researchers.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
-
-.for-kids:hover,
-.for-teachers:hover,
-.for-researchers:hover,
-.cosmology:hover,
-.evolution:hover,
-.biology:hover,
-.robotics:hover,
-.aeronautics:hover,
-.sleepover:hover,
-.energetica:hover {
-    scale: 102%;
-}
-
-.h1-ybg-ex {
-    background-color: rgb(0, 0, 0, 0.5);
-    width: 250px;
-    height: 200px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-    margin: 0;
-}
-
-.p-ex {
-    width: 250px;
-    font-size: 1.5rem;
-    margin: 1rem;
+.p-et {
+    width: 270px;
     line-height: 2rem;
 }
 
+#button-ex-to {
+    padding: .5rem 4rem;
+    margin-left: -1.4rem;
+}
+
+    /* -- Explore -- */
+
+#h1-ex {
+    top: 61.5rem;
+    left: 5rem;
+}
+
+.section-explore {
+    width: 300px;
+    height: 430px;
+    left: .5rem;
+    top: 63rem;
+    border-right: 1px solid black;
+}
+
+.yellow-bg-ex {
+    width: 300px;
+    height: 400px;
+}
+
+.for-teachers {
+    width: 80%;
+    height: 30%;
+}
+
+.for-kids {
+    width: 80%;
+    height: 30%;
+}
+
+.for-researchers {
+    width: 80%;
+    height: 30%;
+    margin-top: .3rem;
+}
+
+.h1-ybg-ex {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+}
+
+.p-ex {
+    width: 190px;
+    font-size: 1.2rem;
+    margin-left: 1.4rem;
+    line-height: 1.5rem;
+    margin-bottom: 0;
+    margin-top: .2rem;
+}
+
 #read-more {
-    width: 13rem;
+    width: 10rem;
     font-size: 1.6rem;
     line-height: 2.3rem;
 }
+
+    /* -- Exhibition spaces -- */
 
 #h1-ex-sp {
     top: 125rem;
@@ -2541,6 +2432,9 @@ header {
     letter-spacing: .1rem;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
+
+
+
 
 .aeronautics {
     background-image: url(/images/aeronautics.jpg);

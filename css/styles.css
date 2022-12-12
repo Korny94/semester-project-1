@@ -123,6 +123,8 @@ html {
 
         /* --- INDEX.html --- */
 
+    /* -- Background -- */
+
 .body-index {
     display: flex;
     flex-direction: column;
@@ -222,6 +224,8 @@ html {
     display: none;
 }
 
+    /* -- Explore together -- */
+
 .yellow-bg-et1 {
     display: none;
 }
@@ -306,6 +310,8 @@ html {
     justify-content: space-evenly;
     margin-top: 1rem;
 }
+
+    /* -- Explore -- */
 
 #h1-ex {
     top: 66.8rem;
@@ -424,6 +430,8 @@ html {
     line-height: 2.3rem;
 }
 
+    /* -- Exhibition spaces -- */
+
 #h1-ex-sp {
     top: 125rem;
     margin-left: .8rem;
@@ -493,6 +501,17 @@ html {
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
+    /* -- Special events -- */
+
+#h1-sp-ev {
+    top: 182.3rem;
+    margin-left: 31rem;
+}
+
+#section-sp-ev {
+    top: 190.5rem;
+    position: absolute;
+}
 .aeronautics {
     background-image: url(/images/aeronautics.jpg);
     background-size: cover;
@@ -537,15 +556,7 @@ html {
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
-#h1-sp-ev {
-    top: 182.3rem;
-    margin-left: 31rem;
-}
-
-#section-sp-ev {
-    top: 190.5rem;
-    position: absolute;
-}
+    /* -- Visit us -- */
 
 #h1-vi-us {
     top: 242.7rem;
@@ -640,6 +651,8 @@ span {
     margin-top: 2.7rem;
     margin-left: .5rem;
 }
+
+    /* -- Get involved -- */
 
 #h1-get-inv {
     position: absolute;
@@ -1384,276 +1397,288 @@ header {
 
  
         /* --- INDEX.html --- */
-            
-    .main-index {
-        width: 520px;
-        height: 8996px;
-        background-image: url(/images/frame1.png);
-    }
+       
+    /* -- Background -- */
 
-    .footer-index {
-        text-align: center;
-        margin-top: 125rem;
-        position: absolute;
-        padding: 1rem;
-    }
+.main-index {
+    width: 520px;
+    height: 8996px;
+    background-image: url(/images/frame1.png);
+}
 
-    .first-bg-pic {
-        background-image: url(/images/cosmology1.jpg);
-        width: 498px;
-        height: 281px;
-        margin-top: 5rem;
-        margin-left: .35rem;
-        border-radius: 0px;
-    }
+.footer-index {
+    text-align: center;
+    margin-top: 125rem;
+    position: absolute;
+    padding: 1rem;
+}
 
-    .second-bg-pic {
-        background-image: url(/images/aeronautics1.jpg);
-        width: 498px;
-        height: 332px;
-        margin-top: 47rem;
-        border-radius: 0;
-    }
+.first-bg-pic {
+    background-image: url(/images/cosmology1.jpg);
+    width: 498px;
+    height: 281px;
+    margin-top: 5rem;
+    margin-left: .35rem;
+    border-radius: 0px;
+}
 
-    .third-bg-pic {
-        background-image: url(/images/aero-exhi1.jpg);
-        width: 498px;
-        height: 256px;
-        margin-top: 39rem;
-        margin-left: .3rem;
-        border-radius: 0;
-    }
+.second-bg-pic {
+    background-image: url(/images/aeronautics1.jpg);
+    width: 498px;
+    height: 332px;
+    margin-top: 47rem;
+    border-radius: 0;
+}
 
-    .fourth-bg-pic {
-        background-image: url(/images/cosmology1.jpg);
-        width: 498px;
-        height: 281px;
-        margin-top: 37rem;
-        margin-left: .3rem;
-        border-radius: 0;
-    }
+.third-bg-pic {
+    background-image: url(/images/aero-exhi1.jpg);
+    width: 498px;
+    height: 256px;
+    margin-top: 39rem;
+    margin-left: .3rem;
+    border-radius: 0;
+}
 
-    .fifth-bg-pic {
-        background-image: url(/images/head1.jpg);
-        width: 498px;
-        height: 331px;
-        margin-top: 39.5rem;
-        margin-left: .3rem;
-        border-radius: 0;
-    }
+.fourth-bg-pic {
+    background-image: url(/images/cosmology1.jpg);
+    width: 498px;
+    height: 281px;
+    margin-top: 37rem;
+    margin-left: .3rem;
+    border-radius: 0;
+}
 
-    .sixth-bg-pic {
-        background-image: url(/images/ant1.jpg);
-        width: 498px;
-        height: 375px;
-        margin-top: 196rem;
-        margin-left: .2rem;
-        border-radius: 0;
-    }
+.fifth-bg-pic {
+    background-image: url(/images/head1.jpg);
+    width: 498px;
+    height: 331px;
+    margin-top: 39.5rem;
+    margin-left: .3rem;
+    border-radius: 0;
+}
 
-    .frame {
-        width: 500px;
-        border-radius: 1rem;
-        position: relative;
-        top: -9rem;
-        display: none;
-    }
+.sixth-bg-pic {
+    background-image: url(/images/ant1.jpg);
+    width: 498px;
+    height: 375px;
+    margin-top: 196rem;
+    margin-left: .2rem;
+    border-radius: 0;
+}
 
-    .explore-together {
-        display: none;
-    }
+.frame {
+    width: 500px;
+    border-radius: 1rem;
+    position: relative;
+    top: -9rem;
+    display: none;
+}
 
-    .h1-et {
-        margin-top: -1rem;
-        margin-left: .5rem;
-    }
+    /* -- Explore together -- */
 
-    .explore-together1 {
-        margin-top: 29.5rem;
-    }
+.explore-together {
+    display: none;
+}
 
-    .yellow-bg-et1 {
-        background-color: rgb(255, 202, 106);
-        border-radius: 1rem;
-        margin-left: 3rem;
-        width: 430px;
-        height: 630px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
-    }
+.h1-et {
+    margin-top: -1rem;
+    margin-left: .5rem;
+}
 
-    .p-et {
-        margin-left: -1.3rem;
-        margin-bottom: 1rem;
-    }
+.explore-together1 {
+    margin-top: 29.5rem;
+}
 
-    .para-button {
-        margin-top: -1rem;
-    }
+.yellow-bg-et1 {
+    background-color: rgb(255, 202, 106);
+    border-radius: 1rem;
+    margin-left: 3rem;
+    width: 430px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
+}
 
-    #h1-ex {
-        top: 89rem;
-        left: 6.6rem;
-    }
+.p-et {
+    margin-left: -1.3rem;
+    margin-bottom: 1rem;
+}
 
-    .section-explore {
-        width: 400px;
-        top: 91.5rem;
-    }
+.para-button {
+    margin-top: -1rem;
+}
 
-    #h1-ex-sp {
-        top: 145rem;
-        margin-left: 1.4rem;
-    }
+    /* -- Explore --*/
 
-    #section-exh-spa {
-        top: 147.8rem;
-    }
+#h1-ex {
+    top: 89rem;
+    left: 6.6rem;
+}
 
-    #h1-sp-ev {
-        top: 199.5rem;
-        margin-left: 3.3rem;
-    }
+.section-explore {
+    width: 400px;
+    top: 91.5rem;
+}
 
-    #section-sp-ev {
-        top: 202rem;
-    }
+#h1-ex-sp {
+    top: 145rem;
+    margin-left: 1.4rem;
+}
 
-    #h1-vi-us {
-        top: 257.5rem;
-        margin-left: 6.6rem;
-    }
+#section-exh-spa {
+    top: 147.8rem;
+}
 
-    .visit-us {
-        top: 259rem;
-    }
+    /* -- Special events --*/
 
-    .bg-visit-us {
-        width: 450px;
-        height: 3140px;
-        background-color: rgb(38, 106, 166);
-        box-shadow: 0px 0px 20px rgb(255, 255, 255, .3);
-        border-radius: 25px;
-        margin-left: 2.3rem;
-        margin-top: 3rem;
-    }
+#h1-sp-ev {
+    top: 199.5rem;
+    margin-left: 3.3rem;
+}
 
-    #location {
-        top: 3rem;
-        left: 6.5rem;
-    }
+#section-sp-ev {
+    top: 202rem;
+}
 
-    #p-location {
-        top: 9rem;
-        left: 6.5rem;
-    }
+    /* -- Visit us --*/
 
-    .hours {
-        top: 103rem;
-        left: 6.5rem;
-    }
+#h1-vi-us {
+    top: 257rem;
+    margin-left: 6.6rem;
+}
 
-    #p-hours {
-        margin-left: .5rem;
-    }
+.visit-us {
+    top: 259rem;
+}
 
-    .admission {
-        top: 16.5rem;
-        left: 6.5rem;
-    }
+.bg-visit-us {
+    width: 450px;
+    height: 3140px;
+    background-color: rgb(38, 106, 166);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255, .3);
+    border-radius: 25px;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+}
 
-    #p-admission {
-        margin-left: .5rem;
-    }
+#location {
+    top: 3rem;
+    left: 6.5rem;
+}
 
-    .accessibility {
-        left: 6.5rem;
-        top: 43rem;
-    }
+#p-location {
+    top: 9rem;
+    left: 6.5rem;
+}
 
-    #p-accessibility {
-        margin-left: .5rem;
-    }
+.admission {
+    top: 16.5rem;
+    left: 6.5rem;
+}
 
-    .cafe {
-        left: 6.5rem;
-        top: 72rem;
-    }
+#p-admission {
+    margin-left: 0rem;
+}
 
-    #p-cafe {
-        margin-left: .5rem;
-    }
+.accessibility {
+    left: 6.5rem;
+    top: 43rem;
+}
 
-    .gift {
-        left: 6.5rem;
-        top: 167rem;
-    }
+#p-accessibility {
+    margin-left: 0rem;
+}
 
-    #p-gift {
-        margin-top: 2.7rem;
-        margin-left: .5rem;
-    }
+.cafe {
+    left: 6.5rem;
+    top: 72rem;
+}
 
-    #h1-get-inv {
-        top: 476.3rem;
-        left: 3.6rem;
-    }
+#p-cafe {
+    margin-left: 0rem;
+}
 
-    .get-inv {
-        left: 2.5rem;
-        top: 479.5rem;
-        width: 440px;
-    }
+.hours {
+    top: 103rem;
+    left: 6.5rem;
+}
 
-    #h1-support {
-        margin-top: -78rem;
-        margin-left: 1rem;
-    }
+#p-hours {
+    margin-left: 0rem;
+}
 
-    .bg-get-inv {
-        width: 460px;
-        height: 1270px;
-        background-color: rgb(38, 106, 166);
-        box-shadow: 0px 0px 20px rgb(255, 255, 255, .3);
-        border-radius: 25px;
-        margin-left: -.7rem;
-        margin-top: 1rem;
-    }
+.gift {
+    left: 6.5rem;
+    top: 167rem;
+}
 
-    .p-get-inv {
-        color: white;
-        margin-top: -1rem;
-        font-size: 1.4rem;
-    }
+#p-gift {
+    margin-top: 2.7rem;
+    margin-left: 0rem;
+}
 
-    .volunteer {
-        top: 24.3rem;
-        left: 0rem;
-    }
+    /* -- Get involved --*/
 
-    #h1-volunteer {
-        margin-top: 4rem;
-        margin-left: 1rem;
-    }
+#h1-get-inv {
+    top: 476.3rem;
+    left: 3.6rem;
+}
 
-    #p-volunteer {
-        margin-left: .5rem;
-    }
+.get-inv {
+    left: 2.5rem;
+    top: 479.5rem;
+    width: 440px;
+}
 
-    .internships {
-        top: 56rem;
-    }
+#h1-support {
+    margin-top: -78rem;
+    margin-left: 1rem;
+}
 
-    #h1-internships {
-        margin-left: 1rem;
-    }
+.bg-get-inv {
+    width: 460px;
+    height: 1270px;
+    background-color: rgb(38, 106, 166);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255, .3);
+    border-radius: 25px;
+    margin-left: -.7rem;
+    margin-top: 1rem;
+}
 
-    #p-internships {
-        margin-left: 0rem;
-    }
+.p-get-inv {
+    color: white;
+    margin-top: -1rem;
+    font-size: 1.4rem;
+}
+
+.volunteer {
+    top: 24.3rem;
+    left: 0rem;
+}
+
+#h1-volunteer {
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+#p-volunteer {
+    margin-left: .5rem;
+}
+
+.internships {
+    top: 56rem;
+}
+
+#h1-internships {
+    margin-left: 1rem;
+}
+
+#p-internships {
+    margin-left: 0rem;
+}
 
         /* --- ABOUT.html --- */
 
@@ -2153,7 +2178,7 @@ header {
 header {
     height: 100px;
     width: 320px;
-    top: 0.2rem;
+    top: 0.5rem;
 }
 
 .logo {
@@ -2170,7 +2195,7 @@ header {
 .menu-icon {
     width: 2.5rem;
     padding: .3rem .4rem;
-    top: 1.7rem;
+    top: 2rem;
     margin-left: -3.5rem;
     background-color: rgb(217, 149, 89, 1)
 }
@@ -2190,15 +2215,19 @@ header {
 
     /* -- Background -- */
 
+    .body-index {
+    height: 6490px;
+}
+
 .main-index {
     width: 377px;
-    height: 6303px;
+    height: 6880px;
     background-image: url(/images/frame2.png);
 }
 
 .footer-index {
     text-align: center;
-    top: 337rem;
+    top: 305rem;
     position: absolute;
 }
 
@@ -2211,7 +2240,7 @@ header {
 }
 
 .second-bg-pic {
-    width: 350px;
+    width: 349px;
     height: 800px;
     margin-top: 25rem;
     margin-left: .2rem;
@@ -2219,34 +2248,32 @@ header {
 }
 
 .third-bg-pic {
-    width: 350px;
-    height: 800px;
-    margin-top: 17rem;
+    background-size: 100%;
+    width: 349px;
+    margin-top: -3.9rem;
     margin-left: .2rem;
     border-radius: 0px;
 }
 
 .fourth-bg-pic {
-    width: 350px;
-    height: 800px;
-    margin-top: 1rem;
-    margin-left: .2rem;
-    border-radius: 0px;
+    width: 349px;
+    margin-top: 20rem;
+    margin-left: .1rem;
 }
 
 .fifth-bg-pic {
-    width: 350px;
-    height: 800px;
-    margin-top: 11rem;
+    width: 349px;
+    background-size: 100%;
+    margin-top: 24rem;
     margin-left: .2rem;
-    border-radius: 0px;
 }
 
 .sixth-bg-pic {
-    width: 350px;
+    background-size: 100%;
+    width: 349px;
     height: 800px;
-    margin-top: 63rem;
-    margin-left: .2rem;
+    margin-top: 131rem;
+    margin-left: .1rem;
     border-radius: 0px;
 }
 
@@ -2365,279 +2392,214 @@ header {
     /* -- Exhibition spaces -- */
 
 #h1-ex-sp {
-    top: 125rem;
-    margin-left: .8rem;
+    top: 100.5rem;
+    margin-left: 1rem;
 }
 
 #section-exh-spa {
-    top: 131.4rem;
+    top: 102rem;
 }
 
 .cosmology {
-    background-image: url(/images/cosmology.jpg);
-    background-size: cover;
-    background-position: -3rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    width: 85%;
+    height: 35%;
 }
 
 .evolution {
-    background-image: url(/images/evolution.jpg);
-    background-size: cover;
-    background-position: -1rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    width: 85%;
+    height: 35%;
 }
 
 .biology {
-    background-image: url(/images/biology.jpg);
-    background-size: 180%;
-    background-position: -6rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    width: 85%;
+    height: 35%;
 }
 
 .robotics {
-    background-image: url(/images/robotics.jpg);
-    background-size: cover;
-    background-position: -3rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    width: 85%;
+    height: 35%;
 }
 
-
-
-
-.aeronautics {
-    background-image: url(/images/aeronautics.jpg);
-    background-size: cover;
-    background-position: -1.5rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
-
-.sleepover {
-    background-image: url(/images/sleepover.jpg);
-    background-size: cover;
-    background-position: -1rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
-
-.energetica {
-    background-image: url(/images/about-us.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
+    /* -- Special events -- */
 
 #h1-sp-ev {
-    top: 182.3rem;
-    margin-left: 31rem;
+    top: 139.5rem;
+    margin-left: 2.5rem;
 }
 
 #section-sp-ev {
-    top: 190.5rem;
+    top: 141rem;
     position: absolute;
+}
+.aeronautics {
+    width: 85%;
+    height: 35%;
+}
+
+.sleepover {
+    width: 85%;
+    height: 35%;
+}
+
+.energetica {
+    width: 85%;
+    height: 35%;
+}
+
+    /* -- Visit us -- */
+
+.bg-visit-us {
+    height: 2220px;
+    width: 305px;
 }
 
 #h1-vi-us {
-    top: 242.7rem;
+    top: 180.3rem;
+    left: -1rem;
 }
 
 .visit-us {
-    top: 246.5rem;
-    position: absolute;
+    top: 180rem;
 }
 
 .h1-vi-us {
-    font-size: 2.7rem;
-    color: rgb(255, 202, 106);
-}
-
-#location {
-    top: 1.5rem;
-    left: 6rem;
-    position: absolute;
+    font-size: 2rem;
 }
 
 .p-vi-us {
     color: white;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+
+#location {
+    top: 4rem;
+    left: 5rem;
+    position: absolute;
 }
 
 #p-location {
     position: absolute;
-    top: 9rem;
-    left: 6.5rem;
+    top: 8rem;
+    left: 5rem;
     width: 300px;
 }
 
-span {
-    display: block;
-}
-
-.hours {
-    position: absolute;
-    top: 2rem;
-    left: 35.6rem;
-    width: 200px;
-}
-
-#p-hours {
-    margin-top: 3.7rem;
-    margin-left: 1rem;
-}
-
 .admission {
-    position: absolute;
-    top: 17.5rem;
-    left: 6rem;
-    width: 350px;
+    top: 13rem;
+    left: 5rem;
+    width: 230px;
 }
 
 #p-admission {
-    margin-top: 4rem;
+    margin-top: 0rem;
+    margin-left: 0;
 }
 
 .accessibility {
-    position: absolute;
-    width: 350px;
-    left: 6rem;
-    top: 45rem;
+    width: 230px;
+    left: 5rem;
+    top: 33rem;
 }
 
 #p-accessibility {
-    margin-top: 3.6rem;
-    margin-left: .3rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
 }
 
 .cafe {
     position: absolute;
-    left: 6.2rem;
-    top: 74rem;
+    left: 5rem;
+    top: 96rem;
 }
 
 #p-cafe {
-    margin-top: 3rem;
-    margin-left: .5rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
 }
 
-.gift {
-    position: absolute;
-    left: 35rem;
-    top: 69.5rem;
+.hours {
+    top: 52rem;
+    left: 5rem;
     width: 200px;
 }
 
+#p-hours {
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+.gift {
+    left: 5rem;
+    top: 117rem;
+}
+
 #p-gift {
-    margin-top: 2.7rem;
-    margin-left: .5rem;
+    margin-top: 0rem;
+    margin-left: 0rem;
+}
+
+    /* -- Get involved -- */
+
+.bg-get-inv {
+    height: 1450px;
+    width: 310px;
+    margin-left: .1rem;
 }
 
 #h1-get-inv {
-    position: absolute;
-    top: 362.7rem;
-    left: 33.6rem;
+    top: 334rem;
+    left: 3rem;
 }
 
 .get-inv {
-    position: absolute;
-    left: 5rem;
-    top: 367.7rem;
-    width: 750px;
+    left: 2rem;
+    top: 336rem;
+    width: 290px;
 }
 
 .p-get-inv {
-    color: white;
-    margin-top: -1rem;
-    font-size: 1.4rem;
+    margin-top: -3rem;
+    font-size: 1.2rem;
+    margin-left: 3rem;
 }
 
 #h1-support {
-    position: absolute;
-    margin-left: .5rem;
+    margin-left: 2rem;
+    margin-top: -89.8rem;
 }
 
 #p-support {
-    position: absolute;
     top: 8rem;
-    margin-left: .5rem;
+    margin-left: 2rem;
 }
 
 .volunteer {
-    position: absolute;
-    top: 20.3rem;
+    top: 26.3rem;
     left: .6rem;
+    width: 290px;
 }
 
 #h1-volunteer {
-    margin-left: 34rem;
+    margin-left: 1.5rem;
 }
 
 #p-volunteer {
-    margin-top: -.8rem;
+    margin-top: -1rem;
+    margin-left: 1.4rem;
+    width: 250px;
 }
 
 .internships {
-    position: absolute;
-    top: 44rem;
-    margin-left: .5rem;
+    top: 62.5rem;
+    margin-left: 1rem;
 }
 
 #p-internships {
     margin-top: -.8rem;
+    margin-left: 1rem;
+    width: 250px;
 }
         
-    
-    
+
+
 }

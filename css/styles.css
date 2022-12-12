@@ -731,7 +731,7 @@ span {
 }
 
 .fk-img-1 {
-    margin-left: .5rem;
+    margin-left: 1rem;
     margin-top: 1.5rem;
     border-radius: 2rem;
     width: 55%;
@@ -750,7 +750,7 @@ span {
 
 .p-fk-2 {
     width: 370px;
-    margin-top: 5.5rem;
+    margin-top: 7.5rem;
     margin-left: 3.5rem;
 }
 
@@ -770,7 +770,7 @@ span {
 .p-fk-3 {
     width: 350px;
     margin-left: 1rem;
-    margin-top: 6.2rem;
+    margin-top: 7rem;
     margin-bottom: 1.3rem;
 }
 
@@ -995,8 +995,9 @@ span {
 }
 
 #h1-for-researchers {
-    margin-top: -3.8rem;
-    margin-left: -1.1rem;
+    margin-top: -3.5rem;
+    margin-left: -1.6rem;
+    font-size: 1.8rem;
 }
 
 .p-fr-1 {
@@ -1049,12 +1050,12 @@ span {
 
 #h1-for-teachers {
     margin-top: -3.5rem;
-    margin-left: .5rem;
+    margin-left: -1.4rem;
 }
 
 .p-ft-1 {
     width: 270px;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     margin-left: 1rem;
     margin-top: 2rem;
 }
@@ -1511,6 +1512,10 @@ header {
     margin-top: -1rem;
 }
 
+#button-ex-to {
+    margin-bottom: 1.5rem;
+}
+
     /* -- Explore --*/
 
 #h1-ex {
@@ -1718,15 +1723,16 @@ header {
 }
 
 .p-ab-1 {
-    margin-left: 1rem;
-    margin-right: -1rem;
+    margin-left: 2rem;
+    margin-right: 0rem;
 }
 
 .ab-img-1 {
-    margin-right: 1rem;
+    margin-right: 2rem;
     border-radius: 1.5rem;
-    width: 47%;
-    height: 47%;
+    width: 37%;
+    height: 150px;
+    object-fit: cover;
 }
 
 .ab-img-2 {
@@ -1799,17 +1805,18 @@ header {
 
 .p-fk-1 {
     width: 300px;
-    margin-left: 1rem;
-    margin-top: 2.3rem;
+    margin-left: 2rem;
+    margin-top: 2.7rem;
 }
 
 .fk-img-1 {
-    margin-left: .5rem;
+    margin-left: 2rem;
     margin-top: 2rem;
-    margin-right: 1rem;
+    margin-right: 2rem;
     border-radius: 1.5rem;
-    width: 45%;
-    height: 45%;
+    width: 35%;
+    height: 150px;
+    object-fit: cover;
 }
 
 .fk-img-2 {
@@ -1821,7 +1828,7 @@ header {
 
 .p-fk-2 {
     width: 370px;
-    margin-top: 4rem;
+    margin-top: 5.8rem;
     margin-left: 2rem;
     margin-right: 1rem;
 }
@@ -1842,14 +1849,14 @@ header {
 .div-fk-img-4 {
     height: 200px;
     margin-left: 1rem;
-    margin-top: 4rem;
+    margin-top: 5rem;
     margin-right: 1rem;
 }
 
 .p-fk-4 {
     width: 350px;
     margin-left: 1rem;
-    margin-top: 5.5rem;
+    margin-top: 6.5rem;
     margin-right: 1rem;
 }
 
@@ -1863,6 +1870,7 @@ header {
     margin-left: 2rem;
     margin-top: 4rem;
     margin-right: 1rem;
+    margin-bottom: 2.5rem;
 }
         
         /* --- COSMOLOGY.html --- */
@@ -1884,15 +1892,17 @@ header {
 
 .p-cos-1 {
     width: 190px;
-    margin-left: 1.5rem;
-    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-top: 3rem;
 }
 
 .cos-img-1 {
-    margin-left: 1rem;
+    margin-left: 3rem;
     margin-right: 1rem;
     border-radius: 1rem;
-    width: 45%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
 .cos-img-2 {
@@ -1911,7 +1921,7 @@ header {
     margin-right: 2rem;
     margin-left: 2rem;
     margin-top: 6rem;
-    margin-bottom: 3.4rem;
+    margin-bottom: 2.5rem;
 }
 
 
@@ -1940,11 +1950,12 @@ header {
 
 .rob-img-1 {
     margin-left: 1rem;
-    margin-top: 3rem;
-    border-radius: 2rem;
-    width: 45%;
-    height: 45%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    margin-top: 2rem;
+    border-radius: 1rem;
+    width: 40%;
+    height: 150px;
+    object-fit: cover;
+    object-position: -1rem;
 }
 
 .p-rob-2 {
@@ -1955,6 +1966,7 @@ header {
 
 .rob-img-2 {
     margin-top: 5rem;
+    border-radius: 1rem;
 }
 
 .p-rob-3 {
@@ -1988,16 +2000,17 @@ header {
 }
 
 #p-bio-1 {
-    margin-top: 3rem;
+    margin-top: 3.5rem;
 }
 
 .bio-img-1 {
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-top: 2.5rem;
     margin-right: 1.5rem;
     border-radius: 1.5rem;
-    width: 45%;
-    height: 45%;
+    width: 35%;
+    height: 150px;
+    object-fit: cover;
 }
 
 .bio-img-2 {
@@ -2040,6 +2053,10 @@ header {
     margin-left: 6rem;
 }
 
+#evo-img-1 {
+    margin-top: 2.8rem;
+}
+
 .evo-img-2 {
     margin-left: 1rem;
     margin-top: 3.7rem;
@@ -2079,20 +2096,20 @@ header {
 .p-ft-1 {
     width: 200px;
     margin-right: 0rem;
-    margin-left: 1.5rem;
-    margin-top: 2.3rem;
+    margin-left: 2rem;
+    margin-top: 3rem;
 }
 
 .p-ft-2 {
     width: 180px;
     margin-right: 2rem;
     margin-left: 3rem;
-    margin-top: 5.2rem;
+    margin-top: 4.2rem;
 }
 
 .ft-img-2 {
     margin-left: 2rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     border-radius: 2rem;
     width: 35%;
     height: 35%;
@@ -2137,11 +2154,11 @@ header {
     width: 250px;
     margin-right: 1rem;
     margin-left: 2rem;
-    margin-top: 2.7rem;
+    margin-top: 3.5rem;
 }
 
 #fr-img-1 {
-    margin-right: 1.5rem;
+    margin-right: 2rem;
 }
 
 .p-fr-2 {
@@ -2294,8 +2311,8 @@ header {
 }
 
 .h1-et {
-    font-size: 1.7rem;
-    padding-left: 2.5rem;
+    font-size: 1.5rem;
+    padding-left: 3.3rem;
     top: 16.5rem;
 }
 
@@ -2307,6 +2324,7 @@ header {
 .h1-ybg {
     width: 100%;
     height: 100%;
+    border-radius: .5rem;
 }
 
 .about-img {
@@ -2315,6 +2333,7 @@ header {
     margin-left: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 0rem;
+    border-radius: .5rem;
 }
 
 .para-button {
@@ -2601,5 +2620,331 @@ header {
 }
         
 
+        /* --- ABOUT.html --- */
 
+.main-about {
+    background-image: url(/images/bg-about-3.png);
+    width: 377px;
+    height: 1577px;
+}
+
+.footer-about {
+    top: 100rem;
+    padding-bottom: 1rem;
+}
+
+.about-bg-pic {
+    width: 350px;
+    margin-top: 4rem;
+}
+
+#h1-ab-us {
+    top: 15rem;
+    left: 3.8rem;
+    font-size: 1.7rem;
+}
+
+.section-about {
+    width: 300px;
+    top: 18rem;
+    font-size: 1rem;
+    left: 2rem;
+    padding: 1rem;
+    padding-left: 0rem;
+}
+
+.p-ab-1 {
+    margin-top: .5rem;
+}
+
+.ab-img-1 {
+    margin-left: 1.5rem;
+    margin-right: 0;
+    margin-top: .2rem;
+    border-radius: 1.3rem;
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.ab-img-2 {
+    margin-left: 1rem;
+    margin-top: 2.8rem;
+    border-radius: 1.3rem;
+    width: 40%;
+    height: 40%;
+}
+
+.p-ab-2 {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+.p-ab-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+}
+
+.div-ab-img-3 {
+    height: 200px;
+    background-size: 300%;
+    margin-left: 0rem;
+    margin-top: 2.5rem;
+    margin-right: 0;
+}
+
+#p-ab-4 {
+    margin-right: 0;
+    margin-top: 3rem;
+}
+
+.div-ab-img-4 {
+    height: 200px;
+    background-size: 250%;
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+    margin-right: 0rem;
+    background-position-x: -3rem;
+}
+
+#p-ab-5 {
+    margin-top: 3rem;
+    margin-bottom: .7rem;
+}
+
+.div-ab-img-5 {
+    height: 200px;
+    background-size: 350%;
+    margin-left: 0rem;
+    margin-top: 4rem;
+    margin-right: 0;
+}
+
+        /* --- FOR-KIDS.html --- */
+
+.kids-bg-pic {
+    width: 350px;
+    margin-top: 3rem;
+}
+
+#h1-for-kids {
+    top: 15rem;
+    left: 3.5rem;
+    font-size: 1.7;
+}
+
+.p-fk-1 {
+    width: 300px;
+    margin-right: 0;
+    margin-top: 1rem;
+}
+
+.fk-img-1 {
+    margin-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0;
+    border-radius: .5rem;
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.fk-img-2 {
+    margin-left: 1rem;
+    margin-top: 3rem;
+    border-radius: .5rem;
+}
+
+.p-fk-2 {
+    width: 370px;
+    margin-top: 2.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+.div-fk-img-3 {
+    height: 200px;
+    background-size: 280%;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    margin-top: 3.5rem;
+}
+
+.p-fk-3 {
+    margin-left: 1rem;
+    margin-top: 4.2rem;
+}
+
+.fk-img-3 {
+    opacity: 0;
+}
+
+.div-fk-img-4 {
+    height: 200px;
+    background-size: 280%;
+    margin-left: 1rem;
+    margin-top: 4rem;
+    margin-right: 0rem;
+}
+
+.p-fk-4 {
+    margin-left: 1rem;
+    margin-top: 5.2rem;
+    margin-right: .5rem;
+}
+
+.p-fk-5 {
+    margin-left: 1rem;
+    margin-top: 6.5rem;
+}
+
+.div-fk-img-5 {
+    height: 200px;
+    width: 250px;
+    background-size: 350%;
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    background-position-x: -11rem;
+    background-position-y: -2rem;
+}
+
+        /* --- COSMOLOGY.html --- */
+
+.main-cosmology {
+    background-image: url(/images/bg-cosmology3.png);
+    width: 377px;
+    height: 1097px;
+}
+
+.cosmology-bg-pic {
+    background-image: url(/images/aero-exhi.jpg);
+    width: 350px;
+    margin-top: 4rem;
+    border-radius: 0rem;
+}
+
+#h1-cos {
+    margin-top: -2.5rem;
+    margin-left: 3.5rem;
+}
+
+.p-cos-1 {
+    width: 100px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.cos-img-1 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 0;
+    border-radius: 1rem;
+    width: 130px;
+    height: 180px;
+    object-fit: cover;
+}
+
+#p-cos-2 {
+    margin-top: 3.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.cos-img-2 {
+    margin-left: 1rem;
+    margin-top: 3.7rem;
+    border-radius: 1rem;
+    width: 40%;
+    height: 40%;
+}
+
+.p-cos-3 {
+    margin-right: 0rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.div-cos-img-3 {
+    height: 200px;
+    width: 300px;
+    background-size: 260%;
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+    margin-right: 0rem;
+    background-position-x: -3.5rem;
+    background-position-y: 0rem;
+}   
+
+       /* --- ROBOTICS.html --- */     
+
+.robotics-bg-pic {
+    background-image: url(/images/robotics.jpg);
+    width: 350px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    background-size: 100%;
+    border-radius: 1rem;
+}
+
+#h1-rob {
+    margin-top: -3.5rem;
+    margin-left: .5rem;
+}
+
+.rob-img-1 {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    width: 55%;
+    height: 55%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.rob-img-2 {
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    border-radius: 2rem;
+    width: 32%;
+    height: 32%;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.p-rob-2 {
+    width: 250px;
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+
+.p-rob-3 {
+    width: 260px;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+.div-rob-img-3 {
+    height: 350px;
+    width: 300px;
+    background-size: 210%;
+    border-radius: 1rem;
+    margin-left: 5rem;
+    margin-top: 6.5rem;
+    margin-bottom: 3rem;
+    background-image: url(/images/robotics.jpg);
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-position-x: -13rem;
+    background-position-y: -1rem;
+    background-repeat: no-repeat;
+}
+
+.footer-robotics {
+    position: absolute;
+    top: 115rem;
+    padding-bottom: 1rem;
+}
+    
 }

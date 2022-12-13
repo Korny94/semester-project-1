@@ -2230,7 +2230,7 @@ header {
 header {
     height: 100px;
     width: 320px;
-    top: 0.5rem;
+    top: -.3rem;
 }
 
 .logo {
@@ -2247,7 +2247,7 @@ header {
 .menu-icon {
     width: 2.5rem;
     padding: .3rem .4rem;
-    top: 2rem;
+    top: 1.2rem;
     margin-left: -3.5rem;
     background-color: rgb(217, 149, 89, 1)
 }
@@ -2268,14 +2268,16 @@ header {
     font-size: 1rem;
 }
 
+html {
+    margin-top: -.8rem;
+    padding-left: 1rem;
+}
         /* --- INDEX.html --- */
 
     /* -- Background -- */
 
 .body-index {
     height: 6490px;
-    margin-left: 1rem;
-    margin-top: -.8rem;
 }
 
 .main-index {
@@ -2516,7 +2518,7 @@ header {
 
 #h1-vi-us {
     top: 180.3rem;
-    left: -1rem;
+    left: -1.5rem;
 }
 
 .visit-us {

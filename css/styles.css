@@ -2669,8 +2669,8 @@ html {
         /* --- ABOUT.html --- */
 
 .main-about {
-    background-image: url(/images/bg-about-3.png);
-    width: 377px;
+    background-image: url(/images/bg-about-3.1.png);
+    width: 350px;
     height: 1577px;
 }
 
@@ -2686,7 +2686,7 @@ html {
 
 #h1-ab-us {
     top: 15rem;
-    left: 7rem;
+    left: 6.3rem;
     font-size: 1.7rem;
 }
 
@@ -2782,7 +2782,7 @@ html {
 
 #h1-for-kids {
     top: 15rem;
-    left: 7rem;
+    left: 6.4rem;
     font-size: 1.7;
 }
 
@@ -2943,6 +2943,7 @@ html {
     background-image: url(/images/robotics.jpg);
     width: 350px;
     height: 500px;
+    margin-left: -.1rem;
     background-repeat: no-repeat;
     margin-top: 1rem;
     background-size: 100%;
@@ -3011,6 +3012,7 @@ html {
 
 .evolution-bg-pic {
     width: 349px;
+    margin-left: -.1rem;
     margin-top: 4rem;
 }
 
@@ -3066,6 +3068,7 @@ html {
 
 .biology-bg-pic {
     width: 349px;
+    margin-left: -.1rem;
     margin-top: 4rem;
 }
 
@@ -3129,6 +3132,7 @@ html {
 
 .researchers-bg-pic {
     width: 349px;
+    margin-left: -.1rem;
 }
 
 #h1-for-researchers {
@@ -3183,6 +3187,7 @@ html {
 
 .teachers-bg-pic {
     width: 349px;
+    margin-left: -.1rem;
 }
 
 #h1-for-teachers {

@@ -2270,7 +2270,6 @@ header {
 
 html {
     margin-top: -.8rem;
-    padding-left: 1rem;
 }
         /* --- INDEX.html --- */
 
@@ -2278,6 +2277,8 @@ html {
 
 .body-index {
     height: 6490px;
+    width: 90vw;
+    text-align: center;
 }
 
 .main-index {

@@ -2431,7 +2431,7 @@ html {
 .section-explore {
     width: 300px;
     height: 430px;
-    left: -.5rem;
+    left: .01rem;
     top: 63rem;
     border-right: 1px solid black;
 }

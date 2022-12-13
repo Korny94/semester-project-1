@@ -1400,6 +1400,10 @@ header {
     margin-left: -4rem;
 }
 
+.menu-icon:hover {
+    scale: 100%;
+}
+
 .menu {
     top: 6.4rem;
     margin-left: 19rem;
@@ -2252,6 +2256,10 @@ header {
     top: 5.2rem;
     margin-left: 12.5rem;
     z-index: 0;
+}
+
+.menu-icon:hover {
+    scale: 100%;
 }
 
 .button {

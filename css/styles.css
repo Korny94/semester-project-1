@@ -2283,6 +2283,7 @@ html {
 .main-index {
     width: 377px;
     height: 6880px;
+    margin: auto;
     background-image: url(/images/frame2.png);
 }
 

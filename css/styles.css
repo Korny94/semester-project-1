@@ -130,7 +130,7 @@ html {
     flex-direction: column;
     min-height: 94vh;
     margin: auto;
-    padding: 1rem;
+    padding-top: 1rem;
     align-items: center;
     height: 7000px;
 }
@@ -245,7 +245,6 @@ html {
     color: white;
     font-size: 2.3rem;
     letter-spacing: .2rem;
-    padding-left: 4.5rem;
     top: 24.5rem;
     position: absolute;
     font-weight: 900;
@@ -1505,7 +1504,7 @@ header {
 
 .h1-et {
     margin-top: -1rem;
-    margin-left: .5rem;
+    left: 4rem;
 }
 
 .explore-together1 {
@@ -1542,7 +1541,7 @@ header {
 
 #h1-ex {
     top: 89rem;
-    left: 6.6rem;
+    left: .6rem;
 }
 
 .section-explore {
@@ -2284,6 +2283,7 @@ html {
 .main-index {
     width: 377px;
     height: 6880px;
+    margin: 0;
     background-image: url(/images/frame2.png);
 }
 
@@ -2357,7 +2357,6 @@ html {
 
 .h1-et {
     font-size: 1.5rem;
-    padding-left: 3.3rem;
     top: 16.5rem;
 }
 

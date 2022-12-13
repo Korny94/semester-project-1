@@ -2277,7 +2277,7 @@ html {
 
 .body-index {
     height: 6490px;
-    text-align: center;
+    align-items: center;
 }
 
 .main-index {

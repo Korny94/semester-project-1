@@ -79,8 +79,8 @@ header {
 .menu {
     background-color: rgb(219, 230, 243);
     display: none;
-    top: 4rem;
-    margin-left: 31rem;
+    top: 8.1rem;
+    margin-left: 38.5rem;
     border-radius: 1rem;
     position: fixed;
 }
@@ -420,8 +420,8 @@ html {
 .p-ex {
     width: 250px;
     font-size: 1.5rem;
-    margin: 1rem;
-    line-height: 2rem;
+    margin: 0rem 1rem;
+    line-height: 2.4rem;
 }
 
 #read-more {
@@ -728,14 +728,16 @@ span {
 .p-fk-1 {
     width: 300px;
     margin-right: 0;
+    margin-left: 2rem;
 }
 
 .fk-img-1 {
-    margin-left: 1rem;
+    margin-left: 3rem;
     margin-top: 1.5rem;
     border-radius: 2rem;
-    width: 55%;
-    height: 55%;
+    width: 45%;
+    height: 250px;
+    object-fit: cover;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
@@ -802,7 +804,7 @@ span {
 .p-fk-5 {
     width: 300px;
     margin-left: 1rem;
-    margin-top: 9rem;
+    margin-top: 8.5rem;
     margin-bottom: 1.3rem;
 }
 
@@ -1004,9 +1006,16 @@ span {
 
 .p-fr-1 {
     width: 220px;
-    margin-right: 2rem;
-    margin-left: 1rem;
+    margin-right: 4rem;
+    margin-left: 3.5rem;
     margin-top: 4rem;
+}
+
+#fr-img-1 {
+    width: 35%;
+    height: 250px;
+    object-position: -7rem;
+    margin-top: 2rem;
 }
 
 .p-fr-2 {
@@ -1057,8 +1066,8 @@ span {
 
 .p-ft-1 {
     width: 270px;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 2rem;
     margin-top: 2rem;
 }
 
@@ -1301,12 +1310,19 @@ span {
     margin-left: .5rem;
 }
 
+#p-rob-1 {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
 .rob-img-1 {
-    margin-left: 1.5rem;
+    margin-left: 3.5rem;
     margin-top: 2rem;
     border-radius: 2rem;
-    width: 55%;
-    height: 55%;
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+    object-position: -3rem;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
@@ -1338,7 +1354,7 @@ span {
     border-radius: 1rem;
     margin-left: 5rem;
     margin-top: 6.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     background-image: url(/images/robotics.jpg);
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -13rem;
@@ -1385,8 +1401,8 @@ header {
 }
 
 .menu {
-    top: 4rem;
-    margin-left: 13.5rem;
+    top: 6.4rem;
+    margin-left: 19rem;
     border-radius: 1rem;
     position: fixed;
 }
@@ -1727,12 +1743,14 @@ header {
 .p-ab-1 {
     margin-left: 2rem;
     margin-right: 0rem;
+    margin-top: 2rem;
     width: 170px;
 }
 
 .ab-img-1 {
     margin-right: 2rem;
     border-radius: 1.5rem;
+    margin-top: 2rem;
     width: 45%;
     height: 160px;
     object-fit: cover;
@@ -1778,6 +1796,7 @@ header {
 .div-ab-img-4 {
     height: 200px;
     margin-right: .4rem;
+    margin-top: 3.5rem;
 }
 
 .ab-img-4 {
@@ -1816,16 +1835,17 @@ header {
 
 .fk-img-1 {
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 2.7rem;
     margin-right: 2rem;
     border-radius: 1.5rem;
-    width: 35%;
-    height: 150px;
+    width: 40%;
+    height: 140px;
     object-fit: cover;
+    object-position: 0rem;
 }
 
 .fk-img-2 {
-    margin-top: 4rem;
+    margin-top: 3rem;
     border-radius: 1.5rem;
     width: 40%;
     height: 40%;
@@ -1833,7 +1853,7 @@ header {
 
 .p-fk-2 {
     width: 370px;
-    margin-top: 5.8rem;
+    margin-top: 4.8rem;
     margin-left: 2rem;
     margin-right: 1rem;
 }
@@ -1946,7 +1966,7 @@ header {
 
 #h1-rob {
     margin-top: -5.5rem;
-    margin-left: 6rem;
+    margin-left: 6.5rem;
 }
 
 #p-rob-1 {
@@ -1966,11 +1986,12 @@ header {
 .p-rob-2 {
     width: 150px;
     margin-top: 8rem;
-    margin-left: 4.5rem;
+    margin-left: 3rem;
 }
 
 .rob-img-2 {
     margin-top: 5rem;
+    margin-left: 3.5rem;
     border-radius: 1rem;
 }
 
@@ -1978,6 +1999,7 @@ header {
     width: 280px;
     margin-top: 7rem;
     margin-left: 3rem;
+    margin-bottom: 5.5rem;
 }
 
 .div-rob-img-3 {
@@ -2102,7 +2124,7 @@ header {
     width: 200px;
     margin-right: 0rem;
     margin-left: 2rem;
-    margin-top: 3rem;
+    margin-top: 2.6rem;
 }
 
 .p-ft-2 {
@@ -2127,7 +2149,7 @@ header {
     margin-right: 1rem;
     margin-left: 2rem;
     margin-top: 5rem;
-    margin-bottom: 5.3rem;
+    margin-bottom: 4.6rem;
 }
 
 .contact-us {
@@ -2138,6 +2160,7 @@ header {
 
 #ft-img-3 {
     margin-right: 2rem;
+
 }
 
 .ft-img-3 {
@@ -2152,18 +2175,21 @@ header {
 
 #h1-for-researchers {
     margin-top: -5.5rem;
-    margin-left: 2.6rem;
+    margin-left: 4.6rem;
 }
 
 .p-fr-1 {
-    width: 250px;
+    width: 150px;
     margin-right: 1rem;
-    margin-left: 2rem;
-    margin-top: 3.5rem;
+    margin-left: 3.5rem;
+    margin-top: 3.3rem;
 }
 
 #fr-img-1 {
     margin-right: 2rem;
+    margin-top: 2rem;
+    height: 150px;
+    object-position: -4rem;
 }
 
 .p-fr-2 {
@@ -2223,13 +2249,14 @@ header {
 }
 
 .menu {
-    top: 2.9rem;
-    margin-left: 8.5rem;
+    top: 5.2rem;
+    margin-left: 12.5rem;
+    z-index: 0;
 }
 
 .button {
     padding: .3rem .5rem;
-    margin: .8rem .4rem;
+    margin: .6rem .4rem;
     font-size: 1rem;
 }
 
@@ -2817,7 +2844,7 @@ header {
     margin-left: 1rem;
     margin-top: 5.2rem;
     margin-right: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     background-position-x: -11rem;
     background-position-y: -2rem;
 }
@@ -2849,7 +2876,7 @@ header {
 }
 
 .cos-img-1 {
-    margin-left: 1rem;
+    margin-left: 1.5rem;
     margin-top: 1rem;
     margin-right: 0;
     border-radius: 1rem;
@@ -2909,16 +2936,16 @@ header {
 
 #p-rob-1 {
     margin-left: 1rem;
-    margin-top: 2.2rem;
+    margin-top: 1.2rem;
     width: 200px;
 }
 
 .rob-img-1 {
-    margin-left: .5rem;
+    margin-left: 1rem;
     margin-right: 0rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 1rem;
-    width: 50%;
+    width: 45%;
     height: 150px;
     object-fit: cover;
 }
@@ -2941,6 +2968,7 @@ header {
     width: 260px;
     margin-top: 6rem;
     margin-left: 1rem;
+    margin-bottom: 4rem;
 }
 
 .div-rob-img-3 {
@@ -2950,7 +2978,6 @@ header {
     background-size: 220%;
     margin-left: 1rem;
     margin-right: 0rem;
-    margin-bottom: 2rem;
     background-position-x: -7rem;
 }
 
@@ -3091,14 +3118,15 @@ header {
 }
 
 .p-fr-1 {
-    width: 250px;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-top: 1.5rem;
+    width: 130px;
+    margin-right: 1.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 #fr-img-1 {
     margin-right: 0rem;
+    margin-top: 1rem;
     object-position: -6rem;
 }
 
@@ -3106,12 +3134,12 @@ header {
     width: 250px;
     margin-right: 0rem;
     margin-left: 1rem;
-    margin-top: 6.5rem;
+    margin-top: 6rem;
 }
 
 .fr-img-2 {
-    margin-left: 1rem;
-    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
     border-radius: 1rem;
     width: 45%;
     height: 45%;
@@ -3122,7 +3150,7 @@ header {
     margin-right: 0rem;
     margin-left: 1rem;
     margin-top: 4.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
 }
 
 #fr-img-3 {
@@ -3146,7 +3174,7 @@ header {
     width: 270px;
     margin-right: 1rem;
     margin-left: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .p-ft-2 {

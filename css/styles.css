@@ -888,19 +888,21 @@ span {
 
 .ab-img-1 {
     margin-left: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 3.2rem;
     border-radius: 2rem;
     width: 60%;
-    height: 60%;
+    height: 270px;
+    object-fit: cover;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .ab-img-2 {
     margin-left: 1rem;
-    margin-top: 4rem;
+    margin-top: 6.3rem;
     border-radius: 2rem;
     width: 40%;
-    height: 40%;
+    height: 380px;
+    object-fit: cover;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
@@ -1001,7 +1003,7 @@ span {
 }
 
 .p-fr-1 {
-    width: 250px;
+    width: 220px;
     margin-right: 2rem;
     margin-left: 1rem;
     margin-top: 4rem;
@@ -1725,23 +1727,26 @@ header {
 .p-ab-1 {
     margin-left: 2rem;
     margin-right: 0rem;
+    width: 170px;
 }
 
 .ab-img-1 {
     margin-right: 2rem;
     border-radius: 1.5rem;
-    width: 37%;
-    height: 150px;
+    width: 45%;
+    height: 160px;
     object-fit: cover;
 }
 
 .ab-img-2 {
     border-radius: 1.5rem;
+    margin-top: 3.5rem;
+    height: 230px;
 }
 
 .p-ab-2 {
-    width: 340px;
-    margin-top: 5rem;
+    width: 200px;
+    margin-top: 3.5rem;
     margin-left: 2rem;
     margin-right: 1rem;
 }
@@ -2655,42 +2660,48 @@ header {
 
 .p-ab-1 {
     margin-top: .5rem;
+    margin-left: 1.5rem;
+    width: 130px;
 }
 
 .ab-img-1 {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-right: 0;
     margin-top: .2rem;
     border-radius: 1.3rem;
-    width: 50%;
-    height: 150px;
+    width: 40%;
+    height: 140px;
     object-fit: cover;
+    object-position: -1rem;
 }
 
 .ab-img-2 {
     margin-left: 1rem;
-    margin-top: 2.8rem;
+    margin-top: 2.5rem;
     border-radius: 1.3rem;
     width: 40%;
-    height: 40%;
+    height: 210px;
 }
 
 .p-ab-2 {
-    margin-top: 1.5rem;
-    margin-left: 1rem;
+    margin-top: 2.4rem;
+    margin-left: .5rem;
     margin-right: 0;
 }
 
 .p-ab-3 {
     margin-top: 1.5rem;
     margin-bottom: 0rem;
+    margin-right: .4rem;
+    margin-left: .5rem;
+    width: 300px;
 }
 
 .div-ab-img-3 {
-    height: 200px;
+    height: 230px;
     background-size: 300%;
     margin-left: 0rem;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     margin-right: 0;
 }
 
@@ -2700,24 +2711,24 @@ header {
 }
 
 .div-ab-img-4 {
-    height: 200px;
+    height: 230px;
     background-size: 250%;
-    margin-left: 1rem;
-    margin-top: 3.5rem;
+    margin-left: .5rem;
+    margin-top: 3rem;
     margin-right: 0rem;
     background-position-x: -3rem;
 }
 
 #p-ab-5 {
-    margin-top: 3rem;
-    margin-bottom: .7rem;
+    margin-top: 2.8rem;
+    margin-bottom: 0rem;
 }
 
 .div-ab-img-5 {
-    height: 200px;
+    height: 230px;
     background-size: 350%;
     margin-left: 0rem;
-    margin-top: 4rem;
+    margin-top: 2.8rem;
     margin-right: 0;
 }
 
@@ -2742,7 +2753,7 @@ header {
 
 .fk-img-1 {
     margin-left: 0rem;
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-right: 0;
     border-radius: .5rem;
     width: 130px;
@@ -2796,17 +2807,17 @@ header {
 
 .p-fk-5 {
     margin-left: 1rem;
-    margin-top: 6.5rem;
+    margin-top: 5.5rem;
 }
 
 .div-fk-img-5 {
-    height: 200px;
+    height: 150px;
     width: 250px;
     background-size: 350%;
     margin-left: 1rem;
-    margin-top: 4.5rem;
+    margin-top: 5.2rem;
     margin-right: 0rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-position-x: -11rem;
     background-position-y: -2rem;
 }
@@ -2879,7 +2890,7 @@ header {
     background-position-y: 0rem;
 }   
 
-       /* --- ROBOTICS.html --- */     
+        /* --- ROBOTICS.html --- */     
 
 .robotics-bg-pic {
     background-image: url(/images/robotics.jpg);
@@ -2892,59 +2903,281 @@ header {
 }
 
 #h1-rob {
-    margin-top: -3.5rem;
-    margin-left: .5rem;
+    margin-top: -2.5rem;
+    margin-left: 4.5rem;
+}
+
+#p-rob-1 {
+    margin-left: 1rem;
+    margin-top: 2.2rem;
+    width: 200px;
 }
 
 .rob-img-1 {
-    margin-left: 1.5rem;
+    margin-left: .5rem;
+    margin-right: 0rem;
     margin-top: 2rem;
-    border-radius: 2rem;
-    width: 55%;
-    height: 55%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    width: 50%;
+    height: 150px;
+    object-fit: cover;
 }
 
 .rob-img-2 {
-    margin-left: 2rem;
-    margin-top: 3.7rem;
-    border-radius: 2rem;
-    width: 32%;
-    height: 32%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    margin-left: 1.5rem;
+    margin-top: 4.5rem;
+    border-radius: 1rem;
+    width: 40%;
+    height: 40%;
 }
 
 .p-rob-2 {
-    width: 250px;
-    margin-top: 8rem;
-    margin-left: 8rem;
+    width: 150px;
+    margin-top: 6.5rem;
+    margin-left: 2rem;
 }
 
 .p-rob-3 {
     width: 260px;
-    margin-top: 10rem;
-    margin-left: 2rem;
+    margin-top: 6rem;
+    margin-left: 1rem;
 }
 
 .div-rob-img-3 {
-    height: 350px;
-    width: 300px;
-    background-size: 210%;
-    border-radius: 1rem;
-    margin-left: 5rem;
-    margin-top: 6.5rem;
-    margin-bottom: 3rem;
-    background-image: url(/images/robotics.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    background-position-x: -13rem;
-    background-position-y: -1rem;
-    background-repeat: no-repeat;
+    height: 200px;
+    width: 130%;
+    object-fit: cover;
+    background-size: 220%;
+    margin-left: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+    background-position-x: -7rem;
 }
 
 .footer-robotics {
     position: absolute;
-    top: 115rem;
+    top: 70rem;
     padding-bottom: 1rem;
 }
     
+        /* --- EVOLUTION.html --- */
+
+.evolution-bg-pic {
+    width: 349px;
+    margin-top: 4rem;
+}
+
+#h1-evo {
+    margin-top: -2.5rem;
+    margin-left: 4.3rem;
+}
+
+#p-evo-1 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 200px;
+}
+
+#evo-img-1 {
+    margin-top: .9rem;
+    margin-right: 0rem;
+    width: 150px;
+    object-position: -3rem;
+}
+
+.evo-img-2 {
+    margin-left: .5rem;
+    margin-top: 3.5rem;
+    border-radius: 1rem;
+    width: 45%;
+    height: 45%;
+}
+
+.p-evo-2 {
+    width: 380px;
+    margin-top: 3.2rem;
+    margin-left: .5rem;
+}
+
+#p-evo-3 {
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+    margin-right: .5rem;
+}
+
+.div-evo-img-3 {
+    height: 200px;
+    width: 350px;
+    background-size: 224%;
+    margin-right: 0;
+    margin-top: 4rem;
+    background-position-x: -3rem;
+    background-position-y: 0rem;
+}
+        
+        /* --- BIOLOGY.html --- */
+
+.biology-bg-pic {
+    width: 349px;
+    margin-top: 4rem;
+}
+
+#h1-bio {
+    margin-top: -2.5rem;
+    margin-left: 5rem;
+}
+
+#p-bio-1 {
+    margin-left: 1.5rem;
+    margin-top: 1.8rem;
+    width: 130px;
+}
+
+.bio-img-1 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 45%;
+    height: 190px;
+    object-position: -2.4rem;
+}
+
+.bio-img-2 {
+    margin-left: 1rem;
+    margin-top: 3.7rem;
+    border-radius: 1rem;
+    width: 40%;
+    height: 100%;
+}
+
+.p-bio-2 {
+    width: 340px;
+    margin-top: 3.1rem;
+    margin-left: 1rem;
+}
+
+#p-bio-3 {
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+
+.div-bio-img-3 {
+    height: 200px;
+    width: 400px;
+    background-size: 220%;
+    margin-right: 0;
+    margin-left: 1rem;
+    margin-top: 3.5rem;
+    background-position-x: -11rem;
+    background-position-y: 0rem;
+}
+        
+        /* --- FOR-RESEARCHERS.html --- */
+
+.main-researchers {
+    background-image: url(/images/bg-cosmology3.png);
+    width: 377px;
+    height: 1097px;
+}
+
+.researchers-bg-pic {
+    width: 349px;
+}
+
+#h1-for-researchers {
+    margin-top: -2.5rem;
+    margin-left: 1.6rem;
+    font-size: 1.5rem;
+}
+
+.p-fr-1 {
+    width: 250px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+#fr-img-1 {
+    margin-right: 0rem;
+    object-position: -6rem;
+}
+
+.p-fr-2 {
+    width: 250px;
+    margin-right: 0rem;
+    margin-left: 1rem;
+    margin-top: 6.5rem;
+}
+
+.fr-img-2 {
+    margin-left: 1rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    width: 45%;
+    height: 45%;
+}
+
+.p-fr-3 {
+    width: 200px;
+    margin-right: 0rem;
+    margin-left: 1rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
+}
+
+#fr-img-3 {
+    width: 200px;
+    margin-right: 0;
+    margin-top: 4rem;
+}
+        
+        /* --- FOR-TEACHERS.html --- */
+
+.teachers-bg-pic {
+    width: 349px;
+}
+
+#h1-for-teachers {
+    margin-top: -2.5rem;
+    margin-left: 3.4rem;
+}
+
+.p-ft-1 {
+    width: 270px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.p-ft-2 {
+    width: 330px;
+    margin-right: 0rem;
+    margin-left: .8rem;
+    margin-top: 4.5rem;
+}
+
+.ft-img-2 {
+    margin-left: .8rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+    width: 45%;
+    height: 45%;
+}
+
+.p-ft-3 {
+    width: 300px;
+    margin-right: 0rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+#ft-img-3 {
+    margin-right: 0;
+    margin-top: 4.6rem;
+    margin-bottom: 3rem;
+    height: 150px;
+}
+        
+
 }

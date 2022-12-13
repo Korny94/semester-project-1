@@ -720,7 +720,7 @@ span {
 
 #h1-for-kids {
     top: 19.4rem;
-    left: -.6rem;
+    left: 3.6rem;
 }
 
 .p-fk-1 {
@@ -857,7 +857,7 @@ span {
 
 #h1-ab-us {
     top: 19.4rem;
-    left: -1.3rem;
+    left: 3.3rem;
 }
 
 .section-about {
@@ -957,6 +957,10 @@ span {
 
 .ab-img-5 {
     display: none;
+}
+
+#p-ab-5 {
+    margin-bottom: 3rem;
 }
 
 .div-ab-img-5 {
@@ -1728,8 +1732,8 @@ header {
 }
 
 #h1-ab-us {
-    top: 20.3rem;
-    left: 6.5rem;
+    top: 19.8rem;
+    left: 11rem;
     font-size: 2rem;
 }
 
@@ -1740,6 +1744,11 @@ header {
     left: 2.2rem;
     padding: 0rem;
     padding-left: 0rem;
+}
+
+#section-cos {
+    margin-left: -.2rem;
+    margin-top: -1rem;
 }
 
 .p-ab-1 {
@@ -1825,7 +1834,7 @@ header {
 
 #h1-for-kids {
     top: 20rem;
-    left: 6.5rem;
+    left: 11.5rem;
     font-size: 2rem;
 }
 
@@ -1913,7 +1922,7 @@ header {
 }
 
 #h1-cos {
-    margin-top: -5.5rem;
+    margin-top: -5.9rem;
     margin-left: 5rem;
 }
 
@@ -1967,8 +1976,8 @@ header {
 }
 
 #h1-rob {
-    margin-top: -5.5rem;
-    margin-left: 6.5rem;
+    margin-top: -5.9rem;
+    margin-left: 6rem;
 }
 
 #p-rob-1 {
@@ -2024,7 +2033,7 @@ header {
 }
 
 #h1-bio {
-    margin-top: -5.5rem;
+    margin-top: -5.9rem;
     margin-left: 7rem;
 }
 
@@ -2063,6 +2072,7 @@ header {
 
 .div-bio-img-3 {
     height: 200px;
+    margin-bottom: 3rem;
     margin-left: 0rem;
     margin-right: 2rem;
     margin-top: 5.5rem;
@@ -2078,7 +2088,7 @@ header {
 }
 
 #h1-evo {
-    margin-top: -5.5rem;
+    margin-top: -5.9rem;
     margin-left: 6rem;
 }
 
@@ -2107,6 +2117,7 @@ header {
     margin-left: 0;
     margin-right: 2rem;
     margin-top: 6rem;
+    margin-bottom: 2rem;
     background-position-x: -4rem;
     background-position-y: -0rem;
 }
@@ -2118,7 +2129,7 @@ header {
 }
 
 #h1-for-teachers {
-    margin-top: -5.5rem;
+    margin-top: -6rem;
     margin-left: 4.5rem;
 }
 
@@ -2151,7 +2162,7 @@ header {
     margin-right: 1rem;
     margin-left: 2rem;
     margin-top: 5rem;
-    margin-bottom: 4.6rem;
+    margin-bottom: 5.6rem;
 }
 
 .contact-us {
@@ -2177,7 +2188,8 @@ header {
 
 #h1-for-researchers {
     margin-top: -5.5rem;
-    margin-left: 4.6rem;
+    margin-left: 4.4rem;
+    font-size: 1.7rem;
 }
 
 .p-fr-1 {

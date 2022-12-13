@@ -2252,7 +2252,7 @@ header {
 }
 
 .menu {
-    top: 5.2rem;
+    top: 4.5rem;
     margin-left: 12.5rem;
     z-index: 0;
 }
@@ -2269,7 +2269,9 @@ header {
 
 html {
     margin-top: -.8rem;
+    margin-left: 1rem;
 }
+
         /* --- INDEX.html --- */
 
     /* -- Background -- */

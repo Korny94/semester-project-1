@@ -2866,21 +2866,27 @@ html {
         /* --- COSMOLOGY.html --- */
 
 .main-cosmology {
-    background-image: url(/images/bg-cosmology3.png);
-    width: 377px;
+    background-image: url(/images/bg-cosmology3.1.png);
+    width: 350px;
     height: 1097px;
 }
 
 .cosmology-bg-pic {
     background-image: url(/images/aero-exhi.jpg);
-    width: 350px;
+    width: 349px;
     margin-top: 4rem;
+    margin-left: -.1rem;
     border-radius: 0rem;
+}
+
+#section-cos {
+    margin-left: -.9rem;
+    margin-top: -.5rem;
 }
 
 #h1-cos {
     margin-top: -2.5rem;
-    margin-left: 4.1rem;
+    margin-left: 3.1rem;
 }
 
 .p-cos-1 {
@@ -2945,7 +2951,7 @@ html {
 
 #h1-rob {
     margin-top: -2.5rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 #p-rob-1 {
@@ -3010,7 +3016,7 @@ html {
 
 #h1-evo {
     margin-top: -2.5rem;
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 #p-evo-1 {
@@ -3041,7 +3047,7 @@ html {
 }
 
 #p-evo-3 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-top: 3.5rem;
     margin-right: .5rem;
 }
@@ -3065,7 +3071,7 @@ html {
 
 #h1-bio {
     margin-top: -2.5rem;
-    margin-left: 5.5rem;
+    margin-left: 4.5rem;
 }
 
 #p-bio-1 {
@@ -3116,8 +3122,8 @@ html {
         /* --- FOR-RESEARCHERS.html --- */
 
 .main-researchers {
-    background-image: url(/images/bg-cosmology3.png);
-    width: 377px;
+    background-image: url(/images/bg-cosmology3.1.png);
+    width: 350px;
     height: 1097px;
 }
 
@@ -3127,7 +3133,7 @@ html {
 
 #h1-for-researchers {
     margin-top: -2.5rem;
-    margin-left: 2.3rem;
+    margin-left: 1.5rem;
     font-size: 1.5rem;
 }
 
@@ -3164,7 +3170,7 @@ html {
     margin-right: 0rem;
     margin-left: 1rem;
     margin-top: 4.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 #fr-img-3 {
@@ -3181,7 +3187,7 @@ html {
 
 #h1-for-teachers {
     margin-top: -2.5rem;
-    margin-left: 3.4rem;
+    margin-left: 2.8rem;
 }
 
 .p-ft-1 {
@@ -3210,13 +3216,13 @@ html {
     width: 300px;
     margin-right: 0rem;
     margin-left: 1rem;
-    margin-top: 5rem;
+    margin-top: 6rem;
     margin-bottom: 2.5rem;
 }
 
 #ft-img-3 {
     margin-right: 0;
-    margin-top: 4.6rem;
+    margin-top: 5rem;
     margin-bottom: 3rem;
     height: 150px;
 }

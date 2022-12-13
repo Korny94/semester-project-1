@@ -128,11 +128,9 @@ html {
 .body-index {
     display: flex;
     flex-direction: column;
-    min-height: 94vh;
     margin: auto;
     padding-top: 1rem;
     align-items: center;
-    height: 7000px;
 }
 
 .main-index {
@@ -2280,6 +2278,7 @@ html {
 
 .body-index {
     height: 6490px;
+    width: 380px;
 }
 
 .main-index {

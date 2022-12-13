@@ -2686,7 +2686,7 @@ html {
 
 #h1-ab-us {
     top: 15rem;
-    left: 3.8rem;
+    left: 7rem;
     font-size: 1.7rem;
 }
 
@@ -2748,14 +2748,14 @@ html {
 
 #p-ab-4 {
     margin-right: 0;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .div-ab-img-4 {
     height: 230px;
     background-size: 250%;
     margin-left: 1rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     margin-right: 0rem;
     background-position-x: -3rem;
 }
@@ -2782,20 +2782,20 @@ html {
 
 #h1-for-kids {
     top: 15rem;
-    left: 3.5rem;
+    left: 7rem;
     font-size: 1.7;
 }
 
 .p-fk-1 {
     width: 300px;
-    margin-right: 0;
+    margin-right: 1rem;
     margin-top: 1rem;
 }
 
 .fk-img-1 {
     margin-left: 0rem;
     margin-top: 1rem;
-    margin-right: 0;
+    margin-right: .5rem;
     border-radius: .5rem;
     width: 130px;
     height: 150px;
@@ -2880,7 +2880,7 @@ html {
 
 #h1-cos {
     margin-top: -2.5rem;
-    margin-left: 3.5rem;
+    margin-left: 4.1rem;
 }
 
 .p-cos-1 {
@@ -2945,7 +2945,7 @@ html {
 
 #h1-rob {
     margin-top: -2.5rem;
-    margin-left: 4.5rem;
+    margin-left: 5rem;
 }
 
 #p-rob-1 {
@@ -3010,7 +3010,7 @@ html {
 
 #h1-evo {
     margin-top: -2.5rem;
-    margin-left: 4.3rem;
+    margin-left: 5rem;
 }
 
 #p-evo-1 {
@@ -3065,7 +3065,7 @@ html {
 
 #h1-bio {
     margin-top: -2.5rem;
-    margin-left: 5rem;
+    margin-left: 5.5rem;
 }
 
 #p-bio-1 {
@@ -3127,7 +3127,7 @@ html {
 
 #h1-for-researchers {
     margin-top: -2.5rem;
-    margin-left: 1.6rem;
+    margin-left: 2.3rem;
     font-size: 1.5rem;
 }
 

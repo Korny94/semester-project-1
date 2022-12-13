@@ -2278,12 +2278,12 @@ html {
 .body-index {
     height: 6490px;
     align-items: center;
+    margin-right: 0;
 }
 
 .main-index {
     width: 377px;
     height: 6880px;
-    margin-right: -1rem;
     background-image: url(/images/frame2.png);
 }
 

@@ -2231,6 +2231,8 @@ header {
     height: 100px;
     width: 320px;
     top: -.3rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .logo {
@@ -2295,7 +2297,7 @@ html {
 }
 
 .first-bg-pic {
-    width: 350px;
+    width: 349px;
     margin-top: .4rem;
     margin-left: .1rem;
     z-index: 1;

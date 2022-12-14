@@ -152,70 +152,48 @@ html {
     position: absolute;
 }
 
-.first-bg-pic {
-    background-image: url(/images/cosmology.jpg);
+.first-bg-pic,
+.second-bg-pic,
+.third-bg-pic,
+.fourth-bg-pic,
+.fifth-bg-pic,
+.sixth-bg-pic {
     background-repeat: no-repeat;
     width: 898px;
     height: 800px;
-    margin-top: .4rem;
-    margin-left: .4rem;
     z-index: 1;
     border-radius: 50px;
+    margin-left: .4rem;
+}
+
+.first-bg-pic {
+    background-image: url(/images/cosmology.jpg);
+    margin-top: .4rem;
 }
 
 .second-bg-pic {
     background-image: url(/images/aeronautics.jpg);
-    background-repeat: no-repeat;
-    width: 898px;
-    height: 800px;
     margin-top: -8rem;
-    margin-left: .4rem;
-    z-index: 1;
-    border-radius: 50px;
 }
 
 .third-bg-pic {
     background-image: url(/images/aero-exhi.jpg);
-    background-repeat: no-repeat;
-    width: 898px;
-    height: 800px;
     margin-top: 17rem;
-    margin-left: .4rem;
-    z-index: 1;
-    border-radius: 50px;
 }
 
 .fourth-bg-pic {
     background-image: url(/images/cosmology.jpg);
-    background-repeat: no-repeat;
-    width: 898px;
-    height: 800px;
     margin-top: 1rem;
-    margin-left: .4rem;
-    z-index: 1;
-    border-radius: 50px;
 }
 
 .fifth-bg-pic {
     background-image: url(/images/head.jpg);
-    background-repeat: no-repeat;
-    width: 898px;
-    height: 800px;
     margin-top: 11rem;
-    margin-left: .4rem;
-    z-index: 1;
-    border-radius: 50px;
 }
 
 .sixth-bg-pic {
     background-image: url(/images/ant.jpg);
-    background-repeat: no-repeat;
-    width: 898px;
-    height: 800px;
     margin-top: 63rem;
-    margin-left: .4rem;
-    z-index: 1;
-    border-radius: 50px;
 }
 
 .frame {
@@ -352,8 +330,9 @@ html {
     box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
 }
 
-.for-teachers {
-    background-image: url(/images/for-teachers.jpg);
+.for-teachers,
+.for-kids,
+.for-researchers {
     background-size: cover;
     width: 250px;
     height: 200px;
@@ -364,34 +343,18 @@ html {
     text-decoration: none;
     letter-spacing: .1rem;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.for-teachers {
+    background-image: url(/images/for-teachers.jpg);
 }
 
 .for-kids {
     background-image: url(/images/for-kids.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .for-researchers {
     background-image: url(/images/for-researchers.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .for-kids:hover,
@@ -443,10 +406,11 @@ html {
     top: 131.4rem;
 }
 
-.cosmology {
-    background-image: url(/images/cosmology.jpg);
+.cosmology,
+.evolution,
+.biology,
+.robotics {
     background-size: cover;
-    background-position: -3rem;
     width: 250px;
     height: 200px;
     border-radius: 1rem;
@@ -458,49 +422,25 @@ html {
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
+.cosmology {
+    background-image: url(/images/cosmology.jpg);
+    background-position: -3rem;
+}
+
 .evolution {
     background-image: url(/images/evolution.jpg);
-    background-size: cover;
     background-position: -1rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .biology {
     background-image: url(/images/biology.jpg);
     background-size: 180%;
     background-position: -6rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .robotics {
     background-image: url(/images/robotics.jpg);
-    background-size: cover;
     background-position: -3rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
     /* -- Special events -- */
@@ -514,10 +454,11 @@ html {
     top: 190.5rem;
     position: absolute;
 }
-.aeronautics {
-    background-image: url(/images/aeronautics.jpg);
+
+.aeronautics,
+.sleepover,
+.energetica {
     background-size: cover;
-    background-position: -1.5rem;
     width: 250px;
     height: 200px;
     border-radius: 1rem;
@@ -527,35 +468,20 @@ html {
     text-decoration: none;
     letter-spacing: .1rem;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+}
+
+.aeronautics {
+    background-image: url(/images/aeronautics.jpg);
+    background-position: -1.5rem;
 }
 
 .sleepover {
     background-image: url(/images/sleepover.jpg);
-    background-size: cover;
     background-position: -1rem;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .energetica {
     background-image: url(/images/about-us.jpg);
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
     /* -- Visit us -- */
@@ -727,6 +653,23 @@ span {
     left: 3.6rem;
 }
 
+.fk-img-1,
+.fk-img-2,
+.div-fk-img-3,
+.div-fk-img-4,
+.div-fk-img-5 {
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.div-fk-img-3,
+.div-fk-img-4,
+.div-fk-img-5 {
+    height: 350px;
+    width: 300px;
+}
+
 .p-fk-1 {
     width: 300px;
     margin-right: 0;
@@ -736,20 +679,16 @@ span {
 .fk-img-1 {
     margin-left: 3rem;
     margin-top: 1.5rem;
-    border-radius: 2rem;
     width: 45%;
     height: 250px;
     object-fit: cover;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .fk-img-2 {
     margin-left: 1rem;
     margin-top: 5rem;
-    border-radius: 2rem;
     width: 40%;
     height: 40%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-fk-2 {
@@ -759,16 +698,11 @@ span {
 }
 
 .div-fk-img-3 {
-    height: 350px;
-    width: 300px;
     background-size: 180%;
-    border-radius: 1rem;
     margin-left: 2rem;
     margin-top: 5rem;
     background-image: url(/images/about-us.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -2rem;
-    background-repeat: no-repeat;
 }
 
 .p-fk-3 {
@@ -783,17 +717,12 @@ span {
 }
 
 .div-fk-img-4 {
-    height: 350px;
-    width: 300px;
     background-size: 160%;
-    border-radius: 1rem;
     margin-left: 1rem;
     margin-top: 5rem;
     margin-right: 2.5rem;
     background-image: url(/images/ant.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -5rem;
-    background-repeat: no-repeat;
 }
 
 .p-fk-4 {
@@ -811,17 +740,12 @@ span {
 }
 
 .div-fk-img-5 {
-    height: 350px;
-    width: 300px;
     background-size: 210%;
-    border-radius: 1rem;
     margin-left: 4rem;
     margin-top: 6rem;
     margin-bottom: 2rem;
     background-image: url(/images/cosmology.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -10rem;
-    background-repeat: no-repeat;
 }
 
 
@@ -890,24 +814,38 @@ span {
     margin-top: 3rem;
 }
 
+.ab-img-1,
+.ab-img-2, 
+.div-ab-img-3,
+.div-ab-img-4,
+.div-ab-img-5 {
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+.div-ab-img-3,
+.div-ab-img-4,
+.div-ab-img-5 {
+    height: 350px;
+    width: 300px;
+    margin-top: 4rem;
+}
+
 .ab-img-1 {
     margin-left: 1.5rem;
     margin-top: 3.2rem;
-    border-radius: 2rem;
     width: 60%;
     height: 270px;
     object-fit: cover;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .ab-img-2 {
     margin-left: 1rem;
     margin-top: 6.3rem;
-    border-radius: 2rem;
     width: 40%;
     height: 380px;
     object-fit: cover;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-ab-2 {
@@ -924,17 +862,11 @@ span {
 }
 
 .div-ab-img-3 {
-    height: 350px;
-    width: 300px;
     background-size: 200%;
-    border-radius: 1rem;
     margin-left: 2rem;
-    margin-top: 4rem;
     background-image: url(/images/kids.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -7rem;
     background-position-y: -1rem;
-    background-repeat: no-repeat;
 }
 
 .ab-img-3 {
@@ -942,17 +874,11 @@ span {
 }
 
 .div-ab-img-4 {
-    height: 350px;
-    width: 300px;
     background-size: 160%;
-    border-radius: 1rem;
     margin-left: 1rem;
-    margin-top: 4rem;
     margin-right: 1rem;
     background-image: url(/images/ant.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -5rem;
-    background-repeat: no-repeat;
 }
 
 .ab-img-4 {
@@ -968,16 +894,10 @@ span {
 }
 
 .div-ab-img-5 {
-    height: 350px;
-    width: 300px;
     background-size: 210%;
-    border-radius: 1rem;
     margin-left: 2rem;
-    margin-top: 4rem;
     background-image: url(/images/cosmology.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -10rem;
-    background-repeat: no-repeat;
 }
 
 
@@ -1034,7 +954,7 @@ span {
 .fr-img-2 {
     margin-left: 3rem;
     margin-top: 5rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 35%;
     height: 35%;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
@@ -1140,6 +1060,15 @@ span {
     margin-left: -.5rem;
 }
 
+.cos-img-1,
+.cos-img-2,
+.div-cos-img-3 {
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+
+}
+
 .p-cos-1 {
     width: 270px;
     margin-left: 1rem;
@@ -1149,19 +1078,15 @@ span {
 .cos-img-1 {
     margin-left: 1.5rem;
     margin-top: 2rem;
-    border-radius: 2rem;
     width: 55%;
     height: 55%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .cos-img-2 {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 3.7rem;
-    border-radius: 2rem;
     width: 35%;
     height: 35%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-cos-3 {
@@ -1181,14 +1106,11 @@ span {
     height: 350px;
     width: 300px;
     background-size: 200%;
-    border-radius: 1rem;
     margin-left: 2rem;
     margin-top: 6.5rem;
     background-image: url(/images/kids.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -7rem;
     background-position-y: -1rem;
-    background-repeat: no-repeat;
 }
 
 
@@ -1212,7 +1134,7 @@ span {
 .evo-img-2 {
     margin-left: 1rem;
     margin-top: 3.7rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 38%;
     height: 38%;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
@@ -1260,22 +1182,26 @@ span {
     margin-left: 1rem;
 }
 
+.bio-img-1,
+.bio-img-2,
+.div-bio-img-3 {
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+}
+
 .bio-img-1 {
     margin-left: 1.5rem;
     margin-top: 2rem;
-    border-radius: 2rem;
     width: 55%;
     height: 55%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .bio-img-2 {
     margin-left: 1rem;
     margin-top: 3.7rem;
-    border-radius: 2rem;
     width: 32%;
     height: 32%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-bio-2 {
@@ -1292,14 +1218,11 @@ span {
     height: 350px;
     width: 300px;
     background-size: 210%;
-    border-radius: 1rem;
     margin-left: 2rem;
     margin-top: 6.5rem;
     background-image: url(/images/head.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -20rem;
     background-position-y: -1rem;
-    background-repeat: no-repeat;
 }
 
 
@@ -1320,6 +1243,14 @@ span {
     margin-left: .5rem;
 }
 
+.rob-img-1,
+.rob-img-2,
+.div-rob-img-3 {
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+    background-repeat: no-repeat;
+}
+
 #p-rob-1 {
     margin-left: 3rem;
     margin-top: 3rem;
@@ -1328,21 +1259,17 @@ span {
 .rob-img-1 {
     margin-left: 3.5rem;
     margin-top: 2rem;
-    border-radius: 2rem;
     width: 45%;
     height: 300px;
     object-fit: cover;
     object-position: -3rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .rob-img-2 {
     margin-left: 2rem;
     margin-top: 3.7rem;
-    border-radius: 2rem;
     width: 32%;
     height: 32%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-rob-2 {
@@ -1361,15 +1288,12 @@ span {
     height: 350px;
     width: 300px;
     background-size: 210%;
-    border-radius: 1rem;
     margin-left: 5rem;
     margin-top: 6.5rem;
     margin-bottom: 2rem;
     background-image: url(/images/robotics.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
     background-position-x: -13rem;
     background-position-y: -1rem;
-    background-repeat: no-repeat;
 }
 
 .footer-robotics {
@@ -1446,57 +1370,55 @@ header {
     padding: 1rem;
 }
 
+.first-bg-pic,
+.second-bg-pic,
+.third-bg-pic,
+.fourth-bg-pic,
+.fifth-bg-pic,
+.sixth-bg-pic {
+    width: 498px;
+    border-radius: 0px;
+}
+
 .first-bg-pic {
     background-image: url(/images/cosmology1.jpg);
-    width: 498px;
     height: 281px;
     margin-top: 5rem;
     margin-left: .35rem;
-    border-radius: 0px;
 }
 
 .second-bg-pic {
     background-image: url(/images/aeronautics1.jpg);
-    width: 498px;
     height: 332px;
     margin-top: 47rem;
-    border-radius: 0;
 }
 
 .third-bg-pic {
     background-image: url(/images/aero-exhi1.jpg);
-    width: 498px;
     height: 256px;
     margin-top: 39rem;
     margin-left: .3rem;
-    border-radius: 0;
 }
 
 .fourth-bg-pic {
     background-image: url(/images/cosmology1.jpg);
-    width: 498px;
     height: 281px;
     margin-top: 37rem;
     margin-left: .3rem;
-    border-radius: 0;
 }
 
 .fifth-bg-pic {
     background-image: url(/images/head1.jpg);
-    width: 498px;
     height: 331px;
     margin-top: 39.5rem;
     margin-left: .2rem;
-    border-radius: 0;
 }
 
 .sixth-bg-pic {
     background-image: url(/images/ant1.jpg);
-    width: 498px;
     height: 375px;
     margin-top: 196rem;
     margin-left: .2rem;
-    border-radius: 0;
 }
 
 .frame {
@@ -1768,7 +1690,7 @@ header {
 
 .ab-img-1 {
     margin-right: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     margin-top: 2rem;
     width: 45%;
     height: 160px;
@@ -1776,7 +1698,7 @@ header {
 }
 
 .ab-img-2 {
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     margin-top: 3.5rem;
     height: 230px;
 }
@@ -1827,7 +1749,7 @@ header {
 }
 
 #p-ab-5 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .div-ab-img-5 {
@@ -1860,7 +1782,7 @@ header {
     margin-left: 2rem;
     margin-top: 2.7rem;
     margin-right: 2rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     width: 40%;
     height: 140px;
     object-fit: cover;
@@ -1869,7 +1791,7 @@ header {
 
 .fk-img-2 {
     margin-top: 3rem;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     width: 40%;
     height: 40%;
 }
@@ -1881,11 +1803,16 @@ header {
     margin-right: 1rem;
 }
 
-.div-fk-img-3 {
+.div-fk-img-3,
+.div-fk-img-4,
+.div-fk-img-5 {
+    margin-right: 1rem;
     height: 200px;
+}
+
+.div-fk-img-3 {
     margin-left: 2rem;
     margin-top: 4rem;
-    margin-right: 1rem;
     background-position-x: -1rem;
 }
 
@@ -1895,10 +1822,8 @@ header {
 }
 
 .div-fk-img-4 {
-    height: 200px;
     margin-left: 1rem;
     margin-top: 5rem;
-    margin-right: 1rem;
 }
 
 .p-fk-4 {
@@ -1914,10 +1839,8 @@ header {
 }
 
 .div-fk-img-5 {
-    height: 200px;
     margin-left: 2rem;
     margin-top: 4rem;
-    margin-right: 1rem;
     margin-bottom: 2.5rem;
 }
         
@@ -2317,10 +2240,19 @@ html {
     position: absolute;
 }
 
+.first-bg-pic,
+.second-bg-pic,
+.third-bg-pic,
+.fourth-bg-pic,
+.fifth-bg-pic,
+.sixth-bg-pic {
+    width: 349px;
+    margin-left: .1rem;
+}
+
 .first-bg-pic {
     width: 349px;
     margin-top: .4rem;
-    margin-left: .1rem;
     z-index: 1;
     border-radius: 50px 50px 0px 0px;
 }
@@ -2329,7 +2261,6 @@ html {
     width: 349px;
     height: 800px;
     margin-top: 25rem;
-    margin-left: .1rem;
     border-radius: 0px;
 }
 
@@ -2337,21 +2268,18 @@ html {
     background-size: 100%;
     width: 349px;
     margin-top: -3.9rem;
-    margin-left: .1rem;
     border-radius: 0px;
 }
 
 .fourth-bg-pic {
     width: 349px;
     margin-top: 20rem;
-    margin-left: .1rem;
 }
 
 .fifth-bg-pic {
     width: 349px;
     background-size: 100%;
     margin-top: 24rem;
-    margin-left: .1rem;
 }
 
 .sixth-bg-pic {
@@ -2359,7 +2287,6 @@ html {
     width: 349px;
     height: 800px;
     margin-top: 131rem;
-    margin-left: .1rem;
     border-radius: 0px;
 }
 
@@ -2441,19 +2368,14 @@ html {
     height: 400px;
 }
 
+.for-kids,
+.for-researchers,
 .for-teachers {
     width: 80%;
     height: 30%;
 }
 
-.for-kids {
-    width: 80%;
-    height: 30%;
-}
-
 .for-researchers {
-    width: 80%;
-    height: 30%;
     margin-top: .3rem;
 }
 
@@ -2489,21 +2411,9 @@ html {
     top: 102rem;
 }
 
-.cosmology {
-    width: 85%;
-    height: 35%;
-}
-
-.evolution {
-    width: 85%;
-    height: 35%;
-}
-
-.biology {
-    width: 85%;
-    height: 35%;
-}
-
+.cosmology,
+.evolution,
+.biology,
 .robotics {
     width: 85%;
     height: 35%;
@@ -2520,16 +2430,9 @@ html {
     top: 141rem;
     position: absolute;
 }
-.aeronautics {
-    width: 85%;
-    height: 35%;
-}
 
-.sleepover {
-    width: 85%;
-    height: 35%;
-}
-
+.aeronautics,
+.sleepover,
 .energetica {
     width: 85%;
     height: 35%;
@@ -2763,12 +2666,17 @@ html {
     width: 300px;
 }
 
-.div-ab-img-3 {
+.div-ab-img-3,
+.div-ab-img-4,
+.div-ab-img-5 {
     height: 230px;
+    margin-right: 0;
+}
+
+.div-ab-img-3 {
     background-size: 300%;
     margin-left: .5rem;
     margin-top: 1.5rem;
-    margin-right: 0;
 }
 
 #p-ab-4 {
@@ -2777,11 +2685,9 @@ html {
 }
 
 .div-ab-img-4 {
-    height: 230px;
     background-size: 250%;
     margin-left: 1rem;
     margin-top: 2.5rem;
-    margin-right: 0rem;
     background-position-x: -3rem;
 }
 
@@ -2791,11 +2697,9 @@ html {
 }
 
 .div-ab-img-5 {
-    height: 230px;
     background-size: 350%;
     margin-left: 0rem;
     margin-top: 2.8rem;
-    margin-right: 0;
 }
 
         /* --- FOR-KIDS.html --- */
@@ -2840,11 +2744,16 @@ html {
     margin-right: 0;
 }
 
+.div-fk-img-3,
+.div-fk-img-4,
+.div-fk-img-5 {
+    margin-left: 1rem;
+    margin-right: 0rem;
+}
+
 .div-fk-img-3 {
     height: 200px;
     background-size: 280%;
-    margin-left: 1rem;
-    margin-right: 0rem;
     margin-top: 3.5rem;
 }
 
@@ -2860,9 +2769,7 @@ html {
 .div-fk-img-4 {
     height: 200px;
     background-size: 280%;
-    margin-left: 1rem;
     margin-top: 4rem;
-    margin-right: 0rem;
 }
 
 .p-fk-4 {
@@ -2880,9 +2787,7 @@ html {
     height: 150px;
     width: 250px;
     background-size: 350%;
-    margin-left: 1rem;
     margin-top: 5.2rem;
-    margin-right: 0rem;
     margin-bottom: 2rem;
     background-position-x: -11rem;
     background-position-y: -2rem;

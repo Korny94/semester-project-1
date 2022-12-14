@@ -148,8 +148,9 @@ html {
 
 .footer-index {
     text-align: center;
-    top: 437rem;
-    position: absolute;
+    top: 436rem;
+    position: absolute; 
+    padding: 1rem;
 }
 
 .first-bg-pic,

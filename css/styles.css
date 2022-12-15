@@ -1311,7 +1311,7 @@ span {
 @media (max-height: 550px) {
     .menu {
         scale: 80%;
-        margin-top: -2.5rem;
+        margin-top: -2rem;
         margin-left: 40rem;
     }
 }
@@ -1319,8 +1319,7 @@ span {
 @media (max-height: 450px) {
     .menu {
         scale: 70%;
-        margin-top: -3.9rem;
-        margin-left: 41rem;
+        margin-top: -2.9rem;
     }
 }
 

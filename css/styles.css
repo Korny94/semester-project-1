@@ -1308,7 +1308,7 @@ span {
 
         /* --- MEDIA-QUERIES --- */
 
-@media (orientation: landscape) {
+@media (max-height: 400px) {
     background-color: red;
 }
 
@@ -1455,6 +1455,7 @@ header {
     background-color: rgb(255, 202, 106);
     border-radius: 1rem;
     margin-left: 3rem;
+    padding-top: 1rem;
     width: 430px;
     height: 630px;
     display: flex;
@@ -1466,11 +1467,11 @@ header {
 
 .p-et {
     margin-left: -1.3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 
 .para-button {
-    margin-top: -1rem;
+    margin-top: 0rem;
 }
 
 #button-ex-to {
@@ -2311,6 +2312,7 @@ html {
     width: 310px;
     height: 470px;
     margin-left: 1.25rem;
+    padding: 0;
 }
 
 .h1-et {
@@ -2335,24 +2337,27 @@ html {
     width: 80%;
     height: 40%;
     margin-left: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     margin-bottom: 0rem;
     border-radius: .5rem;
 }
 
 .para-button {
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 .p-et {
     width: 270px;
     line-height: 2rem;
+    margin-bottom: 0;
 }
 
 #button-ex-to {
     padding: .5rem 4rem;
     margin-left: -1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
     /* -- Explore -- */

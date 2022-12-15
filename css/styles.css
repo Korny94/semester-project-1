@@ -246,11 +246,13 @@ html {
     font-size: 1.6rem;
     line-height: 2.8rem;
     margin: 0;
+    margin-top: 1.5rem;
 }
 
 #button-ex-to {
     margin-left: -.1rem;
     font-size: 1.5rem;
+    margin-top: 3.5rem;
 }
 
 .h1-ybg {
@@ -288,7 +290,6 @@ html {
     padding-left: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     margin-top: 1rem;
 }
 

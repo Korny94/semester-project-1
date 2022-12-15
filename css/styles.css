@@ -927,6 +927,10 @@ span {
     border-radius: 1rem;
 }
 
+.footer-robotics {
+    margin-top: -3rem;
+}
+
 #h1-for-researchers {
     margin-top: -3.5rem;
     margin-left: -1.6rem;
@@ -1383,7 +1387,7 @@ header {
 
 .footer-index {
     text-align: center;
-    margin-top: 126rem;
+    margin-top: 127.5rem;
     position: absolute;
     padding: 1rem;
 }
@@ -1976,7 +1980,7 @@ header {
 }
 
 .footer-robotics {
-    top: 79rem;
+    top: 81rem;
 }
    
         /* --- BIOLOGY.html --- */
@@ -2255,7 +2259,7 @@ html {
 
 .footer-index {
     text-align: center;
-    top: 303rem;
+    top: 301.5rem;
     position: absolute;
 }
 
@@ -2957,7 +2961,7 @@ html {
 
 .footer-robotics {
     position: absolute;
-    top: 70rem;
+    top: 72rem;
     padding-bottom: 1rem;
 }
     

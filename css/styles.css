@@ -121,7 +121,7 @@ header {
 
 html {
     background-color: rgb(219, 230, 243);
-    font-family: "lato";    
+    font-family: "lato";  
 }
 
 
@@ -772,7 +772,7 @@ span {
 
 .footer-about {
     position: absolute;
-    top: 173rem;
+    top: 171rem;
     padding-bottom: 1rem;
 }
 

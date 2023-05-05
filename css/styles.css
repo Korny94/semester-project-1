@@ -1,156 +1,154 @@
-        /* --- FONTS --- */
+/* --- FONTS --- */
 
 @font-face {
-    font-family: "lato";
-    src: url(/fonts/Lato/Lato-Regular.ttf);
+  font-family: "lato";
+  src: url(/fonts/Lato/Lato-Regular.ttf);
 }
 
 @font-face {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* --- GLOBAL --- */
 
-        /* --- GLOBAL --- */
-
-    /* -- HEADER -- */
+/* -- HEADER -- */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    height: 100px;
-    border-radius: 1.5rem;
-    z-index: 3;
-    width: 800px;
-    position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  height: 100px;
+  border-radius: 1.5rem;
+  z-index: 3;
+  width: 800px;
+  position: absolute;
 }
 
 .logo-name {
-    display: flex;
+  display: flex;
 }
 
 .link-logo {
-    display: flex;
-    align-self: center;
+  display: flex;
+  align-self: center;
 }
 
 .logo {
-    margin-top: .3rem;
-    width: 4rem;
-    margin-right: 1.5rem;
-    transition-duration: 3000ms;
+  margin-top: 0.3rem;
+  width: 4rem;
+  margin-right: 1.5rem;
+  transition-duration: 3000ms;
 }
 
 .logo:hover {
-    rotate: 500deg;
+  rotate: 500deg;
 }
 
 .link-name {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .name {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.3rem;
-    transition-duration: 200ms;
-    letter-spacing: .15rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.3rem;
+  transition-duration: 200ms;
+  letter-spacing: 0.15rem;
 }
 
 .name:hover {
-    scale: 105%;
+  scale: 105%;
 }
 
 .menu-icon {
-    filter: invert(100%);
-    width: 3.5rem;
-    transition-duration: 200ms;
-    position: fixed;
-    padding: .9rem 1rem;
-    border-radius: 50%;
-    top: 2.6rem;
-    margin-left: -5rem;
-    background-color: rgb(217, 149, 89, 1)
+  filter: invert(100%);
+  width: 3.5rem;
+  transition-duration: 200ms;
+  position: fixed;
+  padding: 0.9rem 1rem;
+  border-radius: 50%;
+  top: 2.6rem;
+  margin-left: -5rem;
+  background-color: rgb(217, 149, 89, 1);
 }
 
 .menu-icon:hover {
-    scale: 110%;
+  scale: 110%;
 }
 
 .menu {
-    background-color: rgb(219, 230, 243);
-    display: none;
-    top: 8.1rem;
-    margin-left: 38.5rem;
-    border-radius: 1rem;
-    position: fixed;
+  background-color: rgb(219, 230, 243);
+  display: none;
+  top: 8.1rem;
+  margin-left: 38.5rem;
+  border-radius: 1rem;
+  position: fixed;
 }
 
 .button {
-    background-color: rgb(44, 121, 189);
-    padding: .3rem 1.3rem;
-    border-radius: .5rem;
-    margin: 1.2rem;
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    font-size: 1.4rem;
-    letter-spacing: .05rem;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    border: 1.3px solid rgba(0, 0, 0, 0.5);
-    transition-duration: 400ms;
+  background-color: rgb(44, 121, 189);
+  padding: 0.3rem 1.3rem;
+  border-radius: 0.5rem;
+  margin: 1.2rem;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  border: 1.3px solid rgba(0, 0, 0, 0.5);
+  transition-duration: 400ms;
 }
 
 .button:hover {
-    background-color: rgb(38, 106, 166);
-    scale: 105%;
+  background-color: rgb(38, 106, 166);
+  scale: 105%;
 }
 
 #hamburger-menu {
-    display: none;
+  display: none;
 }
 
 #hamburger-menu:checked ~ .menu {
-    display: block;
+  display: block;
 }
 
 html {
-    background-color: rgb(219, 230, 243);
-    font-family: "lato";  
+  background-color: rgb(219, 230, 243);
+  font-family: "lato";
 }
 
+/* --- INDEX.html --- */
 
-        /* --- INDEX.html --- */
-
-    /* -- Background -- */
+/* -- Background -- */
 
 .body-index {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding-top: 1rem;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 1rem;
+  align-items: center;
 }
 
 .main-index {
-    width: 910px;
-    height: 6934px;
-    background-image: url(/images/frame.png);
-    background-size: cover;
-    position: absolute;
-    z-index: 2;
+  width: 910px;
+  height: 6934px;
+  background-image: url(/images/frame.png);
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
 }
 
 .footer-index {
-    text-align: center;
-    top: 435rem;
-    position: absolute; 
-    padding: 1rem;
+  text-align: center;
+  top: 435rem;
+  position: absolute;
+  padding: 1rem;
 }
 
 .first-bg-pic,
@@ -159,205 +157,217 @@ html {
 .fourth-bg-pic,
 .fifth-bg-pic,
 .sixth-bg-pic {
-    background-repeat: no-repeat;
-    width: 898px;
-    height: 800px;
-    z-index: 1;
-    border-radius: 50px;
-    margin-left: .4rem;
+  background-repeat: no-repeat;
+  width: 898px;
+  height: 800px;
+  z-index: 1;
+  border-radius: 50px;
+  margin-left: 0.4rem;
 }
 
 .first-bg-pic {
-    background-image: url(/images/cosmology.jpg);
-    margin-top: .4rem;
+  background-image: url(/images/cosmology.jpg);
+  margin-top: 0.4rem;
 }
 
 .second-bg-pic {
-    background-image: url(/images/aeronautics.jpg);
-    margin-top: -8rem;
+  background-image: url(/images/aeronautics.jpg);
+  margin-top: -8rem;
 }
 
 .third-bg-pic {
-    background-image: url(/images/aero-exhi.jpg);
-    margin-top: 17rem;
+  background-image: url(/images/aero-exhi.jpg);
+  margin-top: 17rem;
 }
 
 .fourth-bg-pic {
-    background-image: url(/images/cosmology.jpg);
-    margin-top: 1rem;
+  background-image: url(/images/cosmology.jpg);
+  margin-top: 1rem;
 }
 
 .fifth-bg-pic {
-    background-image: url(/images/head.jpg);
-    margin-top: 11rem;
+  background-image: url(/images/head.jpg);
+  margin-top: 11rem;
 }
 
 .sixth-bg-pic {
-    background-image: url(/images/ant.jpg);
-    margin-top: 63rem;
+  background-image: url(/images/ant.jpg);
+  margin-top: 63rem;
 }
 
 .frame {
-    width: 800px;
-    border-radius: 1rem;
-    position: relative;
-    top: -9rem;
-    display: none;
+  width: 800px;
+  border-radius: 1rem;
+  position: relative;
+  top: -9rem;
+  display: none;
 }
 
-    /* -- Explore together -- */
+/* -- Explore together -- */
 
 .yellow-bg-et1 {
-    display: none;
+  display: none;
 }
 
 .explore-together {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 800px;
-    top: 32.8rem;
-    left: 4rem;
-    position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 800px;
+  top: 32.8rem;
+  left: 4rem;
+  position: absolute;
 }
 
 .h1-et {
-    text-decoration: underline;
-    color: white;
-    font-size: 2.3rem;
-    letter-spacing: .2rem;
-    top: 24.5rem;
-    left: 4.5rem;
-    position: absolute;
-    font-weight: 900;
+  text-decoration: underline;
+  color: white;
+  font-size: 2.3rem;
+  letter-spacing: 0.2rem;
+  top: 24.5rem;
+  left: 4.5rem;
+  position: absolute;
+  font-weight: 900;
 }
 
 .yellow-bg-et {
-    background-color: rgb(255, 202, 106);
-    width: 800px;
-    height: 350px;
-    border-radius: 1rem;
-    display: flex;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
+  background-color: rgb(255, 202, 106);
+  width: 800px;
+  height: 350px;
+  border-radius: 1rem;
+  display: flex;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.5);
 }
 
 .p-et {
-    width: 350px;
-    font-size: 1.6rem;
-    line-height: 2.8rem;
-    margin: 0;
-    margin-top: 1.5rem;
+  width: 350px;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  margin: 0;
+  margin-top: 1.5rem;
 }
 
 #button-ex-to {
-    margin-left: -.1rem;
-    font-size: 1.5rem;
-    margin-top: 3.5rem;
+  margin-left: -0.1rem;
+  font-size: 1.5rem;
+  margin-top: 3.5rem;
 }
 
 .h1-ybg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 370px;
-    height: 300px;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    background-color: rgb(0, 0, 0, .5);
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 370px;
+  height: 300px;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  background-color: rgb(0, 0, 0, 0.5);
+  margin: 0;
 }
 
 .about-img {
-    background-image: url(/images/about-us.jpg);
-    background-size: cover;
-    width: 370px;
-    height: 300px;
-    border-radius: 1rem;
-    margin-left: 2rem;
-    margin: auto;
-    text-decoration: none;
-    letter-spacing: .2rem;
-    font-size: 1.2rem;
-    transition-duration: 200ms;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-image: url(/images/about-us.jpg);
+  background-size: cover;
+  width: 370px;
+  height: 300px;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  margin: auto;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  transition-duration: 200ms;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .about-img:hover {
-    scale: 102%;
+  scale: 102%;
 }
 
 .para-button {
-    padding-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
 }
 
-    /* -- Explore -- */
+/* -- Explore -- */
 
 #h1-ex {
-    top: 66.8rem;
-    left: 44rem;
+  top: 66.8rem;
+  left: 44rem;
 }
 
 .section-explore {
-    width: 800px;
-    height: 600px;
-    left: 2rem;
-    top: 74rem;
-    position: absolute;
-    padding-left: 2rem;
-    overflow-x: scroll;
-    align-items: center;
-    display: flex;
-    -ms-overflow-style: none;
-    scrollbar-width: none; 
-    border-right: 1px solid black;
+  width: 800px;
+  height: 600px;
+  left: 2rem;
+  top: 74rem;
+  position: absolute;
+  padding-left: 2rem;
+  overflow-x: scroll;
+  align-items: center;
+  display: flex;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border-right: 1px solid black;
 }
 
-.section-explore::-webkit-scrollbar { 
-    display: none;
+.section-explore::-webkit-scrollbar:hover {
+}
+
+.section-explore::-webkit-scrollbar {
+  height: 15px;
+}
+
+.section-explore::-webkit-scrollbar-thumb {
+  background-color: #ffffff6e;
+  border-radius: 4px;
+}
+
+.section-explore::-webkit-scrollbar-track-piece:hover {
+  border: 1px solid black;
 }
 
 .yellow-bg-ex {
-    background-color: rgb(255, 202, 106);
-    border-radius: 1rem;
-    width: 500px;
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-right: 2rem;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
+  background-color: rgb(255, 202, 106);
+  border-radius: 1rem;
+  width: 500px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 2rem;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.5);
 }
 
 .for-teachers,
 .for-kids,
 .for-researchers {
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  border-radius: 1rem;
+  margin: 0;
+  margin-top: 0.7rem;
+  transition-duration: 200ms;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .for-teachers {
-    background-image: url(/images/for-teachers.jpg);
+  background-image: url(/images/for-teachers.jpg);
 }
 
 .for-kids {
-    background-image: url(/images/for-kids.jpg);
+  background-image: url(/images/for-kids.jpg);
 }
 
 .for-researchers {
-    background-image: url(/images/for-researchers.jpg);
+  background-image: url(/images/for-researchers.jpg);
 }
 
 .for-kids:hover,
@@ -370,290 +380,289 @@ html {
 .aeronautics:hover,
 .sleepover:hover,
 .energetica:hover {
-    scale: 102%;
+  scale: 102%;
 }
 
 .h1-ybg-ex {
-    background-color: rgb(0, 0, 0, 0.5);
-    width: 250px;
-    height: 200px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1rem;
-    margin: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 250px;
+  height: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  margin: 0;
 }
 
 .p-ex {
-    width: 250px;
-    font-size: 1.5rem;
-    margin: 0rem 1rem;
-    line-height: 2.4rem;
+  width: 250px;
+  font-size: 1.5rem;
+  margin: 0rem 1rem;
+  line-height: 2.4rem;
 }
 
 #read-more {
-    width: 13rem;
-    font-size: 1.6rem;
-    line-height: 2.3rem;
+  width: 13rem;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
 }
 
-    /* -- Exhibition spaces -- */
+/* -- Exhibition spaces -- */
 
 #h1-ex-sp {
-    top: 125rem;
-    margin-left: .8rem;
+  top: 125rem;
+  margin-left: 0.8rem;
 }
 
 #section-exh-spa {
-    top: 131.4rem;
+  top: 131.4rem;
 }
 
 .cosmology,
 .evolution,
 .biology,
 .robotics {
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  border-radius: 1rem;
+  margin: 0;
+  margin-top: 0.7rem;
+  transition-duration: 200ms;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .cosmology {
-    background-image: url(/images/cosmology.jpg);
-    background-position: -3rem;
+  background-image: url(/images/cosmology.jpg);
+  background-position: -3rem;
 }
 
 .evolution {
-    background-image: url(/images/evolution.jpg);
-    background-position: -1rem;
+  background-image: url(/images/evolution.jpg);
+  background-position: -1rem;
 }
 
 .biology {
-    background-image: url(/images/biology.jpg);
-    background-size: 180%;
-    background-position: -6rem;
+  background-image: url(/images/biology.jpg);
+  background-size: 180%;
+  background-position: -6rem;
 }
 
 .robotics {
-    background-image: url(/images/robotics.jpg);
-    background-position: -3rem;
+  background-image: url(/images/robotics.jpg);
+  background-position: -3rem;
 }
 
-    /* -- Special events -- */
+/* -- Special events -- */
 
 #h1-sp-ev {
-    top: 182.3rem;
-    margin-left: 31rem;
+  top: 182.3rem;
+  margin-left: 31rem;
 }
 
 #section-sp-ev {
-    top: 190.5rem;
-    position: absolute;
+  top: 190.5rem;
+  position: absolute;
 }
 
 .aeronautics,
 .sleepover,
 .energetica {
-    background-size: cover;
-    width: 250px;
-    height: 200px;
-    border-radius: 1rem;
-    margin: 0;
-    margin-top: .7rem;
-    transition-duration: 200ms;
-    text-decoration: none;
-    letter-spacing: .1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-size: cover;
+  width: 250px;
+  height: 200px;
+  border-radius: 1rem;
+  margin: 0;
+  margin-top: 0.7rem;
+  transition-duration: 200ms;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .aeronautics {
-    background-image: url(/images/aeronautics.jpg);
-    background-position: -1.5rem;
+  background-image: url(/images/aeronautics.jpg);
+  background-position: -1.5rem;
 }
 
 .sleepover {
-    background-image: url(/images/sleepover.jpg);
-    background-position: -1rem;
+  background-image: url(/images/sleepover.jpg);
+  background-position: -1rem;
 }
 
 .energetica {
-    background-image: url(/images/about-us.jpg);
+  background-image: url(/images/about-us.jpg);
 }
 
-    /* -- Visit us -- */
+/* -- Visit us -- */
 
 #h1-vi-us {
-    top: 242.7rem;
+  top: 242.7rem;
 }
 
 .visit-us {
-    top: 246.5rem;
-    position: absolute;
+  top: 246.5rem;
+  position: absolute;
 }
 
 .h1-vi-us {
-    font-size: 2.7rem;
-    color: rgb(255, 202, 106);
+  font-size: 2.7rem;
+  color: rgb(255, 202, 106);
 }
 
 #location {
-    top: 1.5rem;
-    left: 6rem;
-    position: absolute;
+  top: 1.5rem;
+  left: 6rem;
+  position: absolute;
 }
 
 .p-vi-us {
-    color: white;
-    font-size: 1.8rem;
+  color: white;
+  font-size: 1.8rem;
 }
 
 #p-location {
-    position: absolute;
-    top: 9rem;
-    left: 6.5rem;
-    width: 300px;
+  position: absolute;
+  top: 9rem;
+  left: 6.5rem;
+  width: 300px;
 }
 
 span {
-    display: block;
+  display: block;
 }
 
 .hours {
-    position: absolute;
-    top: 2rem;
-    left: 35.6rem;
-    width: 200px;
+  position: absolute;
+  top: 2rem;
+  left: 35.6rem;
+  width: 200px;
 }
 
 #p-hours {
-    margin-top: 3.7rem;
-    margin-left: 1rem;
+  margin-top: 3.7rem;
+  margin-left: 1rem;
 }
 
 .admission {
-    position: absolute;
-    top: 17.5rem;
-    left: 6rem;
-    width: 350px;
+  position: absolute;
+  top: 17.5rem;
+  left: 6rem;
+  width: 350px;
 }
 
 #p-admission {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .accessibility {
-    position: absolute;
-    width: 350px;
-    left: 6rem;
-    top: 45rem;
+  position: absolute;
+  width: 350px;
+  left: 6rem;
+  top: 45rem;
 }
 
 #p-accessibility {
-    margin-top: 3.6rem;
-    margin-left: .3rem;
+  margin-top: 3.6rem;
+  margin-left: 0.3rem;
 }
 
 .cafe {
-    position: absolute;
-    left: 6.2rem;
-    top: 74rem;
+  position: absolute;
+  left: 6.2rem;
+  top: 74rem;
 }
 
 #p-cafe {
-    margin-top: 3rem;
-    margin-left: .5rem;
+  margin-top: 3rem;
+  margin-left: 0.5rem;
 }
 
 .gift {
-    position: absolute;
-    left: 35rem;
-    top: 69.5rem;
-    width: 200px;
+  position: absolute;
+  left: 35rem;
+  top: 69.5rem;
+  width: 200px;
 }
 
 #p-gift {
-    margin-top: 2.7rem;
-    margin-left: .5rem;
+  margin-top: 2.7rem;
+  margin-left: 0.5rem;
 }
 
-    /* -- Get involved -- */
+/* -- Get involved -- */
 
 #h1-get-inv {
-    position: absolute;
-    top: 362.7rem;
-    left: 38rem;
+  position: absolute;
+  top: 362.7rem;
+  left: 38rem;
 }
 
 .get-inv {
-    position: absolute;
-    left: 5rem;
-    top: 367.7rem;
-    width: 750px;
+  position: absolute;
+  left: 5rem;
+  top: 367.7rem;
+  width: 750px;
 }
 
 .p-get-inv {
-    color: white;
-    margin-top: -1rem;
-    font-size: 1.4rem;
+  color: white;
+  margin-top: -1rem;
+  font-size: 1.4rem;
 }
 
 #h1-support {
-    position: absolute;
-    margin-left: .5rem;
+  position: absolute;
+  margin-left: 0.5rem;
 }
 
 #p-support {
-    position: absolute;
-    top: 8rem;
-    margin-left: .5rem;
+  position: absolute;
+  top: 8rem;
+  margin-left: 0.5rem;
 }
 
 .volunteer {
-    position: absolute;
-    top: 20.3rem;
-    left: .6rem;
+  position: absolute;
+  top: 20.3rem;
+  left: 0.6rem;
 }
 
 #h1-volunteer {
-    margin-left: 34rem;
+  margin-left: 34rem;
 }
 
 #p-volunteer {
-    margin-top: -.8rem;
+  margin-top: -0.8rem;
 }
 
 .internships {
-    position: absolute;
-    top: 44rem;
-    margin-left: .5rem;
+  position: absolute;
+  top: 44rem;
+  margin-left: 0.5rem;
 }
 
 #p-internships {
-    margin-top: -.8rem;
+  margin-top: -0.8rem;
 }
 
-
-        /* --- FOR-KIDS.html --- */
+/* --- FOR-KIDS.html --- */
 
 .kids-bg-pic {
-    background-image: url(/images/for-kids.jpg);
-    width: 898px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 4rem;
-    background-size: 100%;
+  background-image: url(/images/for-kids.jpg);
+  width: 898px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+  background-size: 100%;
 }
 
 #h1-for-kids {
-    top: 19.4rem;
-    left: 3.6rem;
+  top: 19.4rem;
+  left: 3.6rem;
 }
 
 .fk-img-1,
@@ -661,812 +670,800 @@ span {
 .div-fk-img-3,
 .div-fk-img-4,
 .div-fk-img-5 {
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    background-repeat: no-repeat;
-    border-radius: 1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
+  border-radius: 1rem;
 }
 
 .div-fk-img-3,
 .div-fk-img-4,
 .div-fk-img-5 {
-    height: 350px;
-    width: 300px;
+  height: 350px;
+  width: 300px;
 }
 
 .p-fk-1 {
-    width: 300px;
-    margin-right: 0;
-    margin-left: 2rem;
+  width: 300px;
+  margin-right: 0;
+  margin-left: 2rem;
 }
 
 .fk-img-1 {
-    margin-left: 3rem;
-    margin-top: 1.5rem;
-    width: 45%;
-    height: 250px;
-    object-fit: cover;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  width: 45%;
+  height: 250px;
+  object-fit: cover;
 }
 
 .fk-img-2 {
-    margin-left: 1rem;
-    margin-top: 5rem;
-    width: 40%;
-    height: 40%;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  width: 40%;
+  height: 40%;
 }
 
 .p-fk-2 {
-    width: 370px;
-    margin-top: 7.5rem;
-    margin-left: 3.5rem;
+  width: 370px;
+  margin-top: 7.5rem;
+  margin-left: 3.5rem;
 }
 
 .div-fk-img-3 {
-    background-size: 180%;
-    margin-left: 2rem;
-    margin-top: 5rem;
-    background-image: url(/images/about-us.jpg);
-    background-position-x: -2rem;
+  background-size: 180%;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  background-image: url(/images/about-us.jpg);
+  background-position-x: -2rem;
 }
 
 .p-fk-3 {
-    width: 350px;
-    margin-left: 1rem;
-    margin-top: 7rem;
-    margin-bottom: 1.3rem;
+  width: 350px;
+  margin-left: 1rem;
+  margin-top: 7rem;
+  margin-bottom: 1.3rem;
 }
 
 .fk-img-3 {
-    opacity: 0;
+  opacity: 0;
 }
 
 .div-fk-img-4 {
-    background-size: 160%;
-    margin-left: 1rem;
-    margin-top: 5rem;
-    margin-right: 2.5rem;
-    background-image: url(/images/ant.jpg);
-    background-position-x: -5rem;
+  background-size: 160%;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  margin-right: 2.5rem;
+  background-image: url(/images/ant.jpg);
+  background-position-x: -5rem;
 }
 
 .p-fk-4 {
-    width: 350px;
-    margin-left: 1rem;
-    margin-top: 8rem;
-    margin-bottom: 1.3rem;
+  width: 350px;
+  margin-left: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 1.3rem;
 }
 
 .p-fk-5 {
-    width: 300px;
-    margin-left: 1rem;
-    margin-top: 8.5rem;
-    margin-bottom: 1.3rem;
+  width: 300px;
+  margin-left: 1rem;
+  margin-top: 8.5rem;
+  margin-bottom: 1.3rem;
 }
 
 .div-fk-img-5 {
-    background-size: 210%;
-    margin-left: 4rem;
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    background-image: url(/images/cosmology.jpg);
-    background-position-x: -10rem;
+  background-size: 210%;
+  margin-left: 4rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  background-image: url(/images/cosmology.jpg);
+  background-position-x: -10rem;
 }
 
-
-        /* --- ABOUT.html --- */
+/* --- ABOUT.html --- */
 
 .body-about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
 }
 
 .main-about {
-    background-image: url(/images/bg-about.png);
-    width: 910px;
-    height: 2692px;
-    background-size: cover;
-    position: absolute;
-    z-index: 2;
-    margin: 0;
+  background-image: url(/images/bg-about.png);
+  width: 910px;
+  height: 2692px;
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
 }
 
 .footer-about {
-    position: absolute;
-    top: 171rem;
-    padding-bottom: 1rem;
+  position: absolute;
+  top: 171rem;
+  padding-bottom: 1rem;
 }
 
 .about-bg-pic {
-    background-image: url(/images/aero-exhi.jpg);
-    width: 898px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 5rem;
+  background-image: url(/images/aero-exhi.jpg);
+  width: 898px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 5rem;
 }
 
 #h1-ab-us {
-    top: 19.4rem;
-    left: 3.3rem;
+  top: 19.4rem;
+  left: 3.3rem;
 }
 
 .section-about {
-    display: block;
-    position: absolute;
-    justify-content: center;
-    margin: auto;
-    width: 750px;
-    top: 28rem;
-    font-size: 2rem;
-    left: 3rem;
-    color: white;
-    background-color: rgb(38, 106, 166);
-    padding: 1rem;
-    padding-left: 3rem;
-    border-radius: 1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  display: block;
+  position: absolute;
+  justify-content: center;
+  margin: auto;
+  width: 750px;
+  top: 28rem;
+  font-size: 2rem;
+  left: 3rem;
+  color: white;
+  background-color: rgb(38, 106, 166);
+  padding: 1rem;
+  padding-left: 3rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .section-about * {
-    display: flex;
+  display: flex;
 }
 
 .p-ab-1 {
-    width: 250px;
-    margin-top: 3rem;
+  width: 250px;
+  margin-top: 3rem;
 }
 
 .ab-img-1,
-.ab-img-2, 
+.ab-img-2,
 .div-ab-img-3,
 .div-ab-img-4,
 .div-ab-img-5 {
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    background-repeat: no-repeat;
-    border-radius: 1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
+  border-radius: 1rem;
 }
 
 .div-ab-img-3,
 .div-ab-img-4,
 .div-ab-img-5 {
-    height: 350px;
-    width: 300px;
-    margin-top: 4rem;
+  height: 350px;
+  width: 300px;
+  margin-top: 4rem;
 }
 
 .ab-img-1 {
-    margin-left: 1.5rem;
-    margin-top: 3.2rem;
-    width: 60%;
-    height: 270px;
-    object-fit: cover;
+  margin-left: 1.5rem;
+  margin-top: 3.2rem;
+  width: 60%;
+  height: 270px;
+  object-fit: cover;
 }
 
 .ab-img-2 {
-    margin-left: 1rem;
-    margin-top: 6.3rem;
-    width: 40%;
-    height: 380px;
-    object-fit: cover;
+  margin-left: 1rem;
+  margin-top: 6.3rem;
+  width: 40%;
+  height: 380px;
+  object-fit: cover;
 }
 
 .p-ab-2 {
-    width: 350px;
-    margin-top: 6rem;
-    margin-left: 3.5rem;
+  width: 350px;
+  margin-top: 6rem;
+  margin-left: 3.5rem;
 }
 
 .p-ab-3 {
-    width: 350px;
-    margin-left: 1rem;
-    margin-top: 4rem;
-    margin-bottom: 1.3rem;
+  width: 350px;
+  margin-left: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 1.3rem;
 }
 
 .div-ab-img-3 {
-    background-size: 200%;
-    margin-left: 2rem;
-    background-image: url(/images/kids.jpg);
-    background-position-x: -7rem;
-    background-position-y: -1rem;
+  background-size: 200%;
+  margin-left: 2rem;
+  background-image: url(/images/kids.jpg);
+  background-position-x: -7rem;
+  background-position-y: -1rem;
 }
 
 .ab-img-3 {
-    display: none;
+  display: none;
 }
 
 .div-ab-img-4 {
-    background-size: 160%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    background-image: url(/images/ant.jpg);
-    background-position-x: -5rem;
+  background-size: 160%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-image: url(/images/ant.jpg);
+  background-position-x: -5rem;
 }
 
 .ab-img-4 {
-    display: none;
+  display: none;
 }
 
 .ab-img-5 {
-    display: none;
+  display: none;
 }
 
 #p-ab-5 {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .div-ab-img-5 {
-    background-size: 210%;
-    margin-left: 2rem;
-    background-image: url(/images/cosmology.jpg);
-    background-position-x: -10rem;
+  background-size: 210%;
+  margin-left: 2rem;
+  background-image: url(/images/cosmology.jpg);
+  background-position-x: -10rem;
 }
 
-
-        /* --- FOR-RESEARCHERS.html --- */
+/* --- FOR-RESEARCHERS.html --- */
 
 .main-researchers {
-    background-image: url(/images/bg-researchers.png);
-    width: 910px;
-    height: 1746px;
-    background-size: cover;
-    position: absolute;
-    z-index: 2;
-    margin: 0;
+  background-image: url(/images/bg-researchers.png);
+  width: 910px;
+  height: 1746px;
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
 }
 
 .researchers-bg-pic {
-    background-image: url(/images/for-researchers.jpg);
-    width: 894px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 1rem;
-    background-size: 100%;
-    transform: scaleX(-1);
-    border-radius: 1rem;
+  background-image: url(/images/for-researchers.jpg);
+  width: 894px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  background-size: 100%;
+  transform: scaleX(-1);
+  border-radius: 1rem;
 }
 
 .footer-robotics {
-    margin-top: -3rem;
+  margin-top: -3rem;
 }
 
 #h1-for-researchers {
-    margin-top: -3.5rem;
-    margin-left: -1.6rem;
-    font-size: 1.8rem;
+  margin-top: -3.5rem;
+  margin-left: -1.6rem;
+  font-size: 1.8rem;
 }
 
 .p-fr-1 {
-    width: 220px;
-    margin-right: 4rem;
-    margin-left: 3.5rem;
-    margin-top: 4rem;
+  width: 220px;
+  margin-right: 4rem;
+  margin-left: 3.5rem;
+  margin-top: 4rem;
 }
 
 #fr-img-1 {
-    width: 35%;
-    height: 250px;
-    object-position: -7rem;
-    margin-top: 2rem;
+  width: 35%;
+  height: 250px;
+  object-position: -7rem;
+  margin-top: 2rem;
 }
 
 .p-fr-2 {
-    width: 250px;
-    margin-right: 2rem;
-    margin-left: 7rem;
-    margin-top: 10rem;
+  width: 250px;
+  margin-right: 2rem;
+  margin-left: 7rem;
+  margin-top: 10rem;
 }
 
 .fr-img-2 {
-    margin-left: 3rem;
-    margin-top: 5rem;
-    border-radius: 1rem;
-    width: 35%;
-    height: 35%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  margin-left: 3rem;
+  margin-top: 5rem;
+  border-radius: 1rem;
+  width: 35%;
+  height: 35%;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-fr-3 {
-    width: 330px;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-top: 9rem;
-    margin-bottom: 5.5rem;
+  width: 330px;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  margin-top: 9rem;
+  margin-bottom: 5.5rem;
 }
 
 .fr-img-3 {
-    display: none;
+  display: none;
 }
 
-
-        /* --- FOR-TEACHERS.html --- */
+/* --- FOR-TEACHERS.html --- */
 
 .teachers-bg-pic {
-    background-image: url(/images/for-teachers.jpg);
-    width: 894px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 1rem;
-    background-size: 100%;
-    border-radius: 1rem;
+  background-image: url(/images/for-teachers.jpg);
+  width: 894px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  background-size: 100%;
+  border-radius: 1rem;
 }
 
 #h1-for-teachers {
-    margin-top: -3.5rem;
-    margin-left: -1.4rem;
+  margin-top: -3.5rem;
+  margin-left: -1.4rem;
 }
 
 .p-ft-1 {
-    width: 270px;
-    margin-right: 1.5rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
+  width: 270px;
+  margin-right: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 .p-ft-2 {
-    width: 330px;
-    margin-right: 2rem;
-    margin-left: 4rem;
-    margin-top: 7rem;
+  width: 330px;
+  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-top: 7rem;
 }
 
 .ft-img-2 {
-    margin-left: 3rem;
-    margin-top: 5rem;
-    border-radius: 2rem;
-    width: 35%;
-    height: 35%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  margin-left: 3rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+  width: 35%;
+  height: 35%;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-ft-3 {
-    display: block;
-    width: 300px;
-    margin-right: 2rem;
-    margin-left: 1rem;
-    margin-top: 8rem;
-    margin-bottom: 6.5rem;
+  display: block;
+  width: 300px;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 6.5rem;
 }
 
 .contact-us {
-    display: inline;
-    color: white;
-    font-weight: 900;
+  display: inline;
+  color: white;
+  font-weight: 900;
 }
 
 .ft-img-3 {
-    display: none;
+  display: none;
 }
 
-
-        /* --- COSMOLOGY.html --- */
+/* --- COSMOLOGY.html --- */
 
 .main-cosmology {
-    background-image: url(/images/bg-cosmology.png);
-    width: 910px;
-    height: 1746px;
-    background-size: cover;
-    position: absolute;
-    z-index: 2;
-    margin: 0;
+  background-image: url(/images/bg-cosmology.png);
+  width: 910px;
+  height: 1746px;
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+  margin: 0;
 }
 
 .cosmology-bg-pic {
-    background-image: url(/images/aero-exhi.jpg);
-    width: 894px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 5rem;
-    background-size: 100%;
-    border-radius: 1rem;
+  background-image: url(/images/aero-exhi.jpg);
+  width: 894px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 5rem;
+  background-size: 100%;
+  border-radius: 1rem;
 }
 
 #h1-cos {
-    margin-top: -3.5rem;
-    margin-left: -.5rem;
+  margin-top: -3.5rem;
+  margin-left: -0.5rem;
 }
 
 .cos-img-1,
 .cos-img-2,
 .div-cos-img-3 {
-    background-repeat: no-repeat;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    border-radius: 1rem;
-
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
 }
 
 .p-cos-1 {
-    width: 270px;
-    margin-left: 1rem;
-    margin-top: 2rem;
+  width: 270px;
+  margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 .cos-img-1 {
-    margin-left: 1.5rem;
-    margin-top: 2rem;
-    width: 55%;
-    height: 55%;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  width: 55%;
+  height: 55%;
 }
 
 .cos-img-2 {
-    margin-left: 2rem;
-    margin-top: 3.7rem;
-    width: 35%;
-    height: 35%;
+  margin-left: 2rem;
+  margin-top: 3.7rem;
+  width: 35%;
+  height: 35%;
 }
 
 .p-cos-3 {
-    display: block;
-    width: 300px;
-    margin-right: 2rem;
-    margin-left: 1rem;
-    margin-top: 7.5rem;
-    margin-bottom: 3.4rem;
+  display: block;
+  width: 300px;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: 7.5rem;
+  margin-bottom: 3.4rem;
 }
 
 .cos-img-3 {
-    display: none;
+  display: none;
 }
 
 .div-cos-img-3 {
-    height: 350px;
-    width: 300px;
-    background-size: 200%;
-    margin-left: 2rem;
-    margin-top: 6.5rem;
-    background-image: url(/images/kids.jpg);
-    background-position-x: -7rem;
-    background-position-y: -1rem;
+  height: 350px;
+  width: 300px;
+  background-size: 200%;
+  margin-left: 2rem;
+  margin-top: 6.5rem;
+  background-image: url(/images/kids.jpg);
+  background-position-x: -7rem;
+  background-position-y: -1rem;
 }
 
-
-        /* --- EVOLUTION.html --- */
+/* --- EVOLUTION.html --- */
 
 .evolution-bg-pic {
-    background-image: url(/images/evolution1.jpg);
-    width: 894px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 3rem;
-    background-size: 100%;
-    border-radius: 1rem;
+  background-image: url(/images/evolution1.jpg);
+  width: 894px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 3rem;
+  background-size: 100%;
+  border-radius: 1rem;
 }
 
 #h1-evo {
-    margin-top: -3.5rem;
-    margin-left: .2rem;
+  margin-top: -3.5rem;
+  margin-left: 0.2rem;
 }
 
 .evo-img-2 {
-    margin-left: 1rem;
-    margin-top: 3.7rem;
-    border-radius: 1rem;
-    width: 38%;
-    height: 38%;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  margin-left: 1rem;
+  margin-top: 3.7rem;
+  border-radius: 1rem;
+  width: 38%;
+  height: 38%;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
 }
 
 .p-evo-2 {
-    width: 380px;
-    margin-top: 5rem;
-    margin-left: 3rem;
+  width: 380px;
+  margin-top: 5rem;
+  margin-left: 3rem;
 }
 
 .evo-img-3 {
-    display: none;
+  display: none;
 }
 
 .div-evo-img-3 {
-    height: 350px;
-    width: 300px;
-    background-size: 200%;
-    border-radius: 1rem;
-    margin-left: 2rem;
-    margin-top: 6.5rem;
-    background-image: url(/images/mammoth.jpg);
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    background-position-x: -7rem;
-    background-position-y: -3rem;
-    background-repeat: no-repeat;
+  height: 350px;
+  width: 300px;
+  background-size: 200%;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  margin-top: 6.5rem;
+  background-image: url(/images/mammoth.jpg);
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-position-x: -7rem;
+  background-position-y: -3rem;
+  background-repeat: no-repeat;
 }
 
-
-        /* --- BIOLOGY.html --- */
+/* --- BIOLOGY.html --- */
 
 .biology-bg-pic {
-    background-image: url(/images/biology.jpg);
-    width: 894px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 3.5rem;
-    background-size: 100%;
-    border-radius: 1rem;
+  background-image: url(/images/biology.jpg);
+  width: 894px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 3.5rem;
+  background-size: 100%;
+  border-radius: 1rem;
 }
 
 #h1-bio {
-    margin-top: -3.5rem;
-    margin-left: 1rem;
+  margin-top: -3.5rem;
+  margin-left: 1rem;
 }
 
 .bio-img-1,
 .bio-img-2,
 .div-bio-img-3 {
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    border-radius: 1rem;
-    background-repeat: no-repeat;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  background-repeat: no-repeat;
 }
 
 .bio-img-1 {
-    margin-left: 1.5rem;
-    margin-top: 2rem;
-    width: 55%;
-    height: 55%;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  width: 55%;
+  height: 55%;
 }
 
 .bio-img-2 {
-    margin-left: 1rem;
-    margin-top: 3.7rem;
-    width: 32%;
-    height: 32%;
+  margin-left: 1rem;
+  margin-top: 3.7rem;
+  width: 32%;
+  height: 32%;
 }
 
 .p-bio-2 {
-    width: 340px;
-    margin-top: 5.3rem;
-    margin-left: 4rem;
+  width: 340px;
+  margin-top: 5.3rem;
+  margin-left: 4rem;
 }
 
 #p-bio-3 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .div-bio-img-3 {
-    height: 350px;
-    width: 300px;
-    background-size: 210%;
-    margin-left: 2rem;
-    margin-top: 6.5rem;
-    background-image: url(/images/head.jpg);
-    background-position-x: -20rem;
-    background-position-y: -1rem;
+  height: 350px;
+  width: 300px;
+  background-size: 210%;
+  margin-left: 2rem;
+  margin-top: 6.5rem;
+  background-image: url(/images/head.jpg);
+  background-position-x: -20rem;
+  background-position-y: -1rem;
 }
 
-
-       /* --- ROBOTICS.html --- */     
+/* --- ROBOTICS.html --- */
 
 .robotics-bg-pic {
-    background-image: url(/images/robotics.jpg);
-    width: 894px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-top: 1rem;
-    background-size: 100%;
-    border-radius: 1rem;
+  background-image: url(/images/robotics.jpg);
+  width: 894px;
+  height: 500px;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  background-size: 100%;
+  border-radius: 1rem;
 }
 
 #h1-rob {
-    margin-top: -3.5rem;
-    margin-left: .5rem;
+  margin-top: -3.5rem;
+  margin-left: 0.5rem;
 }
 
 .rob-img-1,
 .rob-img-2,
 .div-rob-img-3 {
-    border-radius: 1rem;
-    box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-    background-repeat: no-repeat;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
+  background-repeat: no-repeat;
 }
 
 #p-rob-1 {
-    margin-left: 3rem;
-    margin-top: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
 }
 
 .rob-img-1 {
-    margin-left: 3.5rem;
-    margin-top: 2rem;
-    width: 45%;
-    height: 300px;
-    object-fit: cover;
-    object-position: -3rem;
+  margin-left: 3.5rem;
+  margin-top: 2rem;
+  width: 45%;
+  height: 300px;
+  object-fit: cover;
+  object-position: -3rem;
 }
 
 .rob-img-2 {
-    margin-left: 2rem;
-    margin-top: 3.7rem;
-    width: 32%;
-    height: 32%;
+  margin-left: 2rem;
+  margin-top: 3.7rem;
+  width: 32%;
+  height: 32%;
 }
 
 .p-rob-2 {
-    width: 250px;
-    margin-top: 8rem;
-    margin-left: 8rem;
+  width: 250px;
+  margin-top: 8rem;
+  margin-left: 8rem;
 }
 
 .p-rob-3 {
-    width: 260px;
-    margin-top: 10rem;
-    margin-left: 2rem;
+  width: 260px;
+  margin-top: 10rem;
+  margin-left: 2rem;
 }
 
 .div-rob-img-3 {
-    height: 350px;
-    width: 300px;
-    background-size: 210%;
-    margin-left: 5rem;
-    margin-top: 6.5rem;
-    margin-bottom: 2rem;
-    background-image: url(/images/robotics.jpg);
-    background-position-x: -13rem;
-    background-position-y: -1rem;
+  height: 350px;
+  width: 300px;
+  background-size: 210%;
+  margin-left: 5rem;
+  margin-top: 6.5rem;
+  margin-bottom: 2rem;
+  background-image: url(/images/robotics.jpg);
+  background-position-x: -13rem;
+  background-position-y: -1rem;
 }
 
 .footer-robotics {
-    position: absolute;
-    top: 115rem;
-    padding-bottom: 1rem;
+  position: absolute;
+  top: 115rem;
+  padding-bottom: 1rem;
 }
 
-
-        /* --- MEDIA-QUERIES --- */
+/* --- MEDIA-QUERIES --- */
 
 @media (max-height: 550px) {
-    .menu {
-        scale: 80%;
-        margin-top: -2rem;
-        margin-left: 40rem;
-    }
+  .menu {
+    scale: 80%;
+    margin-top: -2rem;
+    margin-left: 40rem;
+  }
 }
 
 @media (max-height: 450px) {
-    .menu {
-        scale: 70%;
-        margin-top: -2.9rem;
-    }
+  .menu {
+    scale: 70%;
+    margin-top: -2.9rem;
+  }
 }
 
 @media (max-width: 912px) {
+  /* --- GLOBAL --- */
 
-        /* --- GLOBAL --- */
+  /* -- HEADER -- */
 
-    /* -- HEADER -- */
-
-header {
+  header {
     width: 450px;
     margin-top: -1.1rem;
-}
+  }
 
-.logo {
-    margin-top: .3rem;
+  .logo {
+    margin-top: 0.3rem;
     width: 3rem;
     margin-right: 1rem;
     transition-duration: 3000ms;
-}
+  }
 
-.name {
+  .name {
     font-size: 1rem;
-}
+  }
 
-.menu-icon {
+  .menu-icon {
     width: 3rem;
-    padding: .6rem .7rem;
+    padding: 0.6rem 0.7rem;
     top: 2rem;
     margin-left: -4rem;
-}
+  }
 
-.menu-icon:hover {
+  .menu-icon:hover {
     scale: 100%;
-}
+  }
 
-.menu {
+  .menu {
     top: 6.4rem;
     margin-left: 19rem;
     border-radius: 1rem;
     position: fixed;
-}
+  }
 
-.button {
-    border-radius: .4rem;
-    margin: .8rem;
+  .button {
+    border-radius: 0.4rem;
+    margin: 0.8rem;
     font-size: 1rem;
-}
-    
+  }
 
- 
-        /* --- INDEX.html --- */
-       
-    /* -- Background -- */
+  /* --- INDEX.html --- */
 
-.main-index {
+  /* -- Background -- */
+
+  .main-index {
     width: 520px;
     height: 8996px;
     background-image: url(/images/frame1.png);
-}
+  }
 
-.footer-index {
+  .footer-index {
     text-align: center;
     margin-top: 127.5rem;
     position: absolute;
     padding: 1rem;
-}
+  }
 
-.first-bg-pic,
-.second-bg-pic,
-.third-bg-pic,
-.fourth-bg-pic,
-.fifth-bg-pic,
-.sixth-bg-pic {
+  .first-bg-pic,
+  .second-bg-pic,
+  .third-bg-pic,
+  .fourth-bg-pic,
+  .fifth-bg-pic,
+  .sixth-bg-pic {
     width: 498px;
     border-radius: 0px;
-}
+  }
 
-.first-bg-pic {
+  .first-bg-pic {
     background-image: url(/images/cosmology1.jpg);
     height: 281px;
     margin-top: 5rem;
-    margin-left: .35rem;
-}
+    margin-left: 0.35rem;
+  }
 
-.second-bg-pic {
+  .second-bg-pic {
     background-image: url(/images/aeronautics1.jpg);
     height: 332px;
     margin-top: 47rem;
-}
+  }
 
-.third-bg-pic {
+  .third-bg-pic {
     background-image: url(/images/aero-exhi1.jpg);
     height: 256px;
     margin-top: 39rem;
-    margin-left: .3rem;
-}
+    margin-left: 0.3rem;
+  }
 
-.fourth-bg-pic {
+  .fourth-bg-pic {
     background-image: url(/images/cosmology1.jpg);
     height: 281px;
     margin-top: 37rem;
-    margin-left: .3rem;
-}
+    margin-left: 0.3rem;
+  }
 
-.fifth-bg-pic {
+  .fifth-bg-pic {
     background-image: url(/images/head1.jpg);
     height: 331px;
     margin-top: 39.5rem;
-    margin-left: .2rem;
-}
+    margin-left: 0.2rem;
+  }
 
-.sixth-bg-pic {
+  .sixth-bg-pic {
     background-image: url(/images/ant1.jpg);
     height: 375px;
     margin-top: 196rem;
-    margin-left: .2rem;
-}
+    margin-left: 0.2rem;
+  }
 
-.frame {
+  .frame {
     width: 500px;
     border-radius: 1rem;
     position: relative;
     top: -9rem;
     display: none;
-}
+  }
 
-    /* -- Explore together -- */
+  /* -- Explore together -- */
 
-.explore-together {
+  .explore-together {
     display: none;
-}
+  }
 
-.h1-et {
+  .h1-et {
     margin-top: -1rem;
     left: 5rem;
-}
+  }
 
-.explore-together1 {
+  .explore-together1 {
     margin-top: 29.5rem;
-}
+  }
 
-.yellow-bg-et1 {
+  .yellow-bg-et1 {
     background-color: rgb(255, 202, 106);
     border-radius: 1rem;
     margin-left: 3rem;
@@ -1477,271 +1474,270 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, .5);
-}
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.5);
+  }
 
-.p-et {
+  .p-et {
     margin-left: -1.3rem;
     margin-bottom: 0rem;
-}
+  }
 
-.para-button {
+  .para-button {
     margin-top: 0rem;
-}
+  }
 
-#button-ex-to {
+  #button-ex-to {
     margin-bottom: 1.5rem;
-}
+  }
 
-    /* -- Explore --*/
+  /* -- Explore --*/
 
-#h1-ex {
+  #h1-ex {
     top: 89rem;
     left: 11.5rem;
-}
+  }
 
-.section-explore {
+  .section-explore {
     width: 400px;
     top: 91.5rem;
-}
+  }
 
-#h1-ex-sp {
+  #h1-ex-sp {
     top: 145rem;
     margin-left: 1.4rem;
-}
+  }
 
-#section-exh-spa {
+  #section-exh-spa {
     top: 147.8rem;
-}
+  }
 
-    /* -- Special events --*/
+  /* -- Special events --*/
 
-#h1-sp-ev {
+  #h1-sp-ev {
     top: 199.5rem;
     margin-left: 3.3rem;
-}
+  }
 
-#section-sp-ev {
+  #section-sp-ev {
     top: 202rem;
-}
+  }
 
-    /* -- Visit us --*/
+  /* -- Visit us --*/
 
-#h1-vi-us {
+  #h1-vi-us {
     top: 257rem;
     margin-left: 6.6rem;
-}
+  }
 
-.visit-us {
+  .visit-us {
     top: 259rem;
-}
+  }
 
-.bg-visit-us {
+  .bg-visit-us {
     width: 450px;
     height: 3140px;
     background-color: rgb(38, 106, 166);
-    box-shadow: 0px 0px 20px rgb(255, 255, 255, .3);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255, 0.3);
     border-radius: 25px;
     margin-left: 2.3rem;
     margin-top: 3rem;
-}
+  }
 
-#location {
+  #location {
     top: 3rem;
     left: 6.5rem;
-}
+  }
 
-#p-location {
+  #p-location {
     top: 9rem;
     left: 6.5rem;
-}
+  }
 
-.admission {
+  .admission {
     top: 16.5rem;
     left: 6.5rem;
-}
+  }
 
-#p-admission {
+  #p-admission {
     margin-left: 0rem;
-}
+  }
 
-.accessibility {
+  .accessibility {
     left: 6.5rem;
     top: 43rem;
-}
+  }
 
-#p-accessibility {
+  #p-accessibility {
     margin-left: 0rem;
-}
+  }
 
-.cafe {
+  .cafe {
     left: 6.5rem;
     top: 72rem;
-}
+  }
 
-#p-cafe {
+  #p-cafe {
     margin-left: 0rem;
-}
+  }
 
-.hours {
+  .hours {
     top: 103rem;
     left: 6.5rem;
-}
+  }
 
-#p-hours {
+  #p-hours {
     margin-left: 0rem;
-}
+  }
 
-.gift {
+  .gift {
     left: 6.5rem;
     top: 167rem;
-}
+  }
 
-#p-gift {
+  #p-gift {
     margin-top: 2.7rem;
     margin-left: 0rem;
-}
+  }
 
-    /* -- Get involved --*/
+  /* -- Get involved --*/
 
-#h1-get-inv {
+  #h1-get-inv {
     top: 476.3rem;
     left: 8.6rem;
-}
+  }
 
-.get-inv {
+  .get-inv {
     left: 2.5rem;
     top: 479.5rem;
     width: 440px;
-}
+  }
 
-#h1-support {
+  #h1-support {
     margin-top: -78rem;
     margin-left: 1rem;
-}
+  }
 
-.bg-get-inv {
+  .bg-get-inv {
     width: 460px;
     height: 1270px;
     background-color: rgb(38, 106, 166);
-    box-shadow: 0px 0px 20px rgb(255, 255, 255, .3);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255, 0.3);
     border-radius: 25px;
-    margin-left: -.7rem;
+    margin-left: -0.7rem;
     margin-top: 1rem;
-}
+  }
 
-.p-get-inv {
+  .p-get-inv {
     color: white;
     margin-top: -1rem;
     font-size: 1.4rem;
-}
+  }
 
-.volunteer {
+  .volunteer {
     top: 24.3rem;
     left: 0rem;
-}
+  }
 
-#h1-volunteer {
+  #h1-volunteer {
     margin-top: 4rem;
     margin-left: 1rem;
-}
+  }
 
-#p-volunteer {
-    margin-left: .5rem;
-}
+  #p-volunteer {
+    margin-left: 0.5rem;
+  }
 
-.internships {
+  .internships {
     top: 56rem;
-}
+  }
 
-#h1-internships {
+  #h1-internships {
     margin-left: 1rem;
-}
+  }
 
-#p-internships {
+  #p-internships {
     margin-left: 0rem;
-}
+  }
 
-        /* --- ABOUT.html --- */
+  /* --- ABOUT.html --- */
 
-
-.main-about {
+  .main-about {
     background-image: url(/images/bg-about-2.png);
     width: 526px;
     height: 1799px;
-}
+  }
 
-.footer-about {
+  .footer-about {
     position: absolute;
     top: 114rem;
     padding-bottom: 1rem;
-}
+  }
 
-.about-bg-pic {
+  .about-bg-pic {
     background-image: url(/images/aero-exhi.jpg);
     width: 500px;
     background-size: 100%;
     margin-top: 5.5rem;
-}
+  }
 
-#h1-ab-us {
+  #h1-ab-us {
     top: 19.8rem;
     left: 11rem;
     font-size: 2rem;
-}
+  }
 
-.section-about {
+  .section-about {
     width: 460px;
     top: 24rem;
     font-size: 1.2rem;
     left: 2.2rem;
     padding: 0rem;
     padding-left: 0rem;
-}
+  }
 
-#section-cos {
-    margin-left: -.2rem;
+  #section-cos {
+    margin-left: -0.2rem;
     margin-top: -1rem;
-}
+  }
 
-.p-ab-1 {
+  .p-ab-1 {
     margin-left: 2rem;
     margin-right: 0rem;
     margin-top: 2rem;
     width: 170px;
-}
+  }
 
-.ab-img-1 {
+  .ab-img-1 {
     margin-right: 2rem;
     border-radius: 1rem;
     margin-top: 2rem;
     width: 45%;
     height: 160px;
     object-fit: cover;
-}
+  }
 
-.ab-img-2 {
+  .ab-img-2 {
     border-radius: 1rem;
     margin-top: 3.5rem;
     height: 230px;
-}
+  }
 
-.p-ab-2 {
+  .p-ab-2 {
     width: 200px;
     margin-top: 3.5rem;
     margin-left: 2rem;
     margin-right: 1rem;
-}
+  }
 
-.p-ab-3 {
+  .p-ab-3 {
     width: 350px;
     margin-left: 1rem;
     margin-top: 4rem;
     margin-bottom: 1.3rem;
     margin-right: 1rem;
-}
+  }
 
-.div-ab-img-3 {
+  .div-ab-img-3 {
     height: 200px;
     width: 300px;
     background-size: 190%;
@@ -1751,57 +1747,57 @@ header {
     margin-top: 4.5rem;
     background-position-x: -4rem;
     background-position-y: -1rem;
-}
+  }
 
-.ab-img-3 {
+  .ab-img-3 {
     display: none;
-}
+  }
 
-.div-ab-img-4 {
+  .div-ab-img-4 {
     height: 200px;
-    margin-right: .4rem;
+    margin-right: 0.4rem;
     margin-top: 3.5rem;
-}
+  }
 
-.ab-img-4 {
+  .ab-img-4 {
     display: none;
-}
+  }
 
-.ab-img-5 {
+  .ab-img-5 {
     display: none;
-}
+  }
 
-#p-ab-5 {
+  #p-ab-5 {
     margin-bottom: 3rem;
-}
+  }
 
-.div-ab-img-5 {
+  .div-ab-img-5 {
     height: 200px;
-    margin-left: .3rem;
+    margin-left: 0.3rem;
     margin-right: 1rem;
     background-position-x: -9rem;
-}
+  }
 
-        /* --- FOR-KIDS.html --- */
+  /* --- FOR-KIDS.html --- */
 
-.kids-bg-pic {
+  .kids-bg-pic {
     width: 500px;
     margin-top: 3rem;
-}
+  }
 
-#h1-for-kids {
+  #h1-for-kids {
     top: 20rem;
     left: 11.5rem;
     font-size: 2rem;
-}
+  }
 
-.p-fk-1 {
+  .p-fk-1 {
     width: 300px;
     margin-left: 2rem;
     margin-top: 2.7rem;
-}
+  }
 
-.fk-img-1 {
+  .fk-img-1 {
     margin-left: 2rem;
     margin-top: 2.7rem;
     margin-right: 2rem;
@@ -1810,139 +1806,138 @@ header {
     height: 140px;
     object-fit: cover;
     object-position: 0rem;
-}
+  }
 
-.fk-img-2 {
+  .fk-img-2 {
     margin-top: 3rem;
     border-radius: 1rem;
     width: 40%;
     height: 40%;
-}
+  }
 
-.p-fk-2 {
+  .p-fk-2 {
     width: 370px;
     margin-top: 4.8rem;
     margin-left: 2rem;
     margin-right: 1rem;
-}
+  }
 
-.div-fk-img-3,
-.div-fk-img-4,
-.div-fk-img-5 {
+  .div-fk-img-3,
+  .div-fk-img-4,
+  .div-fk-img-5 {
     margin-right: 1rem;
     height: 200px;
-}
+  }
 
-.div-fk-img-3 {
+  .div-fk-img-3 {
     margin-left: 2rem;
     margin-top: 4rem;
     background-position-x: -1rem;
-}
+  }
 
-.p-fk-3 {
+  .p-fk-3 {
     margin-left: 1rem;
     margin-top: 4.5rem;
-}
+  }
 
-.div-fk-img-4 {
+  .div-fk-img-4 {
     margin-left: 1rem;
     margin-top: 5rem;
-}
+  }
 
-.p-fk-4 {
+  .p-fk-4 {
     width: 350px;
     margin-left: 1rem;
     margin-top: 6.5rem;
     margin-right: 1rem;
-}
+  }
 
-.p-fk-5 {
+  .p-fk-5 {
     margin-left: 1rem;
     margin-top: 5.5rem;
-}
+  }
 
-.div-fk-img-5 {
+  .div-fk-img-5 {
     margin-left: 2rem;
     margin-top: 4rem;
     margin-bottom: 2.5rem;
-}
-        
-        /* --- COSMOLOGY.html --- */
+  }
 
-.main-cosmology {
+  /* --- COSMOLOGY.html --- */
+
+  .main-cosmology {
     background-image: url(/images/bg-cosmology2.png);
     width: 526px;
     height: 1230px;
-}
+  }
 
-.cosmology-bg-pic {
+  .cosmology-bg-pic {
     width: 500px;
-}
+  }
 
-#h1-cos {
+  #h1-cos {
     margin-top: -5.9rem;
     margin-left: 5rem;
-}
+  }
 
-.p-cos-1 {
+  .p-cos-1 {
     width: 190px;
     margin-left: 2.5rem;
     margin-top: 3rem;
-}
+  }
 
-.cos-img-1 {
+  .cos-img-1 {
     margin-left: 3rem;
     margin-right: 1rem;
     border-radius: 1rem;
     width: 150px;
     height: 150px;
     object-fit: cover;
-}
+  }
 
-.cos-img-2 {
+  .cos-img-2 {
     margin-left: 2rem;
     margin-top: 4rem;
-}
+  }
 
-#p-cos-2 {
+  #p-cos-2 {
     margin-top: 6rem;
     margin-left: 2rem;
-}
+  }
 
-.p-cos-3 {
+  .p-cos-3 {
     display: block;
     width: 300px;
     margin-right: 2rem;
     margin-left: 2rem;
     margin-top: 6rem;
     margin-bottom: 2.5rem;
-}
+  }
 
-
-.div-cos-img-3 {
+  .div-cos-img-3 {
     height: 200px;
     margin-left: 0rem;
     margin-right: 2rem;
     margin-top: 6rem;
-}
-        
-        /* --- ROBOTICS.html --- */     
+  }
 
-.robotics-bg-pic {
+  /* --- ROBOTICS.html --- */
+
+  .robotics-bg-pic {
     width: 500px;
     margin-top: 3rem;
-}
+  }
 
-#h1-rob {
+  #h1-rob {
     margin-top: -5.9rem;
     margin-left: 6rem;
-}
+  }
 
-#p-rob-1 {
+  #p-rob-1 {
     margin-top: 3rem;
-}
+  }
 
-.rob-img-1 {
+  .rob-img-1 {
     margin-left: 1rem;
     margin-top: 2rem;
     border-radius: 1rem;
@@ -1950,56 +1945,56 @@ header {
     height: 150px;
     object-fit: cover;
     object-position: -1rem;
-}
+  }
 
-.p-rob-2 {
+  .p-rob-2 {
     width: 150px;
     margin-top: 8rem;
     margin-left: 3rem;
-}
+  }
 
-.rob-img-2 {
+  .rob-img-2 {
     margin-top: 5rem;
     margin-left: 3.5rem;
     border-radius: 1rem;
-}
+  }
 
-.p-rob-3 {
+  .p-rob-3 {
     width: 280px;
     margin-top: 7rem;
     margin-left: 3rem;
     margin-bottom: 5.5rem;
-}
+  }
 
-.div-rob-img-3 {
+  .div-rob-img-3 {
     height: 200px;
     margin-left: 3rem;
     margin-top: 5.5rem;
     margin-right: 2rem;
     background-position-x: -8rem;
-}
+  }
 
-.footer-robotics {
+  .footer-robotics {
     top: 81rem;
-}
-   
-        /* --- BIOLOGY.html --- */
+  }
 
-.biology-bg-pic {
+  /* --- BIOLOGY.html --- */
+
+  .biology-bg-pic {
     width: 500px;
     margin-top: 5rem;
-}
+  }
 
-#h1-bio {
+  #h1-bio {
     margin-top: -5.9rem;
     margin-left: 7rem;
-}
+  }
 
-#p-bio-1 {
+  #p-bio-1 {
     margin-top: 3.5rem;
-}
+  }
 
-.bio-img-1 {
+  .bio-img-1 {
     margin-left: 2rem;
     margin-top: 2.5rem;
     margin-right: 1.5rem;
@@ -2007,69 +2002,69 @@ header {
     width: 35%;
     height: 150px;
     object-fit: cover;
-}
+  }
 
-.bio-img-2 {
+  .bio-img-2 {
     margin-left: 2rem;
     margin-top: 4.7rem;
     border-radius: 2rem;
     width: 32%;
     height: 32%;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
+  }
 
-.p-bio-2 {
+  .p-bio-2 {
     width: 220px;
     margin-top: 5.7rem;
     margin-left: 2rem;
-}
+  }
 
-#p-bio-3 {
+  #p-bio-3 {
     margin-top: 5.8rem;
-}
+  }
 
-.div-bio-img-3 {
+  .div-bio-img-3 {
     height: 200px;
     margin-bottom: 3rem;
     margin-left: 0rem;
     margin-right: 2rem;
     margin-top: 5.5rem;
     background-position-x: -12rem;
-}
+  }
 
-        /* --- EVOLUTION.html --- */
+  /* --- EVOLUTION.html --- */
 
-.evolution-bg-pic {
+  .evolution-bg-pic {
     width: 500px;
     border-radius: 0;
     margin-top: 4rem;
-}
+  }
 
-#h1-evo {
+  #h1-evo {
     margin-top: -5.9rem;
     margin-left: 6rem;
-}
+  }
 
-#evo-img-1 {
+  #evo-img-1 {
     margin-top: 2.8rem;
-}
+  }
 
-.evo-img-2 {
+  .evo-img-2 {
     margin-left: 1rem;
     margin-top: 3.7rem;
     border-radius: 2rem;
     width: 38%;
     height: 38%;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
+  }
 
-.p-evo-2 {
+  .p-evo-2 {
     width: 230px;
     margin-top: 4.7rem;
     margin-left: 1.5rem;
-}
+  }
 
-.div-evo-img-3 {
+  .div-evo-img-3 {
     height: 200px;
     background-size: 170%;
     margin-left: 0;
@@ -2078,739 +2073,735 @@ header {
     margin-bottom: 2rem;
     background-position-x: -4rem;
     background-position-y: -0rem;
-}
-        
-        /* --- FOR-TEACHERS.html --- */
+  }
 
-.teachers-bg-pic {
+  /* --- FOR-TEACHERS.html --- */
+
+  .teachers-bg-pic {
     width: 500px;
-}
+  }
 
-#h1-for-teachers {
+  #h1-for-teachers {
     margin-top: -6rem;
     margin-left: 4.5rem;
-}
+  }
 
-.p-ft-1 {
+  .p-ft-1 {
     width: 200px;
     margin-right: 0rem;
     margin-left: 2rem;
     margin-top: 2.6rem;
-}
+  }
 
-.p-ft-2 {
+  .p-ft-2 {
     width: 180px;
     margin-right: 2rem;
     margin-left: 3rem;
     margin-top: 4.2rem;
-}
+  }
 
-.ft-img-2 {
+  .ft-img-2 {
     margin-left: 2rem;
     margin-top: 4rem;
     border-radius: 2rem;
     width: 35%;
     height: 35%;
     box-shadow: 0px 0px 15px 1px rgba(255, 255, 255, 0.3);
-}
+  }
 
-.p-ft-3 {
+  .p-ft-3 {
     display: block;
     width: 300px;
     margin-right: 1rem;
     margin-left: 2rem;
     margin-top: 5rem;
     margin-bottom: 5.6rem;
-}
+  }
 
-.contact-us {
+  .contact-us {
     display: inline;
     color: white;
     font-weight: 900;
-}
+  }
 
-#ft-img-3 {
+  #ft-img-3 {
     margin-right: 2rem;
+  }
 
-}
-
-.ft-img-3 {
+  .ft-img-3 {
     display: none;
-}
-        
-        /* --- FOR-RESEARCHERS.html --- */
+  }
 
-.researchers-bg-pic {
+  /* --- FOR-RESEARCHERS.html --- */
+
+  .researchers-bg-pic {
     width: 500px;
-}
+  }
 
-#h1-for-researchers {
+  #h1-for-researchers {
     margin-top: -5.5rem;
     margin-left: 4.4rem;
     font-size: 1.7rem;
-}
+  }
 
-.p-fr-1 {
+  .p-fr-1 {
     width: 150px;
     margin-right: 1rem;
     margin-left: 3.5rem;
     margin-top: 3.3rem;
-}
+  }
 
-#fr-img-1 {
+  #fr-img-1 {
     margin-right: 2rem;
     margin-top: 2rem;
     height: 150px;
     object-position: -4rem;
-}
+  }
 
-.p-fr-2 {
+  .p-fr-2 {
     width: 250px;
     margin-right: 2rem;
     margin-left: 3rem;
     margin-top: 8rem;
-}
+  }
 
-.p-fr-3 {
+  .p-fr-3 {
     width: 330px;
     margin-right: 0rem;
     margin-left: 2rem;
     margin-top: 5.5rem;
     margin-bottom: 5rem;
-}
+  }
 
-#fr-img-3 {
+  #fr-img-3 {
     margin-right: 2rem;
-}
+  }
 
-.fr-img-3 {
+  .fr-img-3 {
     display: none;
-}
-        
+  }
 }
 
 @media (max-width: 536px) {
-    
-        /* --- GLOBAL --- */
+  /* --- GLOBAL --- */
 
-    /* -- HEADER -- */
+  /* -- HEADER -- */
 
-header {
+  header {
     height: 100px;
     width: 320px;
-    top: -.3rem;
+    top: -0.3rem;
     padding-left: 0;
     padding-right: 0;
-}
+  }
 
-.logo {
-    margin-top: .2rem;
+  .logo {
+    margin-top: 0.2rem;
     width: 2.3rem;
-    margin-right: .8rem;
-    margin-left: .2rem;
-}
+    margin-right: 0.8rem;
+    margin-left: 0.2rem;
+  }
 
-.name {
-    font-size: .8rem;
-}
+  .name {
+    font-size: 0.8rem;
+  }
 
-.menu-icon {
+  .menu-icon {
     width: 2.5rem;
-    padding: .3rem .4rem;
+    padding: 0.3rem 0.4rem;
     top: 1.2rem;
     margin-left: -3.5rem;
-    background-color: rgb(217, 149, 89, 1)
-}
+    background-color: rgb(217, 149, 89, 1);
+  }
 
-.menu {
+  .menu {
     top: 4.5rem;
     margin-left: 12.5rem;
     z-index: 0;
-}
+  }
 
-.menu-icon:hover {
+  .menu-icon:hover {
     scale: 100%;
-}
+  }
 
-.button {
-    padding: .3rem .5rem;
-    margin: .6rem .4rem;
+  .button {
+    padding: 0.3rem 0.5rem;
+    margin: 0.6rem 0.4rem;
     font-size: 1rem;
-}
+  }
 
-html {
-    margin-top: -.8rem;
-}
+  html {
+    margin-top: -0.8rem;
+  }
 
-        /* --- INDEX.html --- */
+  /* --- INDEX.html --- */
 
-    /* -- Background -- */
+  /* -- Background -- */
 
-.body-index {
+  .body-index {
     height: 6490px;
     width: 350px;
-}
+  }
 
-.main-index {
+  .main-index {
     width: 350px;
     height: 6873px;
     background-image: url(/images/frame2.1.png);
-}
+  }
 
-.footer-index {
+  .footer-index {
     text-align: center;
     top: 301.5rem;
     position: absolute;
-}
+  }
 
-.first-bg-pic,
-.second-bg-pic,
-.third-bg-pic,
-.fourth-bg-pic,
-.fifth-bg-pic,
-.sixth-bg-pic {
+  .first-bg-pic,
+  .second-bg-pic,
+  .third-bg-pic,
+  .fourth-bg-pic,
+  .fifth-bg-pic,
+  .sixth-bg-pic {
     width: 349px;
-    margin-left: .1rem;
-}
+    margin-left: 0.1rem;
+  }
 
-.first-bg-pic {
+  .first-bg-pic {
     width: 349px;
-    margin-top: .4rem;
+    margin-top: 0.4rem;
     z-index: 1;
     border-radius: 50px 50px 0px 0px;
-}
+  }
 
-.second-bg-pic {
+  .second-bg-pic {
     width: 349px;
     height: 800px;
     margin-top: 25rem;
     border-radius: 0px;
-}
+  }
 
-.third-bg-pic {
+  .third-bg-pic {
     background-size: 100%;
     width: 349px;
     margin-top: -3.9rem;
     border-radius: 0px;
-}
+  }
 
-.fourth-bg-pic {
+  .fourth-bg-pic {
     width: 349px;
     margin-top: 20rem;
-}
+  }
 
-.fifth-bg-pic {
+  .fifth-bg-pic {
     width: 349px;
     background-size: 100%;
     margin-top: 24rem;
-}
+  }
 
-.sixth-bg-pic {
+  .sixth-bg-pic {
     background-size: 100%;
     width: 349px;
     height: 800px;
     margin-top: 131rem;
     border-radius: 0px;
-}
+  }
 
-    /* -- Explore Together -- */
+  /* -- Explore Together -- */
 
-.explore-together {
+  .explore-together {
     display: none;
-}
+  }
 
-.explore-together1 {
+  .explore-together1 {
     margin-top: 19rem;
-}
+  }
 
-.yellow-bg-et1 {
+  .yellow-bg-et1 {
     width: 310px;
     height: 470px;
     margin-left: 1.25rem;
     padding: 0;
-}
+  }
 
-.h1-et {
+  .h1-et {
     font-size: 1.5rem;
     top: 16.5rem;
     left: 3rem;
-}
+  }
 
-#button-ex-to {
-    margin-left: -.1rem;
+  #button-ex-to {
+    margin-left: -0.1rem;
     font-size: 1.5rem;
-}
+  }
 
-.h1-ybg {
+  .h1-ybg {
     width: 100%;
     height: 100%;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-size: 1.4rem;
-}
+  }
 
-.about-img {
+  .about-img {
     width: 80%;
     height: 40%;
     margin-left: 2rem;
     margin-top: 1rem;
     margin-bottom: 0rem;
-    border-radius: .5rem;
-}
+    border-radius: 0.5rem;
+  }
 
-.para-button {
+  .para-button {
     align-items: center;
     margin-top: 0rem;
-}
+  }
 
-.p-et {
+  .p-et {
     width: 270px;
     line-height: 2rem;
     margin-bottom: 0;
-}
+  }
 
-#button-ex-to {
-    padding: .5rem 4rem;
+  #button-ex-to {
+    padding: 0.5rem 4rem;
     margin-left: -1.4rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
+  }
 
-    /* -- Explore -- */
+  /* -- Explore -- */
 
-#h1-ex {
+  #h1-ex {
     top: 61.5rem;
     left: 7.5rem;
-}
+  }
 
-.section-explore {
+  .section-explore {
     width: 300px;
     height: 430px;
-    left: .01rem;
+    left: 0.01rem;
     top: 63rem;
     border-right: 1px solid black;
-}
+  }
 
-.yellow-bg-ex {
+  .yellow-bg-ex {
     width: 300px;
     height: 400px;
-}
+  }
 
-.for-kids,
-.for-researchers,
-.for-teachers {
+  .for-kids,
+  .for-researchers,
+  .for-teachers {
     width: 80%;
     height: 30%;
-}
+  }
 
-.for-researchers {
-    margin-top: .3rem;
-}
+  .for-researchers {
+    margin-top: 0.3rem;
+  }
 
-.h1-ybg-ex {
+  .h1-ybg-ex {
     width: 100%;
     height: 100%;
     font-size: 1.2rem;
-}
+  }
 
-.p-ex {
+  .p-ex {
     width: 190px;
     font-size: 1.2rem;
     margin-left: 1.4rem;
     line-height: 1.5rem;
     margin-bottom: 0;
-    margin-top: .2rem;
-}
+    margin-top: 0.2rem;
+  }
 
-#read-more {
+  #read-more {
     width: 10rem;
     font-size: 1.6rem;
     line-height: 2.3rem;
-}
+  }
 
-    /* -- Exhibition spaces -- */
+  /* -- Exhibition spaces -- */
 
-#h1-ex-sp {
+  #h1-ex-sp {
     top: 100.5rem;
-    margin-left: .3rem;
-}
+    margin-left: 0.3rem;
+  }
 
-#section-exh-spa {
+  #section-exh-spa {
     top: 102rem;
-}
+  }
 
-.cosmology,
-.evolution,
-.biology,
-.robotics {
+  .cosmology,
+  .evolution,
+  .biology,
+  .robotics {
     width: 85%;
     height: 35%;
-}
+  }
 
-    /* -- Special events -- */
+  /* -- Special events -- */
 
-#h1-sp-ev {
+  #h1-sp-ev {
     top: 139.5rem;
     margin-left: 2rem;
-}
+  }
 
-#section-sp-ev {
+  #section-sp-ev {
     top: 141rem;
     position: absolute;
-}
+  }
 
-.aeronautics,
-.sleepover,
-.energetica {
+  .aeronautics,
+  .sleepover,
+  .energetica {
     width: 85%;
     height: 35%;
-}
+  }
 
-    /* -- Visit us -- */
+  /* -- Visit us -- */
 
-.bg-visit-us {
+  .bg-visit-us {
     height: 2220px;
     width: 305px;
-}
+  }
 
-#h1-vi-us {
+  #h1-vi-us {
     top: 180.3rem;
     left: 1rem;
-}
+  }
 
-.visit-us {
+  .visit-us {
     top: 180rem;
     left: -1rem;
-}
+  }
 
-.h1-vi-us {
+  .h1-vi-us {
     font-size: 2rem;
-}
+  }
 
-.p-vi-us {
+  .p-vi-us {
     color: white;
     font-size: 1.6rem;
-}
+  }
 
-#location {
+  #location {
     top: 4rem;
     left: 5rem;
     position: absolute;
-}
+  }
 
-#p-location {
+  #p-location {
     position: absolute;
     top: 8rem;
     left: 5rem;
     width: 230px;
-}
+  }
 
-.admission {
+  .admission {
     top: 13rem;
     left: 5rem;
     width: 230px;
-}
+  }
 
-#p-admission {
+  #p-admission {
     margin-top: 0rem;
     margin-left: 0;
-}
+  }
 
-.accessibility {
+  .accessibility {
     width: 230px;
     left: 5rem;
     top: 33rem;
-}
+  }
 
-#p-accessibility {
+  #p-accessibility {
     margin-top: 0rem;
     margin-left: 0rem;
-}
+  }
 
-.cafe {
+  .cafe {
     position: absolute;
     left: 5rem;
     top: 96rem;
-}
+  }
 
-#p-cafe {
+  #p-cafe {
     margin-top: 0rem;
     margin-left: 0rem;
-}
+  }
 
-.hours {
+  .hours {
     top: 52rem;
     left: 5rem;
     width: 200px;
-}
+  }
 
-#p-hours {
+  #p-hours {
     margin-top: 0rem;
     margin-left: 0rem;
-}
+  }
 
-.gift {
+  .gift {
     left: 5rem;
     top: 117rem;
-}
+  }
 
-#p-gift {
+  #p-gift {
     margin-top: 0rem;
     margin-left: 0rem;
-}
+  }
 
-    /* -- Get involved -- */
+  /* -- Get involved -- */
 
-.bg-get-inv {
+  .bg-get-inv {
     height: 1450px;
     width: 310px;
-    margin-left: .1rem;
-}
+    margin-left: 0.1rem;
+  }
 
-#h1-get-inv {
+  #h1-get-inv {
     top: 334rem;
     left: 5.5rem;
-}
+  }
 
-.get-inv {
+  .get-inv {
     left: 1.1rem;
     top: 336rem;
     width: 290px;
-}
+  }
 
-.p-get-inv {
+  .p-get-inv {
     margin-top: -3rem;
     font-size: 1.2rem;
     margin-left: 3rem;
-}
+  }
 
-#h1-support {
+  #h1-support {
     margin-left: 2rem;
     margin-top: -89.8rem;
-}
+  }
 
-#p-support {
+  #p-support {
     top: 8rem;
     margin-left: 2rem;
-}
+  }
 
-.volunteer {
+  .volunteer {
     top: 26.3rem;
-    left: .6rem;
+    left: 0.6rem;
     width: 290px;
-}
+  }
 
-#h1-volunteer {
+  #h1-volunteer {
     margin-left: 1.5rem;
-}
+  }
 
-#p-volunteer {
+  #p-volunteer {
     margin-top: -1rem;
     margin-left: 1.4rem;
     width: 250px;
-}
+  }
 
-.internships {
+  .internships {
     top: 62.5rem;
     margin-left: 1rem;
-}
+  }
 
-#p-internships {
-    margin-top: -.8rem;
+  #p-internships {
+    margin-top: -0.8rem;
     margin-left: 1rem;
     width: 250px;
-}
-        
+  }
 
-        /* --- ABOUT.html --- */
+  /* --- ABOUT.html --- */
 
-.main-about {
+  .main-about {
     background-image: url(/images/bg-about-3.1.png);
     width: 350px;
     height: 1577px;
-}
+  }
 
-.footer-about {
+  .footer-about {
     top: 100rem;
     padding-bottom: 1rem;
-}
+  }
 
-.about-bg-pic {
+  .about-bg-pic {
     width: 350px;
     margin-top: 4rem;
-}
+  }
 
-#h1-ab-us {
+  #h1-ab-us {
     top: 15rem;
     left: 6.3rem;
     font-size: 1.7rem;
-}
+  }
 
-.section-about {
+  .section-about {
     width: 310px;
     top: 18rem;
     font-size: 1rem;
     left: 1.6rem;
     padding: 1rem;
     padding-left: 0rem;
-}
+  }
 
-.p-ab-1 {
-    margin-top: .5rem;
+  .p-ab-1 {
+    margin-top: 0.5rem;
     margin-left: 1.5rem;
     width: 130px;
-}
+  }
 
-.ab-img-1 {
+  .ab-img-1 {
     margin-left: 1.4rem;
     margin-right: 0;
-    margin-top: .2rem;
+    margin-top: 0.2rem;
     border-radius: 1.3rem;
     width: 40%;
     height: 140px;
     object-fit: cover;
     object-position: -1rem;
-}
+  }
 
-.ab-img-2 {
+  .ab-img-2 {
     margin-left: 1rem;
     margin-top: 2rem;
     border-radius: 1.3rem;
     width: 40%;
     height: 210px;
-}
+  }
 
-.p-ab-2 {
+  .p-ab-2 {
     margin-top: 2.4rem;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     margin-right: 0;
-}
+  }
 
-.p-ab-3 {
+  .p-ab-3 {
     margin-top: 1.5rem;
     margin-bottom: 0rem;
-    margin-right: .4rem;
+    margin-right: 0.4rem;
     margin-left: 1rem;
     width: 300px;
-}
+  }
 
-.div-ab-img-3,
-.div-ab-img-4,
-.div-ab-img-5 {
+  .div-ab-img-3,
+  .div-ab-img-4,
+  .div-ab-img-5 {
     height: 230px;
     margin-right: 0;
-}
+  }
 
-.div-ab-img-3 {
+  .div-ab-img-3 {
     background-size: 300%;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
     margin-top: 1.5rem;
-}
+  }
 
-#p-ab-4 {
+  #p-ab-4 {
     margin-right: 0;
     margin-top: 2.5rem;
-}
+  }
 
-.div-ab-img-4 {
+  .div-ab-img-4 {
     background-size: 250%;
     margin-left: 1rem;
     margin-top: 2.5rem;
     background-position-x: -3rem;
-}
+  }
 
-#p-ab-5 {
+  #p-ab-5 {
     margin-top: 2.8rem;
     margin-bottom: 1rem;
-}
+  }
 
-.div-ab-img-5 {
+  .div-ab-img-5 {
     background-size: 350%;
     margin-left: 0rem;
     margin-top: 2.8rem;
-}
+  }
 
-        /* --- FOR-KIDS.html --- */
+  /* --- FOR-KIDS.html --- */
 
-.kids-bg-pic {
+  .kids-bg-pic {
     width: 350px;
     margin-top: 3rem;
-}
+  }
 
-#h1-for-kids {
+  #h1-for-kids {
     top: 15rem;
     left: 6.4rem;
     font-size: 1.7;
-}
+  }
 
-.p-fk-1 {
+  .p-fk-1 {
     width: 300px;
     margin-right: 1rem;
     margin-top: 1rem;
-}
+  }
 
-.fk-img-1 {
+  .fk-img-1 {
     margin-left: 0rem;
     margin-top: 1rem;
-    margin-right: .5rem;
-    border-radius: .5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
     width: 130px;
     height: 150px;
     object-fit: cover;
-}
+  }
 
-.fk-img-2 {
+  .fk-img-2 {
     margin-left: 1rem;
     margin-top: 3rem;
-    border-radius: .5rem;
-}
+    border-radius: 0.5rem;
+  }
 
-.p-fk-2 {
+  .p-fk-2 {
     width: 370px;
     margin-top: 2.5rem;
     margin-left: 0.5rem;
     margin-right: 0;
-}
+  }
 
-.div-fk-img-3,
-.div-fk-img-4,
-.div-fk-img-5 {
+  .div-fk-img-3,
+  .div-fk-img-4,
+  .div-fk-img-5 {
     margin-left: 1rem;
     margin-right: 0rem;
-}
+  }
 
-.div-fk-img-3 {
+  .div-fk-img-3 {
     height: 200px;
     background-size: 280%;
     margin-top: 3.5rem;
-}
+  }
 
-.p-fk-3 {
+  .p-fk-3 {
     margin-left: 1rem;
     margin-top: 4.2rem;
-}
+  }
 
-.fk-img-3 {
+  .fk-img-3 {
     opacity: 0;
-}
+  }
 
-.div-fk-img-4 {
+  .div-fk-img-4 {
     height: 200px;
     background-size: 280%;
     margin-top: 4rem;
-}
+  }
 
-.p-fk-4 {
+  .p-fk-4 {
     margin-left: 1rem;
     margin-top: 5.2rem;
-    margin-right: .5rem;
-}
+    margin-right: 0.5rem;
+  }
 
-.p-fk-5 {
+  .p-fk-5 {
     margin-left: 1rem;
     margin-top: 5.5rem;
-}
+  }
 
-.div-fk-img-5 {
+  .div-fk-img-5 {
     height: 150px;
     width: 250px;
     background-size: 350%;
@@ -2818,41 +2809,41 @@ html {
     margin-bottom: 2rem;
     background-position-x: -11rem;
     background-position-y: -2rem;
-}
+  }
 
-        /* --- COSMOLOGY.html --- */
+  /* --- COSMOLOGY.html --- */
 
-.main-cosmology {
+  .main-cosmology {
     background-image: url(/images/bg-cosmology3.1.png);
     width: 350px;
     height: 1097px;
-}
+  }
 
-.cosmology-bg-pic {
+  .cosmology-bg-pic {
     background-image: url(/images/aero-exhi.jpg);
     width: 349px;
     margin-top: 4rem;
-    margin-left: -.1rem;
+    margin-left: -0.1rem;
     border-radius: 0rem;
-}
+  }
 
-#section-cos {
-    margin-left: -.9rem;
-    margin-top: -.5rem;
-}
+  #section-cos {
+    margin-left: -0.9rem;
+    margin-top: -0.5rem;
+  }
 
-#h1-cos {
+  #h1-cos {
     margin-top: -2.5rem;
     margin-left: 3.1rem;
-}
+  }
 
-.p-cos-1 {
+  .p-cos-1 {
     width: 100px;
     margin-left: 2rem;
     margin-top: 2rem;
-}
+  }
 
-.cos-img-1 {
+  .cos-img-1 {
     margin-left: 1.5rem;
     margin-top: 1rem;
     margin-right: 0;
@@ -2860,30 +2851,30 @@ html {
     width: 130px;
     height: 180px;
     object-fit: cover;
-}
+  }
 
-#p-cos-2 {
+  #p-cos-2 {
     margin-top: 3.7rem;
     margin-left: 1rem;
     margin-right: 1rem;
-}
+  }
 
-.cos-img-2 {
+  .cos-img-2 {
     margin-left: 1rem;
     margin-top: 3.7rem;
     border-radius: 1rem;
     width: 40%;
     height: 40%;
-}
+  }
 
-.p-cos-3 {
+  .p-cos-3 {
     margin-right: 0rem;
     margin-left: 1rem;
     margin-top: 5rem;
     margin-bottom: 2.5rem;
-}
+  }
 
-.div-cos-img-3 {
+  .div-cos-img-3 {
     height: 200px;
     width: 300px;
     background-size: 260%;
@@ -2892,33 +2883,33 @@ html {
     margin-right: 0rem;
     background-position-x: -3.5rem;
     background-position-y: 0rem;
-}   
+  }
 
-        /* --- ROBOTICS.html --- */     
+  /* --- ROBOTICS.html --- */
 
-.robotics-bg-pic {
+  .robotics-bg-pic {
     background-image: url(/images/robotics.jpg);
     width: 350px;
     height: 500px;
-    margin-left: -.1rem;
+    margin-left: -0.1rem;
     background-repeat: no-repeat;
     margin-top: 1rem;
     background-size: 100%;
     border-radius: 1rem;
-}
+  }
 
-#h1-rob {
+  #h1-rob {
     margin-top: -2.5rem;
     margin-left: 4rem;
-}
+  }
 
-#p-rob-1 {
+  #p-rob-1 {
     margin-left: 1rem;
     margin-top: 1.2rem;
     width: 200px;
-}
+  }
 
-.rob-img-1 {
+  .rob-img-1 {
     margin-left: 1rem;
     margin-right: 0rem;
     margin-top: 1rem;
@@ -2926,30 +2917,30 @@ html {
     width: 45%;
     height: 150px;
     object-fit: cover;
-}
+  }
 
-.rob-img-2 {
+  .rob-img-2 {
     margin-left: 1.5rem;
     margin-top: 4.5rem;
     border-radius: 1rem;
     width: 40%;
     height: 40%;
-}
+  }
 
-.p-rob-2 {
+  .p-rob-2 {
     width: 150px;
     margin-top: 6.5rem;
     margin-left: 2rem;
-}
+  }
 
-.p-rob-3 {
+  .p-rob-3 {
     width: 260px;
     margin-top: 6rem;
     margin-left: 1rem;
     margin-bottom: 4rem;
-}
+  }
 
-.div-rob-img-3 {
+  .div-rob-img-3 {
     height: 200px;
     width: 130%;
     object-fit: cover;
@@ -2957,61 +2948,61 @@ html {
     margin-left: 1rem;
     margin-right: 0rem;
     background-position-x: -7rem;
-}
+  }
 
-.footer-robotics {
+  .footer-robotics {
     position: absolute;
     top: 72rem;
     padding-bottom: 1rem;
-}
-    
-        /* --- EVOLUTION.html --- */
+  }
 
-.evolution-bg-pic {
+  /* --- EVOLUTION.html --- */
+
+  .evolution-bg-pic {
     width: 349px;
-    margin-left: -.1rem;
+    margin-left: -0.1rem;
     margin-top: 4rem;
-}
+  }
 
-#h1-evo {
+  #h1-evo {
     margin-top: -2.5rem;
     margin-left: 4rem;
-}
+  }
 
-#p-evo-1 {
+  #p-evo-1 {
     margin-left: 1rem;
     margin-top: 1rem;
     width: 200px;
-}
+  }
 
-#evo-img-1 {
-    margin-top: .9rem;
+  #evo-img-1 {
+    margin-top: 0.9rem;
     margin-right: 0rem;
     width: 150px;
     object-position: -3rem;
-}
+  }
 
-.evo-img-2 {
-    margin-left: .5rem;
+  .evo-img-2 {
+    margin-left: 0.5rem;
     margin-top: 3.5rem;
     border-radius: 1rem;
     width: 45%;
     height: 45%;
-}
+  }
 
-.p-evo-2 {
+  .p-evo-2 {
     width: 380px;
     margin-top: 3.2rem;
-    margin-left: .5rem;
-}
+    margin-left: 0.5rem;
+  }
 
-#p-evo-3 {
+  #p-evo-3 {
     margin-bottom: 3rem;
     margin-top: 3.5rem;
-    margin-right: .5rem;
-}
+    margin-right: 0.5rem;
+  }
 
-.div-evo-img-3 {
+  .div-evo-img-3 {
     height: 200px;
     width: 350px;
     background-size: 224%;
@@ -3019,56 +3010,56 @@ html {
     margin-top: 4rem;
     background-position-x: -3rem;
     background-position-y: 0rem;
-}
-        
-        /* --- BIOLOGY.html --- */
+  }
 
-.biology-bg-pic {
+  /* --- BIOLOGY.html --- */
+
+  .biology-bg-pic {
     width: 349px;
-    margin-left: -.1rem;
+    margin-left: -0.1rem;
     margin-top: 4rem;
-}
+  }
 
-#h1-bio {
+  #h1-bio {
     margin-top: -2.5rem;
     margin-left: 4.5rem;
-}
+  }
 
-#p-bio-1 {
+  #p-bio-1 {
     margin-left: 1.5rem;
     margin-top: 1.8rem;
     width: 130px;
-}
+  }
 
-.bio-img-1 {
+  .bio-img-1 {
     margin-left: 2rem;
     margin-top: 1rem;
     border-radius: 1rem;
     width: 45%;
     height: 190px;
     object-position: -2.4rem;
-}
+  }
 
-.bio-img-2 {
+  .bio-img-2 {
     margin-left: 1rem;
     margin-top: 3.7rem;
     border-radius: 1rem;
     width: 40%;
     height: 100%;
-}
+  }
 
-.p-bio-2 {
+  .p-bio-2 {
     width: 340px;
     margin-top: 3.1rem;
     margin-left: 1rem;
-}
+  }
 
-#p-bio-3 {
+  #p-bio-3 {
     margin-top: 3rem;
     margin-bottom: 0rem;
-}
+  }
 
-.div-bio-img-3 {
+  .div-bio-img-3 {
     height: 200px;
     width: 400px;
     background-size: 220%;
@@ -3078,117 +3069,115 @@ html {
     margin-bottom: 1rem;
     background-position-x: -11rem;
     background-position-y: 0rem;
-}
-        
-        /* --- FOR-RESEARCHERS.html --- */
+  }
 
-.main-researchers {
+  /* --- FOR-RESEARCHERS.html --- */
+
+  .main-researchers {
     background-image: url(/images/bg-cosmology3.1.png);
     width: 350px;
     height: 1097px;
-}
+  }
 
-.researchers-bg-pic {
+  .researchers-bg-pic {
     width: 349px;
-    margin-left: -.1rem;
-}
+    margin-left: -0.1rem;
+  }
 
-#h1-for-researchers {
+  #h1-for-researchers {
     margin-top: -2.5rem;
     margin-left: 1.5rem;
     font-size: 1.5rem;
-}
+  }
 
-.p-fr-1 {
+  .p-fr-1 {
     width: 130px;
     margin-right: 1.5rem;
     margin-left: 2rem;
     margin-top: 2rem;
-}
+  }
 
-#fr-img-1 {
+  #fr-img-1 {
     margin-right: 0rem;
     margin-top: 1rem;
     object-position: -6rem;
-}
+  }
 
-.p-fr-2 {
+  .p-fr-2 {
     width: 250px;
     margin-right: 0rem;
     margin-left: 1rem;
     margin-top: 6rem;
-}
+  }
 
-.fr-img-2 {
+  .fr-img-2 {
     margin-left: 1.5rem;
     margin-top: 4rem;
     border-radius: 1rem;
     width: 45%;
     height: 45%;
-}
+  }
 
-.p-fr-3 {
+  .p-fr-3 {
     width: 200px;
     margin-right: 0rem;
     margin-left: 1rem;
     margin-top: 4.5rem;
     margin-bottom: 5rem;
-}
+  }
 
-#fr-img-3 {
+  #fr-img-3 {
     width: 200px;
     margin-right: 0;
     margin-top: 4rem;
-}
-        
-        /* --- FOR-TEACHERS.html --- */
+  }
 
-.teachers-bg-pic {
+  /* --- FOR-TEACHERS.html --- */
+
+  .teachers-bg-pic {
     width: 349px;
-    margin-left: -.1rem;
-}
+    margin-left: -0.1rem;
+  }
 
-#h1-for-teachers {
+  #h1-for-teachers {
     margin-top: -2.5rem;
     margin-left: 2.8rem;
-}
+  }
 
-.p-ft-1 {
+  .p-ft-1 {
     width: 270px;
     margin-right: 1rem;
     margin-left: 1rem;
     margin-top: 2rem;
-}
+  }
 
-.p-ft-2 {
+  .p-ft-2 {
     width: 330px;
     margin-right: 0rem;
-    margin-left: .8rem;
+    margin-left: 0.8rem;
     margin-top: 4.5rem;
-}
+  }
 
-.ft-img-2 {
-    margin-left: .8rem;
+  .ft-img-2 {
+    margin-left: 0.8rem;
     margin-top: 5rem;
     border-radius: 1rem;
     width: 45%;
     height: 45%;
-}
+  }
 
-.p-ft-3 {
+  .p-ft-3 {
     width: 300px;
     margin-right: 0rem;
     margin-left: 1rem;
     margin-top: 6rem;
     margin-bottom: 2.5rem;
-}
+  }
 
-#ft-img-3 {
+  #ft-img-3 {
     margin-right: 0;
     margin-top: 5rem;
     margin-bottom: 3rem;
     height: 150px;
-}
-        
-
+  }
 }

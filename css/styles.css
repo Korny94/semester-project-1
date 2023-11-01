@@ -3181,3 +3181,33 @@ span {
     height: 150px;
   }
 }
+
+@media (min-width: 1500px) {
+  html {
+    margin-top: 96rem;
+    scale: 150%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    width: 1500px;
+  }
+}
+
+@media (min-width: 2200px) {
+  html {
+    margin-top: 195rem;
+    scale: 200%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    width: 2200px;
+  }
+}

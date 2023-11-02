@@ -3195,6 +3195,10 @@ span {
   body {
     width: 1500px;
   }
+
+  .bodyHtml {
+    margin-top: 12rem;
+  }
 }
 
 @media (min-width: 2200px) {
@@ -3209,5 +3213,9 @@ span {
 
   body {
     width: 2200px;
+  }
+
+  .bodyHtml {
+    margin-top: 20rem;
   }
 }
